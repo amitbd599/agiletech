@@ -1,17 +1,15 @@
-import { Button } from "react-bootstrap";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HomeOne from "./pages/HomeOne";
+import HomeTwo from "./pages/HomeTwo";
 
 function App() {
   return (
-    <div className='App'>
-      <h2 className=''>Hello</h2>
-      <h1 class='animate__animated animate__bounce'>An animated element</h1>
-      <Button as='a' variant='primary'>
-        Button as link
-      </Button>
-      <div>
-        <i class='fa-sharp fa-solid fa-location-dot'></i>
-      </div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route exact path='/' element={<HomeOne />} />
+        <Route exact path='/index-2' element={<HomeTwo />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
