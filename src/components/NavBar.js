@@ -1,6 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 
 const NavBar = () => {
+  const [active, setActive] = useState(false);
+  const menuActive = () => {
+    setActive(!active);
+  };
+
+  // Control sidebar navigation
+  let items = document.querySelectorAll(".menu-item-has-children > a");
+  for (let i in items) {
+    if (items.hasOwnProperty(i)) {
+      items[i].onclick = function () {
+        this.parentElement
+          .querySelector(".sub-menu")
+          .classList.toggle("active");
+        this.classList.toggle("open");
+      };
+    }
+  }
+
   return (
     <>
       {/* search popup start*/}
@@ -25,6 +43,7 @@ const NavBar = () => {
         <div className='container nav-container navbar-bg'>
           <div className='responsive-mobile-menu'>
             <button
+              onClick={menuActive}
               className='menu toggle-btn d-block d-lg-none'
               data-target='#itech_main_menu'
               aria-expanded='false'
@@ -44,7 +63,14 @@ const NavBar = () => {
               <i className='fa fa-search' />
             </a>
           </div>
-          <div className='collapse navbar-collapse' id='itech_main_menu'>
+          <div
+            className={
+              active
+                ? "collapse navbar-collapse sopen"
+                : "collapse navbar-collapse"
+            }
+            id='itech_main_menu'
+          >
             <ul className='navbar-nav menu-open text-lg-end'>
               <li className='menu-item-has-children'>
                 <a href='#'>Home</a>
