@@ -1,7 +1,7 @@
 import React from "react";
 import serviceList from "../scripts/serviceList";
 
-const ServiceAreaOne = () => {
+const ServiceAreaGroup = () => {
   return (
     <>
       {/*=================== service area start ===================*/}
@@ -19,7 +19,7 @@ const ServiceAreaOne = () => {
             </h2>
           </div>
           <div className='row'>
-            {serviceList.slice(0, 3).map((data, index) => (
+            {serviceList.map((data, index) => (
               <div className='col-lg-4 col-md-6' key={index}>
                 <div className='single-service-inner text-center'>
                   <div className='thumb'>
@@ -48,4 +48,4 @@ const ServiceAreaOne = () => {
   );
 };
 
-export default ServiceAreaOne;
+export default ServiceAreaGroup;

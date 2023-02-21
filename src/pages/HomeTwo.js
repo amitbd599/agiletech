@@ -14,7 +14,7 @@ import WorkProcessTwo from "../components/WorkProcessTwo";
 const HomeTwo = () => {
   return (
     <>
-      {/* Navigation Bar */}
+      {/* Navigation Bar Two*/}
       <NavbarTwo />
 
       {/* Banner Two */}
