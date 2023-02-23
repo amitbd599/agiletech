@@ -19,7 +19,7 @@ const Breadcrumb = ({ title }) => {
                   <li>
                     <a href='index.html'>Home</a>
                   </li>
-                  <li>{title}</li>
+                  {"  "}/ <li>{title}</li>
                 </ul>
               </div>
             </div>

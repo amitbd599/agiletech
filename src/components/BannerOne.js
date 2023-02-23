@@ -1,4 +1,5 @@
 import React from "react";
+import { FaPlus } from "react-icons/fa";
 
 const BannerOne = () => {
   return (
@@ -51,7 +52,7 @@ const BannerOne = () => {
                   data-wow-delay='0.6s'
                   href='about.html'
                 >
-                  Discover More <i className='fa fa-plus' />
+                  Discover More <FaPlus />
                 </a>
               </div>
             </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { FaPlus } from "react-icons/fa";
 import serviceList from "../scripts/serviceList";
 
 const ServiceAreaGroup = () => {
@@ -34,7 +35,7 @@ const ServiceAreaGroup = () => {
                       className='btn btn-border-base'
                       href='service-details.html'
                     >
-                      Touch More <i className='fa fa-plus' />
+                      Touch More <FaPlus />
                     </a>
                   </div>
                 </div>

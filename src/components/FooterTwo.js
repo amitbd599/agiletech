@@ -1,4 +1,14 @@
 import React from "react";
+import {
+  FaChevronRight,
+  FaEnvelope,
+  FaFacebookF,
+  FaInstagram,
+  FaMapMarkedAlt,
+  FaPhoneAlt,
+  FaTwitter,
+  FaYoutube,
+} from "react-icons/fa";
 
 const FooterTwo = () => {
   return (
@@ -19,7 +29,7 @@ const FooterTwo = () => {
                   <div className='subscribe mt-4'>
                     <input type='text' placeholder='E-mail' />
                     <button>
-                      <i className='fas fa-chevron-right' />
+                      <FaChevronRight />
                     </button>
                   </div>
                 </div>
@@ -31,32 +41,32 @@ const FooterTwo = () => {
                 <ul>
                   <li>
                     <a href='service.html'>
-                      <i className='fas fa-chevron-right' /> Ui Design
+                      <FaChevronRight /> Ui Design
                     </a>
                   </li>
                   <li>
                     <a href='service.html'>
-                      <i className='fas fa-chevron-right' /> Web design
+                      <FaChevronRight /> Web design
                     </a>
                   </li>
                   <li>
                     <a href='service.html'>
-                      <i className='fas fa-chevron-right' /> Digital marketing{" "}
+                      <FaChevronRight /> Digital marketing{" "}
                     </a>
                   </li>
                   <li>
                     <a href='service.html'>
-                      <i className='fas fa-chevron-right' /> Video Editing
+                      <FaChevronRight /> Video Editing
                     </a>
                   </li>
                   <li>
                     <a href='service.html'>
-                      <i className='fas fa-chevron-right' /> Pc Repairs
+                      <FaChevronRight /> Pc Repairs
                     </a>
                   </li>
                   <li>
                     <a href='service.html'>
-                      <i className='fas fa-chevron-right' /> Web Development
+                      <FaChevronRight /> Web Development
                     </a>
                   </li>
                 </ul>
@@ -68,32 +78,32 @@ const FooterTwo = () => {
                 <ul>
                   <li>
                     <a href='service.html'>
-                      <i className='fas fa-chevron-right' /> Credit industrys
+                      <FaChevronRight /> Credit industrys
                     </a>
                   </li>
                   <li>
                     <a href='service.html'>
-                      <i className='fas fa-chevron-right' /> Reasearch sector
+                      <FaChevronRight /> Reasearch sector
                     </a>
                   </li>
                   <li>
                     <a href='service.html'>
-                      <i className='fas fa-chevron-right' /> Finance Sector{" "}
+                      <FaChevronRight /> Finance Sector{" "}
                     </a>
                   </li>
                   <li>
                     <a href='service.html'>
-                      <i className='fas fa-chevron-right' /> Credit industrys
+                      <FaChevronRight /> Credit industrys
                     </a>
                   </li>
                   <li>
                     <a href='service.html'>
-                      <i className='fas fa-chevron-right' /> Reasearch sector
+                      <FaChevronRight /> Reasearch sector
                     </a>
                   </li>
                   <li>
                     <a href='service.html'>
-                      <i className='fas fa-chevron-right' /> Finance Sector
+                      <FaChevronRight /> Finance Sector
                     </a>
                   </li>
                 </ul>
@@ -105,35 +115,35 @@ const FooterTwo = () => {
                 <div className='widget widget_contact'>
                   <ul className='details'>
                     <li>
-                      <i className='fa fa-map-marker-alt' />
+                      <FaMapMarkedAlt />
                       4517 Washington Ave. Manchester, Kentucky 39495
                     </li>
                     <li className='mt-3'>
-                      <i className='fa fa-phone-alt' /> (+888) 123 456 765
+                      <FaPhoneAlt /> (+888) 123 456 765
                     </li>
                     <li className='mt-2'>
-                      <i className='fas fa-envelope' /> infoname@mail.com
+                      <FaEnvelope /> infoname@mail.com
                     </li>
                   </ul>
                   <ul className='social-media mt-4'>
                     <li>
                       <a href='#'>
-                        <i className='fab fa-facebook-f' />
+                        <FaFacebookF />
                       </a>
                     </li>
                     <li>
                       <a href='#'>
-                        <i className='fab fa-twitter' />
+                        <FaTwitter />
                       </a>
                     </li>
                     <li>
                       <a href='#'>
-                        <i className='fab fa-instagram' />
+                        <FaInstagram />
                       </a>
                     </li>
                     <li>
                       <a href='#'>
-                        <i className='fab fa-youtube' />
+                        <FaYoutube />
                       </a>
                     </li>
                   </ul>

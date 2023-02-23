@@ -1,4 +1,12 @@
 import React from "react";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
+  FaPinterest,
+  FaPlus,
+  FaTwitter,
+} from "react-icons/fa";
 
 const TeamDetailsGroup = () => {
   return (
@@ -34,27 +42,27 @@ const TeamDetailsGroup = () => {
                 <ul className='social-media style-base mt-4 pt-2'>
                   <li>
                     <a href='#'>
-                      <i className='fab fa-facebook' aria-hidden='true' />
+                      <FaFacebookF aria-hidden='true' />
                     </a>
                   </li>
                   <li>
                     <a href='#'>
-                      <i className='fab fa-twitter' aria-hidden='true' />
+                      <FaTwitter aria-hidden='true' />
                     </a>
                   </li>
                   <li>
                     <a href='#'>
-                      <i className='fab fa-instagram' aria-hidden='true' />
+                      <FaInstagram aria-hidden='true' />
                     </a>
                   </li>
                   <li>
                     <a href='#'>
-                      <i className='fab fa-pinterest' aria-hidden='true' />
+                      <FaPinterest aria-hidden='true' />
                     </a>
                   </li>
                   <li>
                     <a href='#'>
-                      <i className='fab fa-linkedin' aria-hidden='true' />
+                      <FaLinkedinIn aria-hidden='true' />
                     </a>
                   </li>
                 </ul>
@@ -89,7 +97,7 @@ const TeamDetailsGroup = () => {
                     className='btn btn-border-base'
                     href='service-details.html'
                   >
-                    Touch More <i className='fa fa-plus' />
+                    Touch More <FaPlus />
                   </a>
                 </div>
               </div>
@@ -111,7 +119,7 @@ const TeamDetailsGroup = () => {
                     className='btn btn-border-base'
                     href='service-details.html'
                   >
-                    Touch More <i className='fa fa-plus' />
+                    Touch More <FaPlus />
                   </a>
                 </div>
               </div>
@@ -133,7 +141,7 @@ const TeamDetailsGroup = () => {
                     className='btn btn-border-base'
                     href='service-details.html'
                   >
-                    Touch More <i className='fa fa-plus' />
+                    Touch More <FaPlus />
                   </a>
                 </div>
               </div>

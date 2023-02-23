@@ -1,4 +1,9 @@
 import React from "react";
+import {
+  FaAngleDoubleRight,
+  FaArrowRight,
+  FaCheckCircle,
+} from "react-icons/fa";
 
 const ServiceDetailsArea = () => {
   return (
@@ -11,7 +16,7 @@ const ServiceDetailsArea = () => {
               <div className='td-sidebar service-sidebar'>
                 <div className='widget widget_catagory'>
                   <h5 className='widget-title'>
-                    <i className='fas fa-arrow-right' /> All Service lists
+                    <FaArrowRight /> All Service lists
                   </h5>
                   <ul className='catagory-items'>
                     <li>
@@ -43,21 +48,19 @@ const ServiceDetailsArea = () => {
                 </div>
                 <div className='widget widget_download'>
                   <h5 className='widget-title'>
-                    <i className='fas fa-arrow-right' /> Download
+                    <FaArrowRight /> Download
                   </h5>
                   <ul>
                     <li>
                       <a href='#'>
                         {" "}
-                        Company Profile{" "}
-                        <i className='fa fa-angle-double-right' />
+                        Company Profile <FaAngleDoubleRight />
                       </a>
                     </li>
                     <li>
                       <a href='#'>
                         {" "}
-                        Zip File Download{" "}
-                        <i className='fa fa-angle-double-right' />
+                        Zip File Download <FaAngleDoubleRight />
                       </a>
                     </li>
                   </ul>
@@ -189,32 +192,28 @@ const ServiceDetailsArea = () => {
                       <div className='col-md-6'>
                         <ul className='single-list-inner style-check style-check mb-3'>
                           <li>
-                            <i className='far fa-check-circle' /> Creating a
-                            Balanced and Nutritious
+                            <FaCheckCircle /> Creating a Balanced and Nutritious
                           </li>
                           <li>
-                            <i className='far fa-check-circle' /> iTechnology
-                            that helps grow companies
+                            <FaCheckCircle /> iTechnology that helps grow
+                            companies
                           </li>
                           <li>
-                            <i className='far fa-check-circle' /> Everything you
-                            need to succeed
+                            <FaCheckCircle /> Everything you need to succeed
                           </li>
                         </ul>
                       </div>
                       <div className='col-md-6'>
                         <ul className='single-list-inner style-check style-check mb-3'>
                           <li>
-                            <i className='far fa-check-circle' /> Creating a
-                            Balanced and Nutritious
+                            <FaCheckCircle /> Creating a Balanced and Nutritious
                           </li>
                           <li>
-                            <i className='far fa-check-circle' /> iTechnology
-                            that helps grow companies
+                            <FaCheckCircle /> iTechnology that helps grow
+                            companies
                           </li>
                           <li>
-                            <i className='far fa-check-circle' /> Everything you
-                            need to succeed
+                            <FaCheckCircle /> Everything you need to succeed
                           </li>
                         </ul>
                       </div>

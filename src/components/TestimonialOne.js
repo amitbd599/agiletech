@@ -1,6 +1,44 @@
 import React from "react";
-
+import { FaAngleLeft, FaAngleRight, FaStar } from "react-icons/fa";
+import Slider from "react-slick";
 const TestimonialOne = () => {
+  const settings = {
+    dots: false,
+    arrows: true,
+    infinite: true,
+    speed: 1000,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    initialSlide: 0,
+    nextArrow: <FaAngleRight />,
+    prevArrow: <FaAngleLeft />,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
   return (
     <>
       {/* =================== Testimonial One Start ===================*/}
@@ -13,103 +51,105 @@ const TestimonialOne = () => {
             <h6 className='sub-title'>TESTIMONIAL</h6>
             <h2 className='title'>Advanced Engine Services</h2>
           </div>
-          <div className='testimonial-slider-1 owl-carousel slider-control-round slider-control-dots slider-control-right-top'>
-            <div className='item'>
-              <div className='single-testimonial-inner style-1 text-center'>
-                <h5>Devon Lane</h5>
-                <p className='designation mb-3'>Marketing Coordinator</p>
-                <div className='icon mb-2'>
-                  <img src='assets/img/icon/25.png' alt='img' />
-                </div>
-                <p>
-                  Contrary to popular belief, Lorem Ipsum is not simply random
-                  text. It has roots in a piece of classical Latin literature
-                  from 45 BC
-                </p>
-                <div className='ratting-inner mt-4'>
-                  <i className='fa fa-star' />
-                  <i className='fa fa-star' />
-                  <i className='fa fa-star' />
-                  <i className='fa fa-star' />
-                  <i className='fa fa-star' />
-                </div>
-                <div className='thumb'>
-                  <img src='assets/img/testimonial/1.png' alt='img' />
-                </div>
-              </div>
-            </div>
-            <div className='item'>
-              <div className='single-testimonial-inner style-1 text-center'>
-                <h5>Devon Lane</h5>
-                <p className='designation mb-3'>Marketing Coordinator</p>
-                <div className='icon mb-2'>
-                  <img src='assets/img/icon/25.png' alt='img' />
-                </div>
-                <p>
-                  Contrary to popular belief, Lorem Ipsum is not simply random
-                  text. It has roots in a piece of classical Latin literature
-                  from 45 BC
-                </p>
-                <div className='ratting-inner mt-4'>
-                  <i className='fa fa-star' />
-                  <i className='fa fa-star' />
-                  <i className='fa fa-star' />
-                  <i className='fa fa-star' />
-                  <i className='fa fa-star' />
-                </div>
-                <div className='thumb'>
-                  <img src='assets/img/testimonial/2.png' alt='img' />
+          <div className='testimonial-slider-1  slider-control-round slider-control-dots slider-control-right-top'>
+            <Slider {...settings}>
+              <div className='item'>
+                <div className='single-testimonial-inner style-1 text-center'>
+                  <h5>Devon Lane</h5>
+                  <p className='designation mb-3'>Marketing Coordinator</p>
+                  <div className='icon mb-2'>
+                    <img src='assets/img/icon/25.png' alt='img' />
+                  </div>
+                  <p>
+                    Contrary to popular belief, Lorem Ipsum is not simply random
+                    text. It has roots in a piece of classical Latin literature
+                    from 45 BC
+                  </p>
+                  <div className='ratting-inner mt-4'>
+                    <FaStar />
+                    <FaStar />
+                    <FaStar />
+                    <FaStar />
+                    <FaStar />
+                  </div>
+                  <div className='thumb'>
+                    <img src='assets/img/testimonial/1.png' alt='img' />
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className='item'>
-              <div className='single-testimonial-inner style-1 text-center'>
-                <h5>Devon Lane</h5>
-                <p className='designation mb-3'>Marketing Coordinator</p>
-                <div className='icon mb-2'>
-                  <img src='assets/img/icon/25.png' alt='img' />
-                </div>
-                <p>
-                  Contrary to popular belief, Lorem Ipsum is not simply random
-                  text. It has roots in a piece of classical Latin literature
-                  from 45 BC
-                </p>
-                <div className='ratting-inner mt-4'>
-                  <i className='fa fa-star' />
-                  <i className='fa fa-star' />
-                  <i className='fa fa-star' />
-                  <i className='fa fa-star' />
-                  <i className='fa fa-star' />
-                </div>
-                <div className='thumb'>
-                  <img src='assets/img/testimonial/3.png' alt='img' />
-                </div>
-              </div>
-            </div>
-            <div className='item'>
-              <div className='single-testimonial-inner style-1 text-center'>
-                <h5>Devon Lane</h5>
-                <p className='designation mb-3'>Marketing Coordinator</p>
-                <div className='icon mb-2'>
-                  <img src='assets/img/icon/25.png' alt='img' />
-                </div>
-                <p>
-                  Contrary to popular belief, Lorem Ipsum is not simply random
-                  text. It has roots in a piece of classical Latin literature
-                  from 45 BC
-                </p>
-                <div className='ratting-inner mt-4'>
-                  <i className='fa fa-star' />
-                  <i className='fa fa-star' />
-                  <i className='fa fa-star' />
-                  <i className='fa fa-star' />
-                  <i className='fa fa-star' />
-                </div>
-                <div className='thumb'>
-                  <img src='assets/img/testimonial/1.png' alt='img' />
+              <div className='item'>
+                <div className='single-testimonial-inner style-1 text-center'>
+                  <h5>Devon Lane</h5>
+                  <p className='designation mb-3'>Marketing Coordinator</p>
+                  <div className='icon mb-2'>
+                    <img src='assets/img/icon/25.png' alt='img' />
+                  </div>
+                  <p>
+                    Contrary to popular belief, Lorem Ipsum is not simply random
+                    text. It has roots in a piece of classical Latin literature
+                    from 45 BC
+                  </p>
+                  <div className='ratting-inner mt-4'>
+                    <FaStar />
+                    <FaStar />
+                    <FaStar />
+                    <FaStar />
+                    <FaStar />
+                  </div>
+                  <div className='thumb'>
+                    <img src='assets/img/testimonial/2.png' alt='img' />
+                  </div>
                 </div>
               </div>
-            </div>
+              <div className='item'>
+                <div className='single-testimonial-inner style-1 text-center'>
+                  <h5>Devon Lane</h5>
+                  <p className='designation mb-3'>Marketing Coordinator</p>
+                  <div className='icon mb-2'>
+                    <img src='assets/img/icon/25.png' alt='img' />
+                  </div>
+                  <p>
+                    Contrary to popular belief, Lorem Ipsum is not simply random
+                    text. It has roots in a piece of classical Latin literature
+                    from 45 BC
+                  </p>
+                  <div className='ratting-inner mt-4'>
+                    <FaStar />
+                    <FaStar />
+                    <FaStar />
+                    <FaStar />
+                    <FaStar />
+                  </div>
+                  <div className='thumb'>
+                    <img src='assets/img/testimonial/3.png' alt='img' />
+                  </div>
+                </div>
+              </div>
+              <div className='item'>
+                <div className='single-testimonial-inner style-1 text-center'>
+                  <h5>Devon Lane</h5>
+                  <p className='designation mb-3'>Marketing Coordinator</p>
+                  <div className='icon mb-2'>
+                    <img src='assets/img/icon/25.png' alt='img' />
+                  </div>
+                  <p>
+                    Contrary to popular belief, Lorem Ipsum is not simply random
+                    text. It has roots in a piece of classical Latin literature
+                    from 45 BC
+                  </p>
+                  <div className='ratting-inner mt-4'>
+                    <FaStar />
+                    <FaStar />
+                    <FaStar />
+                    <FaStar />
+                    <FaStar />
+                  </div>
+                  <div className='thumb'>
+                    <img src='assets/img/testimonial/1.png' alt='img' />
+                  </div>
+                </div>
+              </div>
+            </Slider>
           </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
+import { FaCheckCircle, FaPlus } from "react-icons/fa";
 const AboutAreaThree = () => {
   return (
     <>
@@ -38,24 +39,20 @@ const AboutAreaThree = () => {
                   <div className='col-md-6'>
                     <ul className='single-list-inner style-check style-heading style-check mb-3'>
                       <li>
-                        <i className='fas fa-check-circle' /> Mistakes To Avoid
-                        to the dum
+                        <FaCheckCircle /> Mistakes To Avoid to the dum
                       </li>
                       <li>
-                        <i className='fas fa-check-circle' /> Your Startup
-                        industry stan
+                        <FaCheckCircle /> Your Startup industry stan
                       </li>
                     </ul>
                   </div>
                   <div className='col-md-6'>
                     <ul className='single-list-inner style-check style-heading style-check mb-3'>
                       <li>
-                        <i className='fas fa-check-circle' /> Mistakes To Avoid
-                        to the dum
+                        <FaCheckCircle /> Mistakes To Avoid to the dum
                       </li>
                       <li>
-                        <i className='fas fa-check-circle' /> Your Startup
-                        industry stan
+                        <FaCheckCircle /> Your Startup industry stan
                       </li>
                     </ul>
                   </div>
@@ -67,7 +64,7 @@ const AboutAreaThree = () => {
                   choose a reputable provider and also to ensure that
                 </p>
                 <a className='btn btn-border-base' href='about.html'>
-                  Discover More <i className='fa fa-plus' />
+                  Discover More <FaPlus />
                 </a>
               </div>
             </div>

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import { FaCartArrowDown, FaCog } from "react-icons/fa";
 import "./style.css";
 const Demo = () => {
   const [stickyNav, setStickyNav] = useState(false);
@@ -16,7 +16,7 @@ const Demo = () => {
     };
   }, []);
   return (
-    <>
+    <section className='root-demo'>
       {/* Navigation */}
       <header className='navbar-area m-0 demo-main'>
         <nav
@@ -85,7 +85,7 @@ const Demo = () => {
                 <li>
                   <a
                     href='https://themeforest.net/user/wowtheme7'
-                    className='btn btn-white'
+                    className='btns btns-whites'
                   >
                     Purchase Now
                   </a>
@@ -99,17 +99,17 @@ const Demo = () => {
       <div id='banner' className='banner-area demo-main'>
         <div className='sidebar-links'>
           <a
-            className='btn btn-white'
+            className='btns btns-whites'
             href='https://themeforest.net/user/wowtheme7'
           >
-            <i className='fa fa-cart-arrow-down' />
+            <FaCartArrowDown />
             Add To Cart
           </a>
           <a
-            className='btn btn-white'
+            className='btns btns-whites'
             href='https://themeforest.net/user/wowtheme7'
           >
-            <i className='fa fa-cog' />
+            <FaCog />
             Demo Link
           </a>
         </div>
@@ -118,12 +118,15 @@ const Demo = () => {
             <div className='col-xl-6 col-lg-6 align-self-center'>
               <div className='banner-inner text-xl-start text-center'>
                 <h1>AglieTech - Trendy &amp; Powerful Html Template</h1>
-                <div className='btn-area'>
-                  <a className='btn btn-border-white page-scroll' href='#demo'>
+                <div className='btns-area'>
+                  <a
+                    className='btns btns-border-whites page-scroll'
+                    href='#demo'
+                  >
                     Try Demos
                   </a>
                   <a
-                    className='btn btn-white me-0'
+                    className='btns btns-whites me-0'
                     href='https://themeforest.net/user/wowtheme7'
                   >
                     Buy Now
@@ -208,7 +211,11 @@ const Demo = () => {
                   </span>
                   Home V.1
                 </a>
-                <a target='_blank' className='btn btn-base' href='index-1.html'>
+                <a
+                  target='_blank'
+                  className='btns btns-base'
+                  href='index-1.html'
+                >
                   Live Demo
                 </a>
               </div>
@@ -225,7 +232,11 @@ const Demo = () => {
                   </span>
                   Home V.2
                 </a>
-                <a target='_blank' className='btn btn-base' href='index-2.html'>
+                <a
+                  target='_blank'
+                  className='btns btns-base'
+                  href='index-2.html'
+                >
                   Live Demo
                 </a>
               </div>
@@ -242,7 +253,11 @@ const Demo = () => {
                   </span>
                   Home V.3
                 </a>
-                <a target='_blank' className='btn btn-base' href='index-3.html'>
+                <a
+                  target='_blank'
+                  className='btns btns-base'
+                  href='index-3.html'
+                >
                   Live Demo
                 </a>
               </div>
@@ -259,7 +274,11 @@ const Demo = () => {
                   </span>
                   Home V.4
                 </a>
-                <a target='_blank' className='btn btn-base' href='index-4.html'>
+                <a
+                  target='_blank'
+                  className='btns btns-base'
+                  href='index-4.html'
+                >
                   Live Demo
                 </a>
               </div>
@@ -276,7 +295,7 @@ const Demo = () => {
                   </span>
                   Home V.5
                 </a>
-                <a target='_blank' className='btn btn-base' href='#'>
+                <a target='_blank' className='btns btns-base' href='#'>
                   Live Demo
                 </a>
               </div>
@@ -325,7 +344,7 @@ const Demo = () => {
                   </span>
                   About Page
                 </a>
-                <a className='btn btn-base' href='about.html'>
+                <a className='btns btns-base' href='about.html'>
                   Live Demo
                 </a>
               </div>
@@ -342,7 +361,7 @@ const Demo = () => {
                   </span>
                   Service Page
                 </a>
-                <a className='btn btn-base' href='service.html'>
+                <a className='btns btns-base' href='service.html'>
                   Live Demo
                 </a>
               </div>
@@ -362,7 +381,7 @@ const Demo = () => {
                   </span>
                   Service Details
                 </a>
-                <a className='btn btn-base' href='service-details.html'>
+                <a className='btns btns-base' href='service-details.html'>
                   Live Demo
                 </a>
               </div>
@@ -379,7 +398,7 @@ const Demo = () => {
                   </span>
                   Team Page{" "}
                 </a>
-                <a className='btn btn-base' href='team.html'>
+                <a className='btns btns-base' href='team.html'>
                   Live Demo
                 </a>
               </div>
@@ -396,7 +415,7 @@ const Demo = () => {
                   </span>
                   Team Details Page{" "}
                 </a>
-                <a className='btn btn-base' href='team-details.html'>
+                <a className='btns btns-base' href='team-details.html'>
                   Live Demo
                 </a>
               </div>
@@ -413,7 +432,7 @@ const Demo = () => {
                   </span>
                   Blog Page
                 </a>
-                <a className='btn btn-base' href='blog.html'>
+                <a className='btns btns-base' href='blog.html'>
                   Live Demo
                 </a>
               </div>
@@ -430,7 +449,7 @@ const Demo = () => {
                   </span>
                   Blog Details Page
                 </a>
-                <a className='btn btn-base' href='blog-details.html'>
+                <a className='btns btns-base' href='blog-details.html'>
                   Live Demo
                 </a>
               </div>
@@ -447,7 +466,7 @@ const Demo = () => {
                   </span>
                   Contact
                 </a>
-                <a className='btn btn-base' href='contact.html'>
+                <a className='btns btns-base' href='contact.html'>
                   Live Demo
                 </a>
               </div>
@@ -604,7 +623,6 @@ const Demo = () => {
                 data-wow-delay='0.2s'
               >
                 <img src='/assets/demo-img/featured/2.png' alt='img' />
-                Owl-Carousel
               </div>
             </div>
             <div className='col-lg-4 col-md-6'>
@@ -738,7 +756,7 @@ const Demo = () => {
                   the first choice when it comes to a website.
                 </h5>
                 <a
-                  className='btn btn-white'
+                  className='btns btns-whites'
                   href='https://themeforest.net/user/wowtheme7'
                 >
                   Purchase Now
@@ -758,7 +776,7 @@ const Demo = () => {
         </div>
       </footer>
       {/* footer area end */}
-    </>
+    </section>
   );
 };
 

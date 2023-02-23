@@ -1,4 +1,5 @@
 import React from "react";
+import { FaCheck } from "react-icons/fa";
 
 const PricingAreaTwo = () => {
   return (
@@ -23,27 +24,27 @@ const PricingAreaTwo = () => {
                 </div>
                 <ul>
                   <li>
-                    <i className='fa fa-check' />
+                    <FaCheck />
                     Mobile App Development
                   </li>
                   <li>
-                    <i className='fa fa-check' />
+                    <FaCheck />
                     Branding &amp; Identity
                   </li>
                   <li>
-                    <i className='fa fa-check' />
+                    <FaCheck />
                     Email Marketing &amp; Automation
                   </li>
                   <li>
-                    <i className='fa fa-check' />
+                    <FaCheck />
                     E-commerce Solutions
                   </li>
                   <li className='hide'>
-                    <i className='fa fa-check' />
+                    <FaCheck />
                     Social Media Management
                   </li>
                   <li className='hide'>
-                    <i className='fa fa-check' />
+                    <FaCheck />
                     Video &amp; Animation Production{" "}
                   </li>
                 </ul>
@@ -65,27 +66,27 @@ const PricingAreaTwo = () => {
                 </div>
                 <ul>
                   <li>
-                    <i className='fa fa-check' />
+                    <FaCheck />
                     Mobile App Development
                   </li>
                   <li>
-                    <i className='fa fa-check' />
+                    <FaCheck />
                     Branding &amp; Identity
                   </li>
                   <li>
-                    <i className='fa fa-check' />
+                    <FaCheck />
                     Email Marketing &amp; Automation
                   </li>
                   <li>
-                    <i className='fa fa-check' />
+                    <FaCheck />
                     E-commerce Solutions
                   </li>
                   <li className='hide'>
-                    <i className='fa fa-check' />
+                    <FaCheck />
                     Social Media Management
                   </li>
                   <li className='hide'>
-                    <i className='fa fa-check' />
+                    <FaCheck />
                     Video &amp; Animation Production{" "}
                   </li>
                 </ul>
@@ -107,27 +108,27 @@ const PricingAreaTwo = () => {
                 </div>
                 <ul>
                   <li>
-                    <i className='fa fa-check' />
+                    <FaCheck />
                     Mobile App Development
                   </li>
                   <li>
-                    <i className='fa fa-check' />
+                    <FaCheck />
                     Branding &amp; Identity
                   </li>
                   <li>
-                    <i className='fa fa-check' />
+                    <FaCheck />
                     Email Marketing &amp; Automation
                   </li>
                   <li>
-                    <i className='fa fa-check' />
+                    <FaCheck />
                     E-commerce Solutions
                   </li>
                   <li className='hide'>
-                    <i className='fa fa-check' />
+                    <FaCheck />
                     Social Media Management
                   </li>
                   <li className='hide'>
-                    <i className='fa fa-check' />
+                    <FaCheck />
                     Video &amp; Animation Production{" "}
                   </li>
                 </ul>

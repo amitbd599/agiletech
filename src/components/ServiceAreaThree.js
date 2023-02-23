@@ -1,4 +1,5 @@
 import React from "react";
+import { FaPlus } from "react-icons/fa";
 
 const ServiceAreaThree = () => {
   return (
@@ -32,7 +33,7 @@ const ServiceAreaThree = () => {
                     mobile app, as long as you have
                   </p>
                   <a className='read-more-text' href='service-details.html'>
-                    Touch More <i className='fa fa-plus' />
+                    Touch More <FaPlus />
                   </a>
                 </div>
               </div>
@@ -51,7 +52,7 @@ const ServiceAreaThree = () => {
                     with software installation and
                   </p>
                   <a className='read-more-text' href='service-details.html'>
-                    Touch More <i className='fa fa-plus' />
+                    Touch More <FaPlus />
                   </a>
                 </div>
               </div>
@@ -70,7 +71,7 @@ const ServiceAreaThree = () => {
                     is simply is our busi Lorem is Ipsum is
                   </p>
                   <a className='read-more-text' href='service-details.html'>
-                    Touch More <i className='fa fa-plus' />
+                    Touch More <FaPlus />
                   </a>
                 </div>
               </div>

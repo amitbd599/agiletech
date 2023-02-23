@@ -1,4 +1,5 @@
 import React from "react";
+import { FaCalendarAlt, FaRegComments, FaRegUser } from "react-icons/fa";
 
 const BlogAreaOne = () => {
   return (
@@ -20,7 +21,7 @@ const BlogAreaOne = () => {
                 </div>
                 <div className='details'>
                   <p className='date mb-3'>
-                    <i className='far fa-calendar-alt' />
+                    <FaCalendarAlt />
                     October 19, 2023
                   </p>
                   <h5>
@@ -32,13 +33,13 @@ const BlogAreaOne = () => {
                     <div className='row'>
                       <div className='col-6'>
                         <p>
-                          <i className='far fa-user' />
+                          <FaRegUser />
                           Sam Curren
                         </p>
                       </div>
                       <div className='col-6 text-end'>
                         <p>
-                          <i className='far fa-comments' />
+                          <FaRegComments />
                           Sam Curren
                         </p>
                       </div>
@@ -54,7 +55,7 @@ const BlogAreaOne = () => {
                 </div>
                 <div className='details'>
                   <p className='date mb-3'>
-                    <i className='far fa-calendar-alt' />
+                    <FaCalendarAlt />
                     June 19, 2023
                   </p>
                   <h5>
@@ -66,13 +67,13 @@ const BlogAreaOne = () => {
                     <div className='row'>
                       <div className='col-6'>
                         <p>
-                          <i className='far fa-user' />
+                          <FaRegUser />
                           Sam Curren
                         </p>
                       </div>
                       <div className='col-6 text-end'>
                         <p>
-                          <i className='far fa-comments' />
+                          <FaRegComments />
                           Sam Curren
                         </p>
                       </div>
@@ -88,7 +89,7 @@ const BlogAreaOne = () => {
                 </div>
                 <div className='details'>
                   <p className='date mb-3'>
-                    <i className='far fa-calendar-alt' />
+                    <FaCalendarAlt />
                     October 19, 2023
                   </p>
                   <h5>
@@ -100,13 +101,13 @@ const BlogAreaOne = () => {
                     <div className='row'>
                       <div className='col-6'>
                         <p>
-                          <i className='far fa-user' />
+                          <FaRegUser />
                           Sam Curren
                         </p>
                       </div>
                       <div className='col-6 text-end'>
                         <p>
-                          <i className='far fa-comments' />
+                          <FaRegComments />
                           Sam Curren
                         </p>
                       </div>

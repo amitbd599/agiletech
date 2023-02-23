@@ -1,4 +1,16 @@
 import React from "react";
+import {
+  FaAngleLeft,
+  FaAngleRight,
+  FaCalendarAlt,
+  FaChevronRight,
+  FaFacebookF,
+  FaRegFolderOpen,
+  FaInstagram,
+  FaPlus,
+  FaTwitter,
+  FaRegUser,
+} from "react-icons/fa";
 
 const BlogGroup = () => {
   return (
@@ -16,10 +28,10 @@ const BlogGroup = () => {
                 <div className='details'>
                   <ul className='blog-meta'>
                     <li>
-                      <i className='far fa-user' /> By Admin
+                      <FaRegUser /> By Admin
                     </li>
                     <li>
-                      <i className='far fa-folder-open' /> Category
+                      <FaRegFolderOpen /> Category
                     </li>
                   </ul>
                   <h2 className='title'>
@@ -39,7 +51,7 @@ const BlogGroup = () => {
                     className='btn btn-border-base mt-3'
                     href='service-details.html'
                   >
-                    Touch More <i className='fa fa-plus' />
+                    Touch More <FaPlus />
                   </a>
                 </div>
               </div>
@@ -51,10 +63,10 @@ const BlogGroup = () => {
                 <div className='details'>
                   <ul className='blog-meta'>
                     <li>
-                      <i className='far fa-user' /> By Admin
+                      <FaRegUser /> By Admin
                     </li>
                     <li>
-                      <i className='far fa-folder-open' /> Category
+                      <FaRegFolderOpen /> Category
                     </li>
                   </ul>
                   <h2 className='title'>
@@ -74,7 +86,7 @@ const BlogGroup = () => {
                     className='btn btn-border-base mt-3'
                     href='service-details.html'
                   >
-                    Touch More <i className='fa fa-plus' />
+                    Touch More <FaPlus />
                   </a>
                 </div>
               </div>
@@ -86,10 +98,10 @@ const BlogGroup = () => {
                 <div className='details'>
                   <ul className='blog-meta'>
                     <li>
-                      <i className='far fa-user' /> By Admin
+                      <FaRegUser /> By Admin
                     </li>
                     <li>
-                      <i className='far fa-folder-open' /> Category
+                      <FaRegFolderOpen /> Category
                     </li>
                   </ul>
                   <h2 className='title'>
@@ -109,13 +121,13 @@ const BlogGroup = () => {
                     className='btn btn-border-base mt-3'
                     href='service-details.html'
                   >
-                    Touch More <i className='fa fa-plus' />
+                    Touch More <FaPlus />
                   </a>
                 </div>
               </div>
               <div className='pagination'>
                 <a className='prev page-numbers' href='http://icare.local/'>
-                  <i className='fa fa-angle-left' />
+                  <FaAngleLeft />
                 </a>
                 <a className='page-numbers' href='http://icare.local/'>
                   1
@@ -131,7 +143,7 @@ const BlogGroup = () => {
                   className='next page-numbers'
                   href='http://icare.local/page/3/'
                 >
-                  <i className='fa fa-angle-right' />
+                  <FaAngleRight />
                 </a>
               </div>
             </div>
@@ -147,17 +159,17 @@ const BlogGroup = () => {
                     <ul className='social-media'>
                       <li>
                         <a href='#'>
-                          <i className='fab fa-facebook-f' />
+                          <FaFacebookF />
                         </a>
                       </li>
                       <li>
                         <a href='#'>
-                          <i className='fab fa-twitter' />
+                          <FaTwitter />
                         </a>
                       </li>
                       <li>
                         <a href='#'>
-                          <i className='fab fa-instagram' />
+                          <FaInstagram />
                         </a>
                       </li>
                     </ul>
@@ -169,7 +181,7 @@ const BlogGroup = () => {
                       <input type='text' placeholder='Key word' />
                     </div>
                     <button className='submit-btn' type='submit'>
-                      <i className='fas fa-chevron-right' />
+                      <FaChevronRight />
                     </button>
                   </form>
                 </div>
@@ -188,7 +200,7 @@ const BlogGroup = () => {
                             </a>
                           </h6>
                           <div className='post-info'>
-                            <i className='far fa-calendar-alt' />
+                            <FaCalendarAlt />
                             <span>15 October</span>
                           </div>
                         </div>
@@ -206,7 +218,7 @@ const BlogGroup = () => {
                             </a>
                           </h6>
                           <div className='post-info'>
-                            <i className='far fa-calendar-alt' />
+                            <FaCalendarAlt />
                             <span>15 October</span>
                           </div>
                         </div>
@@ -224,7 +236,7 @@ const BlogGroup = () => {
                             </a>
                           </h6>
                           <div className='post-info'>
-                            <i className='far fa-calendar-alt' />
+                            <FaCalendarAlt />
                             <span>15 October</span>
                           </div>
                         </div>

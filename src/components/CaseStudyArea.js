@@ -1,4 +1,5 @@
 import React from "react";
+import { FaArrowRight } from "react-icons/fa";
 
 const CaseStudyArea = () => {
   return (
@@ -11,7 +12,7 @@ const CaseStudyArea = () => {
               <div className='td-sidebar service-sidebar'>
                 <div className='widget widget_info'>
                   <h5 className='widget-title'>
-                    <i className='fas fa-arrow-right' /> Project Info
+                    <FaArrowRight /> Project Info
                   </h5>
                   <div className='widget-info-inner'>
                     <h6>Clients</h6>

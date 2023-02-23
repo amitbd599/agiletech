@@ -1,4 +1,5 @@
 import React from "react";
+import { FaAngleDoubleRight } from "react-icons/fa";
 
 const CaseStudyAreaOne = () => {
   return (
@@ -31,7 +32,7 @@ const CaseStudyAreaOne = () => {
                     Las vegas
                   </a>
                   <a className='right-arrow' href='#'>
-                    <i className='fa fa-angle-double-right' />
+                    <FaAngleDoubleRight />
                   </a>
                 </div>
               </div>
@@ -49,7 +50,7 @@ const CaseStudyAreaOne = () => {
                     Las vegas
                   </a>
                   <a className='right-arrow' href='#'>
-                    <i className='fa fa-angle-double-right' />
+                    <FaAngleDoubleRight />
                   </a>
                 </div>
               </div>
@@ -67,7 +68,7 @@ const CaseStudyAreaOne = () => {
                     Las vegas
                   </a>
                   <a className='right-arrow' href='#'>
-                    <i className='fa fa-angle-double-right' />
+                    <FaAngleDoubleRight />
                   </a>
                 </div>
               </div>

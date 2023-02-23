@@ -1,4 +1,5 @@
 import React from "react";
+import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const TeamAreaOne = () => {
   return (
@@ -20,17 +21,17 @@ const TeamAreaOne = () => {
                   <ul className='team-social-inner'>
                     <li>
                       <a href='#'>
-                        <i className='fab fa-facebook-f' />
+                        <FaFacebookF />
                       </a>
                     </li>
                     <li>
                       <a href='#'>
-                        <i className='fab fa-twitter' />
+                        <FaTwitter />
                       </a>
                     </li>
                     <li>
                       <a href='#'>
-                        <i className='fab fa-instagram' />
+                        <FaInstagram />
                       </a>
                     </li>
                   </ul>
@@ -50,17 +51,17 @@ const TeamAreaOne = () => {
                   <ul className='team-social-inner'>
                     <li>
                       <a href='#'>
-                        <i className='fab fa-facebook-f' />
+                        <FaFacebookF />
                       </a>
                     </li>
                     <li>
                       <a href='#'>
-                        <i className='fab fa-twitter' />
+                        <FaTwitter />
                       </a>
                     </li>
                     <li>
                       <a href='#'>
-                        <i className='fab fa-instagram' />
+                        <FaInstagram />
                       </a>
                     </li>
                   </ul>
@@ -80,17 +81,17 @@ const TeamAreaOne = () => {
                   <ul className='team-social-inner'>
                     <li>
                       <a href='#'>
-                        <i className='fab fa-facebook-f' />
+                        <FaFacebookF />
                       </a>
                     </li>
                     <li>
                       <a href='#'>
-                        <i className='fab fa-twitter' />
+                        <FaTwitter />
                       </a>
                     </li>
                     <li>
                       <a href='#'>
-                        <i className='fab fa-instagram' />
+                        <FaInstagram />
                       </a>
                     </li>
                   </ul>

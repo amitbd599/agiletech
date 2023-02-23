@@ -1,4 +1,14 @@
 import React from "react";
+import {
+  FaArrowRight,
+  FaCalendarAlt,
+  FaEnvelope,
+  FaFacebookF,
+  FaInstagram,
+  FaPhoneAlt,
+  FaTwitter,
+  FaYoutube,
+} from "react-icons/fa";
 
 const FooterOne = () => {
   return (
@@ -37,30 +47,30 @@ const FooterOne = () => {
                     Melbourne is simply is dumiomy is text Lorem Ipsum is simply
                   </p>
                   <p className='mt-3'>
-                    <i className='fa fa-phone-alt' /> (+888) 123 456 765
+                    <FaPhoneAlt /> (+888) 123 456 765
                   </p>
                   <p className='mt-2'>
-                    <i className='fas fa-envelope' /> (+888) 123 456 765
+                    <FaEnvelope /> (+888) 123 456 765
                   </p>
                   <ul className='social-media'>
                     <li>
                       <a href='#'>
-                        <i className='fab fa-facebook-f' />
+                        <FaFacebookF />
                       </a>
                     </li>
                     <li>
                       <a href='#'>
-                        <i className='fab fa-twitter' />
+                        <FaTwitter />
                       </a>
                     </li>
                     <li>
                       <a href='#'>
-                        <i className='fab fa-instagram' />
+                        <FaInstagram />
                       </a>
                     </li>
                     <li>
                       <a href='#'>
-                        <i className='fab fa-youtube' />
+                        <FaYoutube />
                       </a>
                     </li>
                   </ul>
@@ -73,32 +83,32 @@ const FooterOne = () => {
                 <ul>
                   <li>
                     <a href='service.html'>
-                      <i className='fas fa-arrow-right' /> Ui Design
+                      <FaArrowRight /> Ui Design
                     </a>
                   </li>
                   <li>
                     <a href='service.html'>
-                      <i className='fas fa-arrow-right' /> Web design
+                      <FaArrowRight /> Web design
                     </a>
                   </li>
                   <li>
                     <a href='service.html'>
-                      <i className='fas fa-arrow-right' /> Digital marketing{" "}
+                      <FaArrowRight /> Digital marketing{" "}
                     </a>
                   </li>
                   <li>
                     <a href='service.html'>
-                      <i className='fas fa-arrow-right' /> Video Editing
+                      <FaArrowRight /> Video Editing
                     </a>
                   </li>
                   <li>
                     <a href='service.html'>
-                      <i className='fas fa-arrow-right' /> Pc Repairs
+                      <FaArrowRight /> Pc Repairs
                     </a>
                   </li>
                   <li>
                     <a href='service.html'>
-                      <i className='fas fa-arrow-right' /> Web Development
+                      <FaArrowRight /> Web Development
                     </a>
                   </li>
                 </ul>
@@ -110,32 +120,32 @@ const FooterOne = () => {
                 <ul>
                   <li>
                     <a href='service.html'>
-                      <i className='fas fa-arrow-right' /> Credit industrys
+                      <FaArrowRight /> Credit industrys
                     </a>
                   </li>
                   <li>
                     <a href='service.html'>
-                      <i className='fas fa-arrow-right' /> Reasearch sector
+                      <FaArrowRight /> Reasearch sector
                     </a>
                   </li>
                   <li>
                     <a href='service.html'>
-                      <i className='fas fa-arrow-right' /> Finance Sector{" "}
+                      <FaArrowRight /> Finance Sector{" "}
                     </a>
                   </li>
                   <li>
                     <a href='service.html'>
-                      <i className='fas fa-arrow-right' /> Credit industrys
+                      <FaArrowRight /> Credit industrys
                     </a>
                   </li>
                   <li>
                     <a href='service.html'>
-                      <i className='fas fa-arrow-right' /> Reasearch sector
+                      <FaArrowRight /> Reasearch sector
                     </a>
                   </li>
                   <li>
                     <a href='service.html'>
-                      <i className='fas fa-arrow-right' /> Finance Sector
+                      <FaArrowRight /> Finance Sector
                     </a>
                   </li>
                 </ul>
@@ -152,7 +162,7 @@ const FooterOne = () => {
                       </div>
                       <div className='media-body align-self-center'>
                         <div className='post-info mb-2'>
-                          <i className='far fa-calendar-alt' />
+                          <FaCalendarAlt />
                           <span>january 11, 2023</span>
                         </div>
                         <h6 className='title mb-0'>
@@ -170,7 +180,7 @@ const FooterOne = () => {
                       </div>
                       <div className='media-body align-self-center'>
                         <div className='post-info mb-2'>
-                          <i className='far fa-calendar-alt' />
+                          <FaCalendarAlt />
                           <span>january 11, 2023</span>
                         </div>
                         <h6 className='title mb-0'>

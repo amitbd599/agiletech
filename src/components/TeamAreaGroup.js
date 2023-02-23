@@ -1,4 +1,5 @@
 import React from "react";
+import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const TeamAreaGroup = () => {
   return (
@@ -14,17 +15,17 @@ const TeamAreaGroup = () => {
                   <ul className='team-social-inner'>
                     <li>
                       <a href='#'>
-                        <i className='fab fa-facebook-f' />
+                        <FaFacebookF />
                       </a>
                     </li>
                     <li>
                       <a href='#'>
-                        <i className='fab fa-twitter' />
+                        <FaTwitter />
                       </a>
                     </li>
                     <li>
                       <a href='#'>
-                        <i className='fab fa-instagram' />
+                        <FaInstagram />
                       </a>
                     </li>
                   </ul>
@@ -44,17 +45,17 @@ const TeamAreaGroup = () => {
                   <ul className='team-social-inner'>
                     <li>
                       <a href='#'>
-                        <i className='fab fa-facebook-f' />
+                        <FaFacebookF />
                       </a>
                     </li>
                     <li>
                       <a href='#'>
-                        <i className='fab fa-twitter' />
+                        <FaTwitter />
                       </a>
                     </li>
                     <li>
                       <a href='#'>
-                        <i className='fab fa-instagram' />
+                        <FaInstagram />
                       </a>
                     </li>
                   </ul>
@@ -74,17 +75,17 @@ const TeamAreaGroup = () => {
                   <ul className='team-social-inner'>
                     <li>
                       <a href='#'>
-                        <i className='fab fa-facebook-f' />
+                        <FaFacebookF />
                       </a>
                     </li>
                     <li>
                       <a href='#'>
-                        <i className='fab fa-twitter' />
+                        <FaTwitter />
                       </a>
                     </li>
                     <li>
                       <a href='#'>
-                        <i className='fab fa-instagram' />
+                        <FaInstagram />
                       </a>
                     </li>
                   </ul>
@@ -104,17 +105,17 @@ const TeamAreaGroup = () => {
                   <ul className='team-social-inner'>
                     <li>
                       <a href='#'>
-                        <i className='fab fa-facebook-f' />
+                        <FaFacebookF />
                       </a>
                     </li>
                     <li>
                       <a href='#'>
-                        <i className='fab fa-twitter' />
+                        <FaTwitter />
                       </a>
                     </li>
                     <li>
                       <a href='#'>
-                        <i className='fab fa-instagram' />
+                        <FaInstagram />
                       </a>
                     </li>
                   </ul>
@@ -134,17 +135,17 @@ const TeamAreaGroup = () => {
                   <ul className='team-social-inner'>
                     <li>
                       <a href='#'>
-                        <i className='fab fa-facebook-f' />
+                        <FaFacebookF />
                       </a>
                     </li>
                     <li>
                       <a href='#'>
-                        <i className='fab fa-twitter' />
+                        <FaTwitter />
                       </a>
                     </li>
                     <li>
                       <a href='#'>
-                        <i className='fab fa-instagram' />
+                        <FaInstagram />
                       </a>
                     </li>
                   </ul>
@@ -164,17 +165,17 @@ const TeamAreaGroup = () => {
                   <ul className='team-social-inner'>
                     <li>
                       <a href='#'>
-                        <i className='fab fa-facebook-f' />
+                        <FaFacebookF />
                       </a>
                     </li>
                     <li>
                       <a href='#'>
-                        <i className='fab fa-twitter' />
+                        <FaTwitter />
                       </a>
                     </li>
                     <li>
                       <a href='#'>
-                        <i className='fab fa-instagram' />
+                        <FaInstagram />
                       </a>
                     </li>
                   </ul>

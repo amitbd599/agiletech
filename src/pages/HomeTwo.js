@@ -39,7 +39,7 @@ const HomeTwo = () => {
       <WorkProcessTwo />
 
       {/* Testimonial One */}
-      {/* <TestimonialOne /> */}
+      <TestimonialOne />
 
       {/* Blog Area Two */}
       <BlogAreaTwo />

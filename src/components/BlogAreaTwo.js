@@ -1,4 +1,5 @@
 import React from "react";
+import { FaRegFolderOpen, FaPlus, FaRegUser } from "react-icons/fa";
 
 const BlogAreaTwo = () => {
   return (
@@ -26,10 +27,10 @@ const BlogAreaTwo = () => {
                   <ul className='blog-meta'>
                     <li className='date'>15 MAY</li>
                     <li>
-                      <i className='far fa-user' /> By Admin
+                      <FaRegUser /> By Admin
                     </li>
                     <li>
-                      <i className='far fa-folder-open' /> Category
+                      <FaRegFolderOpen /> Category
                     </li>
                   </ul>
                   <h5 className='mb-3'>
@@ -38,7 +39,7 @@ const BlogAreaTwo = () => {
                     </a>
                   </h5>
                   <a className='read-more-text' href='blog-details.html'>
-                    Discover More <i className='fa fa-plus' />
+                    Discover More <FaPlus />
                   </a>
                 </div>
               </div>
@@ -52,10 +53,10 @@ const BlogAreaTwo = () => {
                   <ul className='blog-meta'>
                     <li className='date'>15 MAY</li>
                     <li>
-                      <i className='far fa-user' /> By Admin
+                      <FaRegUser /> By Admin
                     </li>
                     <li>
-                      <i className='far fa-folder-open' /> Category
+                      <FaRegFolderOpen /> Category
                     </li>
                   </ul>
                   <h5 className='mb-3'>
@@ -64,7 +65,7 @@ const BlogAreaTwo = () => {
                     </a>
                   </h5>
                   <a className='read-more-text' href='blog-details.html'>
-                    Discover More <i className='fa fa-plus' />
+                    Discover More <FaPlus />
                   </a>
                 </div>
               </div>
@@ -78,10 +79,10 @@ const BlogAreaTwo = () => {
                   <ul className='blog-meta'>
                     <li className='date'>15 MAY</li>
                     <li>
-                      <i className='far fa-user' /> By Admin
+                      <FaRegUser /> By Admin
                     </li>
                     <li>
-                      <i className='far fa-folder-open' /> Category
+                      <FaRegFolderOpen /> Category
                     </li>
                   </ul>
                   <h5 className='mb-3'>
@@ -90,7 +91,7 @@ const BlogAreaTwo = () => {
                     </a>
                   </h5>
                   <a className='read-more-text' href='blog-details.html'>
-                    Discover More <i className='fa fa-plus' />
+                    Discover More <FaPlus />
                   </a>
                 </div>
               </div>

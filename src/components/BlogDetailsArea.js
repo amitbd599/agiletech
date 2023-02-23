@@ -1,4 +1,18 @@
 import React from "react";
+import {
+  FaCalendarAlt,
+  FaCheckCircle,
+  FaChevronCircleLeft,
+  FaChevronCircleRight,
+  FaFacebookF,
+  FaRegFolderOpen,
+  FaInstagram,
+  FaQuoteRight,
+  FaTwitter,
+  FaRegUser,
+  FaChevronRight,
+  FaChevronLeft,
+} from "react-icons/fa";
 
 const BlogDetailsArea = () => {
   return (
@@ -16,10 +30,10 @@ const BlogDetailsArea = () => {
                   <div className='details'>
                     <ul className='blog-meta'>
                       <li>
-                        <i className='far fa-user' /> By Admin
+                        <FaRegUser /> By Admin
                       </li>
                       <li>
-                        <i className='far fa-folder-open' /> Category
+                        <FaRegFolderOpen /> Category
                       </li>
                     </ul>
                     <p>
@@ -39,7 +53,7 @@ const BlogDetailsArea = () => {
                       alteration in some form,
                     </p>
                     <blockquote>
-                      <i className='fas fa-quote-right' />
+                      <FaQuoteRight />
                       <p>
                         sollicitudin nisi nulla eget augue. Maecenas quis
                         turpaliquet, portorem et, dictum purus.
@@ -84,16 +98,13 @@ const BlogDetailsArea = () => {
                     </p>
                     <ul className='single-list-inner style-check style-heading style-check mb-3'>
                       <li>
-                        <i className='far fa-check-circle' /> Creating a
-                        Balanced and Nutritious
+                        <FaCheckCircle /> Creating a Balanced and Nutritious
                       </li>
                       <li>
-                        <i className='far fa-check-circle' /> iTechnology that
-                        helps grow companies
+                        <FaCheckCircle /> iTechnology that helps grow companies
                       </li>
                       <li>
-                        <i className='far fa-check-circle' /> Everything you
-                        need to succeed
+                        <FaCheckCircle /> Everything you need to succeed
                       </li>
                     </ul>
                     <p>
@@ -106,20 +117,19 @@ const BlogDetailsArea = () => {
                     <div className='tag-and-share'>
                       <div className='tags d-inline-block'>
                         <strong>Tag : </strong>
-                        <a href='#'>Agency</a>
-                        <a href='#'>Marketing</a>
+                        <a href='#'>Agency</a> <a href='#'>Marketing</a>
                       </div>
                     </div>
                     <div className='prev-next-post'>
                       <div className='row'>
                         <div className='col-6 border-right-1'>
                           <a className='btn btn-base border-radius-5' href='#'>
-                            <i className='fas fa-chevron-left' />
+                            <FaChevronLeft />
                           </a>
                         </div>
                         <div className='col-6 text-end'>
                           <a className='btn btn-base border-radius-5' href='#'>
-                            <i className='fas fa-chevron-right' />
+                            <FaChevronRight />
                           </a>
                         </div>
                       </div>
@@ -273,17 +283,17 @@ const BlogDetailsArea = () => {
                     <ul className='social-media'>
                       <li>
                         <a href='#'>
-                          <i className='fab fa-facebook-f' />
+                          <FaFacebookF />
                         </a>
                       </li>
                       <li>
                         <a href='#'>
-                          <i className='fab fa-twitter' />
+                          <FaTwitter />
                         </a>
                       </li>
                       <li>
                         <a href='#'>
-                          <i className='fab fa-instagram' />
+                          <FaInstagram />
                         </a>
                       </li>
                     </ul>
@@ -295,7 +305,7 @@ const BlogDetailsArea = () => {
                       <input type='text' placeholder='Key word' />
                     </div>
                     <button className='submit-btn' type='submit'>
-                      <i className='fas fa-chevron-right' />
+                      <FaChevronRight />
                     </button>
                   </form>
                 </div>
@@ -314,7 +324,7 @@ const BlogDetailsArea = () => {
                             </a>
                           </h6>
                           <div className='post-info'>
-                            <i className='far fa-calendar-alt' />
+                            <FaCalendarAlt />
                             <span>15 October</span>
                           </div>
                         </div>
@@ -332,7 +342,7 @@ const BlogDetailsArea = () => {
                             </a>
                           </h6>
                           <div className='post-info'>
-                            <i className='far fa-calendar-alt' />
+                            <FaCalendarAlt />
                             <span>15 October</span>
                           </div>
                         </div>
@@ -350,7 +360,7 @@ const BlogDetailsArea = () => {
                             </a>
                           </h6>
                           <div className='post-info'>
-                            <i className='far fa-calendar-alt' />
+                            <FaCalendarAlt />
                             <span>15 October</span>
                           </div>
                         </div>

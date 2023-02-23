@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { FaSearch } from "react-icons/fa";
 
 const NavBar = () => {
   const [active, setActive] = useState(false);
@@ -32,7 +33,7 @@ const NavBar = () => {
             />
           </div>
           <button type='submit' className='submit-btn'>
-            <i className='fa fa-search' />
+            <FaSearch />
           </button>
         </form>
       </div>
@@ -60,7 +61,7 @@ const NavBar = () => {
           </div>
           <div className='nav-right-part nav-right-part-mobile'>
             <a className='search-bar-btn' href='#'>
-              <i className='fa fa-search' />
+              <FaSearch />
             </a>
           </div>
           <div

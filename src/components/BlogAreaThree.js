@@ -1,5 +1,11 @@
 import React from "react";
-
+import {
+  FaArrowRight,
+  FaCalendarAlt,
+  FaRegComments,
+  FaRegFolderOpen,
+  FaRegUser,
+} from "react-icons/fa";
 const BlogAreaThree = () => {
   return (
     <>
@@ -35,10 +41,10 @@ const BlogAreaThree = () => {
                 <div className='details'>
                   <ul className='blog-meta p-0'>
                     <li>
-                      <i className='far fa-user' /> By Admin
+                      <FaRegUser /> By Admin
                     </li>
                     <li>
-                      <i className='far fa-folder-open' /> Category
+                      <FaRegFolderOpen /> Category
                     </li>
                   </ul>
                   <h5 className='mb-4'>
@@ -47,7 +53,7 @@ const BlogAreaThree = () => {
                     </a>
                   </h5>
                   <a className='btn btn-border-base' href='blog-details.html'>
-                    Read More <i className='fa fa-arrow-right' />
+                    Read More <FaArrowRight />
                   </a>
                 </div>
               </div>
@@ -65,10 +71,10 @@ const BlogAreaThree = () => {
                 <div className='details'>
                   <ul className='blog-meta p-0'>
                     <li>
-                      <i className='far fa-user' /> By Admin
+                      <FaRegUser /> By Admin
                     </li>
                     <li>
-                      <i className='far fa-folder-open' /> Category
+                      <FaRegFolderOpen /> Category
                     </li>
                   </ul>
                   <h5 className='mb-4'>
@@ -77,7 +83,7 @@ const BlogAreaThree = () => {
                     </a>
                   </h5>
                   <a className='btn btn-border-base' href='blog-details.html'>
-                    Read More <i className='fa fa-arrow-right' />
+                    Read More <FaArrowRight />
                   </a>
                 </div>
               </div>
@@ -95,10 +101,10 @@ const BlogAreaThree = () => {
                 <div className='details'>
                   <ul className='blog-meta p-0'>
                     <li>
-                      <i className='far fa-user' /> By Admin
+                      <FaRegUser /> By Admin
                     </li>
                     <li>
-                      <i className='far fa-folder-open' /> Category
+                      <FaRegFolderOpen /> Category
                     </li>
                   </ul>
                   <h5 className='mb-4'>
@@ -107,7 +113,7 @@ const BlogAreaThree = () => {
                     </a>
                   </h5>
                   <a className='btn btn-border-base' href='blog-details.html'>
-                    Read More <i className='fa fa-arrow-right' />
+                    Read More <FaArrowRight />
                   </a>
                 </div>
               </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { FaPlus } from "react-icons/fa";
 
 const BannerTwo = () => {
   return (
@@ -42,7 +43,7 @@ const BannerTwo = () => {
                   data-wow-delay='0.6s'
                   href='about.html'
                 >
-                  Discover More <i className='fa fa-plus' />
+                  Discover More <FaPlus />
                 </a>
                 <div
                   className='d-inline-block align-self-center wow animated fadeInLeft'
