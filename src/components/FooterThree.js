@@ -6,6 +6,7 @@ import {
   FaTwitter,
   FaYoutube,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const FooterThree = () => {
   return (
@@ -53,24 +54,24 @@ const FooterThree = () => {
                 <h4 className='widget-title'>Our Service</h4>
                 <ul>
                   <li>
-                    <a href='service.html'>
+                    <Link to='/service'>
                       <FaChevronRight /> Digital Marketing
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href='service.html'>
+                    <Link to='/service'>
                       <FaChevronRight /> Video Editing
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href='service.html'>
+                    <Link to='/service'>
                       <FaChevronRight /> Pc Repairs{" "}
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href='service.html'>
+                    <Link to='/service'>
                       <FaChevronRight /> Web Development
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

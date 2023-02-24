@@ -1,5 +1,6 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
+import { Link } from "react-router-dom";
 const BlogAreaFour = () => {
   return (
     <>
@@ -31,13 +32,13 @@ const BlogAreaFour = () => {
                   <p className='cat'>NEWS</p>
                   <p className='date'>11 january,2023</p>
                   <h5 className='mb-3'>
-                    <a href='blog-details.html'>
+                    <Link to='/blog-details'>
                       Transforming businesses, one pixel at a time
-                    </a>
+                    </Link>
                   </h5>
-                  <a className='read-more-text' href='blog-details.html'>
+                  <Link className='read-more-text' to='/blog-details'>
                     Read More <FaArrowRight />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -54,13 +55,13 @@ const BlogAreaFour = () => {
                   <p className='cat'>NEWS</p>
                   <p className='date'>11 january,2023</p>
                   <h5 className='mb-3'>
-                    <a href='blog-details.html'>
+                    <Link to='/blog-details'>
                       The Importance of a Strong Digital for Strategy
-                    </a>
+                    </Link>
                   </h5>
-                  <a className='read-more-text' href='blog-details.html'>
+                  <Link className='read-more-text' to='/blog-details'>
                     Read More <FaArrowRight />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -77,13 +78,13 @@ const BlogAreaFour = () => {
                   <p className='cat'>NEWS</p>
                   <p className='date'>11 january,2023</p>
                   <h5 className='mb-3'>
-                    <a href='blog-details.html'>
+                    <Link to='/blog-details'>
                       Creating Engaging Content: A Guide for Digital
-                    </a>
+                    </Link>
                   </h5>
-                  <a className='read-more-text' href='blog-details.html'>
+                  <Link className='read-more-text' to='/blog-details'>
                     Read More <FaArrowRight />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

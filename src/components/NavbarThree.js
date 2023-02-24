@@ -125,9 +125,9 @@ const NavbarThree = () => {
               <span>Need help?</span>
               <h5>(808) 555-0111</h5>
             </a>
-            <a className='btn btn-border-base' href='about.html'>
+            <Link className='btn btn-border-base' to='/about'>
               Discover More <FaPlus />
-            </a>
+            </Link>
           </div>
         </div>
       </nav>

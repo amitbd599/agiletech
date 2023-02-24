@@ -1,5 +1,6 @@
 import React from "react";
 import { FaPlus } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import serviceList from "../scripts/serviceList";
 
 const ServiceAreaOne = () => {
@@ -28,15 +29,12 @@ const ServiceAreaOne = () => {
                   </div>
                   <div className='details'>
                     <h5>
-                      <a href='service-details.html'>{data.title}</a>
+                      <Link to='/service-details'>{data.title}</Link>
                     </h5>
                     <p>{data.des}</p>
-                    <a
-                      className='btn btn-border-base'
-                      href='service-details.html'
-                    >
+                    <Link className='btn btn-border-base' to='/service-details'>
                       Touch More <FaPlus />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

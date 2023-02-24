@@ -6,6 +6,7 @@ import {
   FaRegFolderOpen,
   FaRegUser,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 const BlogAreaThree = () => {
   return (
     <>
@@ -21,9 +22,9 @@ const BlogAreaThree = () => {
                 </h2>
               </div>
               <div className='col-lg-5 text-lg-end align-self-end'>
-                <a className='btn btn-border-base' href='blog.html'>
+                <Link className='btn btn-border-base' to='/blog'>
                   More Blogs
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -48,13 +49,13 @@ const BlogAreaThree = () => {
                     </li>
                   </ul>
                   <h5 className='mb-4'>
-                    <a href='blog-details.html'>
+                    <Link to='/blog-details'>
                       Transforming businesses, one pixel at a time
-                    </a>
+                    </Link>
                   </h5>
-                  <a className='btn btn-border-base' href='blog-details.html'>
+                  <Link className='btn btn-border-base' to='/blog-details'>
                     Read More <FaArrowRight />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -78,13 +79,13 @@ const BlogAreaThree = () => {
                     </li>
                   </ul>
                   <h5 className='mb-4'>
-                    <a href='blog-details.html'>
+                    <Link to='/blog-details'>
                       The Importance of a Strong Digital for Strategy
-                    </a>
+                    </Link>
                   </h5>
-                  <a className='btn btn-border-base' href='blog-details.html'>
+                  <Link className='btn btn-border-base' to='/blog-details'>
                     Read More <FaArrowRight />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -108,13 +109,13 @@ const BlogAreaThree = () => {
                     </li>
                   </ul>
                   <h5 className='mb-4'>
-                    <a href='blog-details.html'>
+                    <Link to='/blog-details'>
                       Creating Engaging Content: A Guide for Digital
-                    </a>
+                    </Link>
                   </h5>
-                  <a className='btn btn-border-base' href='blog-details.html'>
+                  <Link className='btn btn-border-base' to='/blog-details'>
                     Read More <FaArrowRight />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

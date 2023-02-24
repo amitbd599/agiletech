@@ -1,5 +1,6 @@
 import React from "react";
 import { FaPlus } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const BannerThree = () => {
   return (
@@ -15,40 +16,45 @@ const BannerThree = () => {
             <div className='col-lg-6 align-self-center'>
               <div className='banner-inner pe-xl-5'>
                 <h6
-                  className='subtitle wow animated fadeInLeft'
-                  data-wow-duration='1.5s'
-                  data-wow-delay='0.3s'
+                  className='subtitle '
+                  data-aos='fade-right'
+                  data-aos-delay='100'
+                  data-aos-duration='1500'
                 >
                   DESIGNING FOR THE FUTURE
                 </h6>
                 <h2
-                  className='title wow animated fadeInLeft'
-                  data-wow-duration='1.5s'
-                  data-wow-delay='0.4s'
+                  className='title'
+                  data-aos='fade-right'
+                  data-aos-delay='200'
+                  data-aos-duration='1500'
                 >
                   Empowering Your <span>Financial</span> Freedom
                 </h2>
                 <p
-                  className='content pe-xl-5 wow animated fadeInLeft'
-                  data-wow-duration='1.5s'
-                  data-wow-delay='0.5s'
+                  className='content pe-xl-5'
+                  data-aos='fade-right'
+                  data-aos-delay='250'
+                  data-aos-duration='1500'
                 >
                   And In Order To Make A Business, Brand Advertising And
                   Marketing Plays An Important Role. Similarly, In Making
                   Cultivation Business Are Necessary.
                 </p>
-                <a
-                  className='btn btn-border-base wow animated fadeInLeft'
-                  data-wow-duration='1.5s'
-                  data-wow-delay='0.6s'
-                  href='about.html'
+                <Link
+                  className='btn btn-border-base '
+                  data-aos='fade-right'
+                  data-aos-delay='300'
+                  data-aos-duration='1500'
+                  to='/about'
                 >
                   Discover More <FaPlus />
-                </a>
+                </Link>
                 <div
                   className='d-inline-block align-self-center wow animated fadeInLeft'
-                  data-wow-duration='1.5s'
-                  data-wow-delay='0.7s'
+                  data-aos='fade-right'
+                  data-aos-delay='300'
+                  data-aos-duration='1500'
                 >
                   <a
                     className='video-play-btn-hover'
@@ -62,9 +68,10 @@ const BannerThree = () => {
             </div>
             <div className='col-lg-6 col-md-10'>
               <div
-                className='banner-thumb-3 wow animated fadeInRight'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.3s'
+                className='banner-thumb-3'
+                data-aos='fade-left'
+                data-aos-delay='100'
+                data-aos-duration='1500'
               >
                 <div className='main-img-wrap'>
                   <img

@@ -1,6 +1,5 @@
 import React from "react";
-import Marquee from "react-fast-marquee";
-import { FaCheckCircle, FaPlus } from "react-icons/fa";
+
 const AboutAreaFour = () => {
   return (
     <>
@@ -10,9 +9,10 @@ const AboutAreaFour = () => {
           <div className='row'>
             <div className='col-lg-6'>
               <div
-                className='about-thumb-inner p-xl-5 pt-4 wow animated fadeInLeft'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.3s'
+                className='about-thumb-inner p-xl-5 pt-4 '
+                data-aos='fade-right'
+                data-aos-delay='200'
+                data-aos-duration='1500'
               >
                 <img
                   className='animate-main-img'
@@ -27,9 +27,10 @@ const AboutAreaFour = () => {
               </div>
             </div>
             <div
-              className='col-lg-6 align-self-center wow animated fadeInRight'
-              data-wow-duration='1.5s'
-              data-wow-delay='0.3s'
+              className='col-lg-6 align-self-center '
+              data-aos='fade-left'
+              data-aos-delay='250'
+              data-aos-duration='1500'
             >
               <div className='section-title mt-5 mt-lg-0'>
                 <h6 className='sub-title'>ABOUT US</h6>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ServiceAreaTwo = () => {
   return (
@@ -27,7 +28,7 @@ const ServiceAreaTwo = () => {
                     <img src='assets/img/service/8.png' alt='img' />
                   </div>
                   <h5>
-                    <a href='service-details.html'>CloudCRM</a>
+                    <Link to='/service-details'>CloudCRM</Link>
                   </h5>
                   <p>SaaS stands for Software as a Service. It is a software</p>
                 </div>
@@ -43,7 +44,7 @@ const ServiceAreaTwo = () => {
                     <img src='assets/img/service/9.png' alt='img' />
                   </div>
                   <h5>
-                    <a href='service-details.html'>CloudCRM</a>
+                    <Link to='/service-details'>CloudCRM</Link>
                   </h5>
                   <p>SaaS stands for Software as a Service. It is a software</p>
                 </div>
@@ -59,7 +60,7 @@ const ServiceAreaTwo = () => {
                     <img src='assets/img/service/10.png' alt='img' />
                   </div>
                   <h5>
-                    <a href='service-details.html'>CloudCRM</a>
+                    <Link to='/service-details'>CloudCRM</Link>
                   </h5>
                   <p>SaaS stands for Software as a Service. It is a software</p>
                 </div>

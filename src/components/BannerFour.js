@@ -1,5 +1,6 @@
 import React from "react";
 import { FaPlus } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const BannerFour = () => {
   return (
@@ -18,27 +19,30 @@ const BannerFour = () => {
                 <div className='col-lg-7 align-self-center'>
                   <div className='banner-inner'>
                     <h6
-                      className='subtitle wow animated fadeInLeft'
-                      data-wow-duration='1.5s'
-                      data-wow-delay='0.3s'
+                      className='subtitle '
+                      data-aos='fade-right'
+                      data-aos-delay='100'
+                      data-aos-duration='1500'
                     >
                       DESIGNING FOR THE FUTURE
                     </h6>
                     <h2
-                      className='title wow animated fadeInLeft'
-                      data-wow-duration='1.5s'
-                      data-wow-delay='0.4s'
+                      className='title '
+                      data-aos='fade-right'
+                      data-aos-delay='250'
+                      data-aos-duration='1500'
                     >
                       Innovative Solutions For A <span>Digital</span> World
                     </h2>
-                    <a
-                      className='mt-3 btn btn-border-base wow animated fadeInLeft'
-                      data-wow-duration='1.5s'
-                      data-wow-delay='0.6s'
-                      href='about.html'
+                    <Link
+                      className='mt-3 btn btn-border-base'
+                      data-aos='fade-right'
+                      data-aos-delay='400'
+                      data-aos-duration='1500'
+                      to='/about'
                     >
                       Discover More <FaPlus />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

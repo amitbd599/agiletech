@@ -4,6 +4,7 @@ import {
   FaArrowRight,
   FaCheckCircle,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const ServiceDetailsArea = () => {
   return (
@@ -20,19 +21,19 @@ const ServiceDetailsArea = () => {
                   </h5>
                   <ul className='catagory-items'>
                     <li>
-                      <a href='service-details.html'> Planning Department</a>
+                      <Link to='/service-details'> Planning Department</Link>
                     </li>
                     <li>
-                      <a href='service-details.html'> Software Department</a>
+                      <Link to='/service-details'> Software Department</Link>
                     </li>
                     <li>
-                      <a href='service-details.html'> Hardware Department</a>
+                      <Link to='/service-details'> Hardware Department</Link>
                     </li>
                     <li>
-                      <a href='service-details.html'> It Department</a>
+                      <Link to='/service-details'> It Department</Link>
                     </li>
                     <li>
-                      <a href='service-details.html'> Others Development</a>
+                      <Link to='/service-details'> Others Development</Link>
                     </li>
                   </ul>
                 </div>

@@ -1,5 +1,6 @@
 import React from "react";
-
+import TrackVisibility from "react-on-screen";
+import CountUp from "react-countup";
 const CounterAreaThree = () => {
   return (
     <>
@@ -13,7 +14,15 @@ const CounterAreaThree = () => {
                   <img src='assets/img/icon/27.svg' alt='img' />
                 </div>
                 <h2 className='text-white mt-3 mb-2'>
-                  <span className='counter'>200</span>+
+                  <TrackVisibility once>
+                    {({ isVisible }) =>
+                      isVisible && (
+                        <span className='counter'>
+                          <CountUp delay={0} start={0} end={200} /> +
+                        </span>
+                      )
+                    }
+                  </TrackVisibility>
                 </h2>
                 <p className='text-white'>Team member</p>
               </div>
@@ -24,7 +33,15 @@ const CounterAreaThree = () => {
                   <img src='assets/img/icon/28.svg' alt='img' />
                 </div>
                 <h2 className='text-white mt-3 mb-2'>
-                  <span className='counter'>25</span>k+
+                  <TrackVisibility once>
+                    {({ isVisible }) =>
+                      isVisible && (
+                        <span className='counter'>
+                          <CountUp delay={0} start={0} end={25} /> K+
+                        </span>
+                      )
+                    }
+                  </TrackVisibility>
                 </h2>
                 <p className='text-white'>Winning award</p>
               </div>
@@ -35,7 +52,15 @@ const CounterAreaThree = () => {
                   <img src='assets/img/icon/29.svg' alt='img' />
                 </div>
                 <h2 className='text-white mt-3 mb-2'>
-                  <span className='counter'>150</span>+
+                  <TrackVisibility once>
+                    {({ isVisible }) =>
+                      isVisible && (
+                        <span className='counter'>
+                          <CountUp delay={0} start={0} end={150} /> +
+                        </span>
+                      )
+                    }
+                  </TrackVisibility>
                 </h2>
                 <p className='text-white'>Complete project</p>
               </div>
@@ -46,7 +71,15 @@ const CounterAreaThree = () => {
                   <img src='assets/img/icon/30.svg' alt='img' />
                 </div>
                 <h2 className='text-white mt-3 mb-2'>
-                  <span className='counter'>180</span>+
+                  <TrackVisibility once>
+                    {({ isVisible }) =>
+                      isVisible && (
+                        <span className='counter'>
+                          <CountUp delay={0} start={0} end={180} /> +
+                        </span>
+                      )
+                    }
+                  </TrackVisibility>
                 </h2>
                 <p className='text-white'>Client review</p>
               </div>

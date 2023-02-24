@@ -1,5 +1,6 @@
 import React from "react";
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const TeamAreaOne = () => {
   return (
@@ -38,7 +39,7 @@ const TeamAreaOne = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                    <a href='team-details.html'>Devon Lane</a>
+                  <Link to='/team-details'>Devon Lane</Link>
                   </h5>
                   <p>Merketing Department</p>
                 </div>
@@ -68,7 +69,7 @@ const TeamAreaOne = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                    <a href='team-details.html'>Darrell Steward</a>
+                  <Link to='/team-details'>Darrell Steward</Link>
                   </h5>
                   <p>It Department</p>
                 </div>
@@ -98,7 +99,7 @@ const TeamAreaOne = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                    <a href='team-details.html'>Bessie Cooper</a>
+                  <Link to='/team-details'>Bessie Cooper</Link>
                   </h5>
                   <p>Software Department</p>
                 </div>

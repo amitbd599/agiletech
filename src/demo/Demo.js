@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
+import CountUp from "react-countup";
 import { FaCartArrowDown, FaCog } from "react-icons/fa";
+import TrackVisibility from "react-on-screen";
 import { Link } from "react-router-dom";
 import "./style.css";
 const Demo = () => {
@@ -16,6 +18,7 @@ const Demo = () => {
       return () => (window.onscroll = null);
     };
   }, []);
+
   return (
     <section className='root-demo'>
       {/* Navigation */}
@@ -153,7 +156,20 @@ const Demo = () => {
                 <div className='single-counter-inner text-center'>
                   <div className='details'>
                     <h2>
-                      <span className='counter'>4</span>
+                      <TrackVisibility once>
+                        {({ isVisible }) =>
+                          isVisible && (
+                            <span className='counter'>
+                              <CountUp
+                                duration={1}
+                                delay={0}
+                                start={0}
+                                end={4}
+                              />
+                            </span>
+                          )
+                        }
+                      </TrackVisibility>
                     </h2>
                     <p>Total Homes</p>
                   </div>
@@ -163,7 +179,21 @@ const Demo = () => {
                 <div className='single-counter-inner text-center'>
                   <div className='details'>
                     <h2>
-                      <span className='counter'>10</span>+
+                      <TrackVisibility once>
+                        {({ isVisible }) =>
+                          isVisible && (
+                            <span className='counter'>
+                              <CountUp
+                                duration={1}
+                                delay={0}
+                                start={0}
+                                end={10}
+                              />{" "}
+                              +
+                            </span>
+                          )
+                        }
+                      </TrackVisibility>
                     </h2>
                     <p>Total Pages</p>
                   </div>
@@ -173,7 +203,20 @@ const Demo = () => {
                 <div className='single-counter-inner text-center'>
                   <div className='details'>
                     <h2>
-                      <span className='counter'>14</span>
+                      <TrackVisibility once>
+                        {({ isVisible }) =>
+                          isVisible && (
+                            <span className='counter'>
+                              <CountUp
+                                duration={1}
+                                delay={0}
+                                start={0}
+                                end={14}
+                              />
+                            </span>
+                          )
+                        }
+                      </TrackVisibility>
                     </h2>
                     <p>Inner Pages</p>
                   </div>
@@ -202,9 +245,10 @@ const Demo = () => {
           <div className='row justify-content-center'>
             <div className='col-lg-4 col-md-6'>
               <div
-                className='inner-item style-large wow animated fadeInUp'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.2s'
+                className='inner-item style-large '
+                data-aos='fade-up'
+                // data-aos-delay='300'
+                // data-aos-once='true'
               >
                 <Link target='_blank' to='/index-1'>
                   <span className='thumb'>

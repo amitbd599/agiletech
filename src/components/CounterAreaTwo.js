@@ -1,5 +1,6 @@
 import React from "react";
-
+import TrackVisibility from "react-on-screen";
+import CountUp from "react-countup";
 const CounterAreaTwo = () => {
   return (
     <>
@@ -11,9 +12,10 @@ const CounterAreaTwo = () => {
         <div className='container pd-bottom-90'>
           <div className='row'>
             <div
-              className='col-lg-3 col-md-6 wow animated fadeInUp'
-              data-wow-duration='1.5s'
-              data-wow-delay='0.1s'
+              className='col-lg-3 col-md-6 '
+              data-aos='fade-up'
+              data-aos-delay='100'
+              data-aos-duration='1500'
             >
               <div className='single-counter-inner media'>
                 <div className='thumb media-left pe-4'>
@@ -21,16 +23,25 @@ const CounterAreaTwo = () => {
                 </div>
                 <div className='media-body'>
                   <h4 className='mb-1'>
-                    <span className='counter'>200</span>+
+                    <TrackVisibility once>
+                      {({ isVisible }) =>
+                        isVisible && (
+                          <span className='counter'>
+                            <CountUp delay={0} start={0} end={200} /> +
+                          </span>
+                        )
+                      }
+                    </TrackVisibility>
                   </h4>
                   <p className='mb-0'>Team member</p>
                 </div>
               </div>
             </div>
             <div
-              className='col-lg-3 col-md-6 wow animated fadeInUp'
-              data-wow-duration='1.5s'
-              data-wow-delay='0.2s'
+              className='col-lg-3 col-md-6 '
+              data-aos='fade-up'
+              data-aos-delay='150'
+              data-aos-duration='1500'
             >
               <div className='single-counter-inner media'>
                 <div className='thumb media-left pe-4'>
@@ -38,16 +49,25 @@ const CounterAreaTwo = () => {
                 </div>
                 <div className='media-body'>
                   <h4 className='mb-1'>
-                    <span className='counter'>10</span>k+
+                    <TrackVisibility once>
+                      {({ isVisible }) =>
+                        isVisible && (
+                          <span className='counter'>
+                            <CountUp delay={0} start={0} end={10} /> k+
+                          </span>
+                        )
+                      }
+                    </TrackVisibility>
                   </h4>
                   <p className='mb-0'>Team member</p>
                 </div>
               </div>
             </div>
             <div
-              className='col-lg-3 col-md-6 wow animated fadeInUp'
-              data-wow-duration='1.5s'
-              data-wow-delay='0.3s'
+              className='col-lg-3 col-md-6 '
+              data-aos='fade-up'
+              data-aos-delay='200'
+              data-aos-duration='1500'
             >
               <div className='single-counter-inner media'>
                 <div className='thumb media-left pe-4'>
@@ -55,16 +75,25 @@ const CounterAreaTwo = () => {
                 </div>
                 <div className='media-body'>
                   <h4 className='mb-1'>
-                    <span className='counter'>200</span>+
+                    <TrackVisibility once>
+                      {({ isVisible }) =>
+                        isVisible && (
+                          <span className='counter'>
+                            <CountUp delay={0} start={0} end={200} /> +
+                          </span>
+                        )
+                      }
+                    </TrackVisibility>
                   </h4>
                   <p className='mb-0'>Team member</p>
                 </div>
               </div>
             </div>
             <div
-              className='col-lg-3 col-md-6 wow animated fadeInUp'
-              data-wow-duration='1.5s'
-              data-wow-delay='0.4s'
+              className='col-lg-3 col-md-6 '
+              data-aos='fade-up'
+              data-aos-delay='250'
+              data-aos-duration='1500'
             >
               <div className='single-counter-inner media'>
                 <div className='thumb media-left pe-4'>
@@ -72,7 +101,15 @@ const CounterAreaTwo = () => {
                 </div>
                 <div className='media-body'>
                   <h4 className='mb-1'>
-                    <span className='counter'>200</span>+
+                    <TrackVisibility once>
+                      {({ isVisible }) =>
+                        isVisible && (
+                          <span className='counter'>
+                            <CountUp delay={0} start={0} end={200} /> +
+                          </span>
+                        )
+                      }
+                    </TrackVisibility>
                   </h4>
                   <p className='mb-0'>Team member</p>
                 </div>

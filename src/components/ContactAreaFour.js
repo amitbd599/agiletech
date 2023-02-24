@@ -9,15 +9,12 @@ const ContactAreaFour = () => {
         <div className='container'>
           <div className='row'>
             <div
-              className='col-lg-6 order-lg-end wow animated fadeInLeft'
-              data-wow-duration='1.5s'
-              data-wow-delay='0.3s'
+              className='col-lg-6 order-lg-end '
+              data-aos='fade-left'
+              data-aos-delay='200'
+              data-aos-duration='1500'
             >
-              <div
-                className='about-thumb-inner ms-xl-5 p-xl-5 pt-4 wow animated fadeInLeft'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.3s'
-              >
+              <div className='about-thumb-inner ms-xl-5 p-xl-5 pt-4 '>
                 <img
                   className='animate-main-img'
                   src='assets/img/about/18.png'
@@ -31,9 +28,10 @@ const ContactAreaFour = () => {
               </div>
             </div>
             <div
-              className='col-lg-6 order-lg-first wow animated fadeInRight'
-              data-wow-duration='1.5s'
-              data-wow-delay='0.3s'
+              className='col-lg-6 order-lg-first '
+              data-aos='fade-right'
+              data-aos-delay='200'
+              data-aos-duration='1500'
             >
               <div className='section-title mb-0 mt-5 mt-lg-0'>
                 <h6 className='sub-title'>GET IN TOUCH</h6>

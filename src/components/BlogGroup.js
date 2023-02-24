@@ -11,6 +11,7 @@ import {
   FaTwitter,
   FaRegUser,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const BlogGroup = () => {
   return (
@@ -35,9 +36,9 @@ const BlogGroup = () => {
                     </li>
                   </ul>
                   <h2 className='title'>
-                    <a href='blog-details.html'>
+                    <Link to='/blog-details'>
                       A Beginner's Guide to Running a Successful Agricultural
-                    </a>
+                    </Link>
                   </h2>
                   <p>
                     It is a long established fact that a reader will be
@@ -47,12 +48,12 @@ const BlogGroup = () => {
                     that a reader will be distracted by the readable content of
                     a page when looking at its layout.
                   </p>
-                  <a
+                  <Link
                     className='btn btn-border-base mt-3'
-                    href='service-details.html'
+                    to='/service-details'
                   >
                     Touch More <FaPlus />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className='single-blog-inner'>
@@ -70,9 +71,9 @@ const BlogGroup = () => {
                     </li>
                   </ul>
                   <h2 className='title'>
-                    <a href='blog-details.html'>
+                    <Link to='/blog-details'>
                       Successful Agricultural Guide to Running Beginner
-                    </a>
+                    </Link>
                   </h2>
                   <p>
                     It is a long established fact that a reader will be
@@ -82,12 +83,12 @@ const BlogGroup = () => {
                     that a reader will be distracted by the readable content of
                     a page when looking at its layout.
                   </p>
-                  <a
+                  <Link
                     className='btn btn-border-base mt-3'
-                    href='service-details.html'
+                    to='/service-details'
                   >
                     Touch More <FaPlus />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className='single-blog-inner'>
@@ -105,9 +106,9 @@ const BlogGroup = () => {
                     </li>
                   </ul>
                   <h2 className='title'>
-                    <a href='blog-details.html'>
+                    <Link to='/blog-details'>
                       A Beginner's Guide to Running a Successful Agricultural
-                    </a>
+                    </Link>
                   </h2>
                   <p>
                     It is a long established fact that a reader will be
@@ -117,12 +118,12 @@ const BlogGroup = () => {
                     that a reader will be distracted by the readable content of
                     a page when looking at its layout.
                   </p>
-                  <a
+                  <Link
                     className='btn btn-border-base mt-3'
-                    href='service-details.html'
+                    to='/service-details'
                   >
                     Touch More <FaPlus />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className='pagination'>
@@ -195,9 +196,9 @@ const BlogGroup = () => {
                         </div>
                         <div className='media-body align-self-center'>
                           <h6 className='title'>
-                            <a href='blog-details.html'>
+                            <Link to='/blog-details'>
                               Empowering future with solar.
-                            </a>
+                            </Link>
                           </h6>
                           <div className='post-info'>
                             <FaCalendarAlt />
@@ -213,9 +214,9 @@ const BlogGroup = () => {
                         </div>
                         <div className='media-body align-self-center'>
                           <h6 className='title'>
-                            <a href='blog-details.html'>
+                            <Link to='blog-details'>
                               Marketing For Base market watch
-                            </a>
+                            </Link>
                           </h6>
                           <div className='post-info'>
                             <FaCalendarAlt />
@@ -231,9 +232,9 @@ const BlogGroup = () => {
                         </div>
                         <div className='media-body align-self-center'>
                           <h6 className='title'>
-                            <a href='blog-details.html'>
+                            <Link to='/blog-details'>
                               Condtum Integer urna at faucibus
-                            </a>
+                            </Link>
                           </h6>
                           <div className='post-info'>
                             <FaCalendarAlt />
@@ -248,29 +249,29 @@ const BlogGroup = () => {
                   <h4 className='widget-title'>Catagory</h4>
                   <ul className='catagory-items'>
                     <li>
-                      <a href='blog.html'>
+                      <Link to='/blog'>
                         Business <span>3</span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href='blog.html'>
+                      <Link to='/blog'>
                         Finance <span>7</span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href='blog.html'>
+                      <Link to='/blog'>
                         Web Design <span>2</span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href='blog.html'>
+                      <Link to='/blog'>
                         Counsiling <span>3</span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href='blog.html'>
+                      <Link to='/blog'>
                         IT Service <span>5</span>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>

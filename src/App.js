@@ -13,8 +13,18 @@ import Service from "./pages/Service";
 import ServiceDetails from "./pages/ServiceDetails";
 import Team from "./pages/Team";
 import TeamDetails from "./pages/TeamDetails";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 function App() {
+  useEffect(() => {
+    AOS.init({
+      offset: 100,
+      easing: "ease",
+      once: true,
+    });
+    AOS.refresh();
+  }, []);
   return (
     <BrowserRouter>
       <Routes>

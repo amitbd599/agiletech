@@ -13,6 +13,7 @@ import {
   FaChevronRight,
   FaChevronLeft,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const BlogDetailsArea = () => {
   return (
@@ -319,9 +320,9 @@ const BlogDetailsArea = () => {
                         </div>
                         <div className='media-body align-self-center'>
                           <h6 className='title'>
-                            <a href='blog-details.html'>
+                            <Link to='/blog-details'>
                               Empowering future with solar.
-                            </a>
+                            </Link>
                           </h6>
                           <div className='post-info'>
                             <FaCalendarAlt />
@@ -337,9 +338,9 @@ const BlogDetailsArea = () => {
                         </div>
                         <div className='media-body align-self-center'>
                           <h6 className='title'>
-                            <a href='blog-details.html'>
+                            <Link to='/blog-details'>
                               Marketing For Base market watch
-                            </a>
+                            </Link>
                           </h6>
                           <div className='post-info'>
                             <FaCalendarAlt />
@@ -355,9 +356,9 @@ const BlogDetailsArea = () => {
                         </div>
                         <div className='media-body align-self-center'>
                           <h6 className='title'>
-                            <a href='blog-details.html'>
+                            <Link to='/blog-details'>
                               Condtum Integer urna at faucibus
-                            </a>
+                            </Link>
                           </h6>
                           <div className='post-info'>
                             <FaCalendarAlt />
@@ -372,29 +373,29 @@ const BlogDetailsArea = () => {
                   <h4 className='widget-title'>Catagory</h4>
                   <ul className='catagory-items'>
                     <li>
-                      <a href='blog.html'>
+                      <Link to='/blog'>
                         Business <span>3</span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href='blog.html'>
+                      <Link to='/blog'>
                         Finance <span>7</span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href='blog.html'>
+                      <Link to='/blog'>
                         Web Design <span>2</span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href='blog.html'>
+                      <Link to='/blog'>
                         Counsiling <span>3</span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href='blog.html'>
+                      <Link to='/blog'>
                         IT Service <span>5</span>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>

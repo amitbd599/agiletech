@@ -8,16 +8,18 @@ const ContactAreaThree = () => {
         <div className='contact-inner-1 contact-inner-2'>
           <div className='row'>
             <div
-              className='col-lg-6 wow animated fadeInLeft'
-              data-wow-duration='1.5s'
-              data-wow-delay='0.6s'
+              className='col-lg-6 '
+              data-aos='fade-right'
+              data-aos-delay='200'
+              data-aos-duration='1500'
             >
               <img className='w-100' src='assets/img/about/12.png' alt='img' />
             </div>
             <div
-              className='col-lg-4 wow animated fadeInRight'
-              data-wow-duration='1.5s'
-              data-wow-delay='0.6s'
+              className='col-lg-4'
+              data-aos='fade-left'
+              data-aos-delay='100'
+              data-aos-duration='1500'
             >
               <div className='section-title mb-0'>
                 <h6 className='sub-title'>GET IN TOUCH</h6>

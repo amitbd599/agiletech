@@ -1,5 +1,6 @@
 import React from "react";
 import { FaAngleDoubleRight } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const CaseStudyAreaOne = () => {
   return (
@@ -26,7 +27,7 @@ const CaseStudyAreaOne = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                    <a href='case-study-details.html'>Tecnology Farms</a>
+                    <Link to='/case-study-details'>Tecnology Farms</Link>
                   </h5>
                   <a className='cat' href='#'>
                     Las vegas
@@ -44,7 +45,7 @@ const CaseStudyAreaOne = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                    <a href='case-study-details.html'>Tecnology Farms</a>
+                    <Link to='/case-study-details'>Tecnology Farms</Link>
                   </h5>
                   <a className='cat' href='#'>
                     Las vegas
@@ -62,7 +63,7 @@ const CaseStudyAreaOne = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                    <a href='case-study-details.html'>Tecnology Farms</a>
+                    <Link to='/case-study-details'>Tecnology Farms</Link>
                   </h5>
                   <a className='cat' href='#'>
                     Las vegas

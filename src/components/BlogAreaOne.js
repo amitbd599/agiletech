@@ -1,5 +1,6 @@
 import React from "react";
 import { FaCalendarAlt, FaRegComments, FaRegUser } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const BlogAreaOne = () => {
   return (
@@ -25,9 +26,9 @@ const BlogAreaOne = () => {
                     October 19, 2023
                   </p>
                   <h5>
-                    <a href='blog-details.html'>
+                    <Link to='/blog-details'>
                       Transforming businesses, one pixel at a time
-                    </a>
+                    </Link>
                   </h5>
                   <div className='meta'>
                     <div className='row'>
@@ -59,9 +60,9 @@ const BlogAreaOne = () => {
                     June 19, 2023
                   </p>
                   <h5>
-                    <a href='blog-details.html'>
+                    <Link to='/blog-details'>
                       The Importance of a Strong Digital for Strategy
-                    </a>
+                    </Link>
                   </h5>
                   <div className='meta'>
                     <div className='row'>
@@ -93,9 +94,9 @@ const BlogAreaOne = () => {
                     October 19, 2023
                   </p>
                   <h5>
-                    <a href='blog-details.html'>
+                    <Link to='/blog-details'>
                       Creating Engaging Content: A Guide for Digital
-                    </a>
+                    </Link>
                   </h5>
                   <div className='meta'>
                     <div className='row'>

@@ -7,6 +7,7 @@ import {
   FaPlus,
   FaTwitter,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const TeamDetailsGroup = () => {
   return (
@@ -87,18 +88,15 @@ const TeamDetailsGroup = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                    <a href='service-details.html'>Mobile App Development</a>
+                    <Link to='/service-details'>Mobile App Development</Link>
                   </h5>
                   <p>
                     Lorem is Ipsum is simply is design iomyi is text Lorem Ipsum
                     is simply is our busi Lorem is Ipsum is
                   </p>
-                  <a
-                    className='btn btn-border-base'
-                    href='service-details.html'
-                  >
+                  <Link className='btn btn-border-base' to='/service-details'>
                     Touch More <FaPlus />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -109,18 +107,15 @@ const TeamDetailsGroup = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                    <a href='service-details.html'>Content Marketing</a>
+                    <Link to='/service-details'>Content Marketing</Link>
                   </h5>
                   <p>
                     Lorem is Ipsum is simply is design iomyi is text Lorem Ipsum
                     is simply is our busi Lorem is Ipsum is
                   </p>
-                  <a
-                    className='btn btn-border-base'
-                    href='service-details.html'
-                  >
+                  <Link className='btn btn-border-base' to='/service-details'>
                     Touch More <FaPlus />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -131,18 +126,15 @@ const TeamDetailsGroup = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                    <a href='service-details.html'>E-commerce Solutions</a>
+                    <Link to='/service-details'>E-commerce Solutions</Link>
                   </h5>
                   <p>
                     Lorem is Ipsum is simply is design iomyi is text Lorem Ipsum
                     is simply is our busi Lorem is Ipsum is
                   </p>
-                  <a
-                    className='btn btn-border-base'
-                    href='service-details.html'
-                  >
+                  <Link className='btn btn-border-base' to='/service-details'>
                     Touch More <FaPlus />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

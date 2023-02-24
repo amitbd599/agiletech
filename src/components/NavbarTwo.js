@@ -118,9 +118,9 @@ const NavbarTwo = () => {
             </ul>
           </div>
           <div className='nav-right-part nav-right-part-desktop align-self-center'>
-            <a className='btn btn-border-base' href='about.html'>
+            <Link className='btn btn-border-base' to='/about'>
               Discover More <FaPlus />
-            </a>
+            </Link>
           </div>
         </div>
       </nav>

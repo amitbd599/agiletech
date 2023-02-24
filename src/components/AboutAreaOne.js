@@ -9,9 +9,10 @@ const AboutAreaOne = () => {
           <div className='row'>
             <div className='col-lg-6'>
               <div
-                className='about-thumb-inner pe-xl-5 me-xl-5 wow animated fadeInLeft'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.3s'
+                className='about-thumb-inner pe-xl-5 me-xl-5 '
+                data-aos='fade-right'
+                data-aos-delay='100'
+                data-aos-duration='1500'
               >
                 <img
                   className='animate-img-1 top_image_bounce'
@@ -36,9 +37,10 @@ const AboutAreaOne = () => {
               </div>
             </div>
             <div
-              className='col-lg-6 wow animated fadeInRight'
-              data-wow-duration='1.5s'
-              data-wow-delay='0.3s'
+              className='col-lg-6 '
+              data-aos='fade-left'
+              data-aos-delay='100'
+              data-aos-duration='1500'
             >
               <div className='section-title mt-5 mt-lg-0'>
                 <h6 className='sub-title'>ABOUT US</h6>

@@ -1,6 +1,7 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
 import { FaCheckCircle, FaPlus } from "react-icons/fa";
+import { Link } from "react-router-dom";
 const AboutAreaThree = () => {
   return (
     <>
@@ -9,9 +10,10 @@ const AboutAreaThree = () => {
         <div className='container'>
           <div className='row'>
             <div
-              className='col-lg-6 wow animated fadeInLeft'
-              data-wow-duration='1.5s'
-              data-wow-delay='0.3s'
+              className='col-lg-6 '
+              data-aos='fade-right'
+              data-aos-delay='100'
+              data-aos-duration='1500'
             >
               <div className='about-thumb-inner mb-4 mb-lg-0'>
                 <img
@@ -23,8 +25,9 @@ const AboutAreaThree = () => {
             </div>
             <div
               className='col-lg-6 wow animated fadeInRight'
-              data-wow-duration='1.5s'
-              data-wow-delay='0.3s'
+              data-aos='fade-left'
+              data-aos-delay='100'
+              data-aos-duration='1500'
             >
               <div className='section-title mb-0'>
                 <h6 className='sub-title'>ABOUT US</h6>
@@ -63,9 +66,9 @@ const AboutAreaThree = () => {
                   authentication. However, it is important to research and
                   choose a reputable provider and also to ensure that
                 </p>
-                <a className='btn btn-border-base' href='about.html'>
+                <Link className='btn btn-border-base' to='/about'>
                   Discover More <FaPlus />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

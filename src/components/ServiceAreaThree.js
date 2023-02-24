@@ -1,5 +1,6 @@
 import React from "react";
 import { FaPlus } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const ServiceAreaThree = () => {
   return (
@@ -26,15 +27,15 @@ const ServiceAreaThree = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                    <a href='service-details.html'>Only the best</a>
+                    <Link to='/service-details'>Only the best</Link>
                   </h5>
                   <p>
                     You can access SaaS applications through a web browser or
                     mobile app, as long as you have
                   </p>
-                  <a className='read-more-text' href='service-details.html'>
+                  <Link className='read-more-text' to='/service-details'>
                     Touch More <FaPlus />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -45,15 +46,15 @@ const ServiceAreaThree = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                    <a href='service-details.html'>Focusing on details</a>
+                    <Link to='/service-details'>Focusing on details</Link>
                   </h5>
                   <p>
                     SaaS can benefit your business by reducing costs associated
                     with software installation and
                   </p>
-                  <a className='read-more-text' href='service-details.html'>
+                  <Link className='read-more-text' to='/service-details'>
                     Touch More <FaPlus />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -64,15 +65,15 @@ const ServiceAreaThree = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                    <a href='service-details.html'>No flaws here</a>
+                    <Link to='/service-details'>No flaws here</Link>
                   </h5>
                   <p>
                     Lorem is Ipsum is simply is design iomyi is text Lorem Ipsum
                     is simply is our busi Lorem is Ipsum is
                   </p>
-                  <a className='read-more-text' href='service-details.html'>
+                  <Link className='read-more-text' to='/service-details'>
                     Touch More <FaPlus />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

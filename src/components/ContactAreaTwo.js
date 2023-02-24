@@ -9,16 +9,18 @@ const ContactAreaTwo = () => {
           <div className='contact-inner-1'>
             <div className='row'>
               <div
-                className='col-lg-8 wow animated fadeInLeft'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.3s'
+                className='col-lg-8'
+                data-aos='fade-right'
+                data-aos-delay='200'
+                data-aos-duration='1500'
               >
                 <img className='w-100' src='assets/img/bg/9.png' alt='img' />
               </div>
               <div
-                className='col-lg-4 wow animated fadeInRight'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.3s'
+                className='col-lg-4 '
+                data-aos='fade-left'
+                data-aos-delay='200'
+                data-aos-duration='1500'
               >
                 <div className='section-title mb-0'>
                   <h6 className='sub-title'>GET IN TOUCH</h6>
