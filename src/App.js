@@ -5,6 +5,7 @@ import Blog from "./pages/Blog";
 import BlogDetails from "./pages/BlogDetails";
 import CaseStudyDetails from "./pages/CaseStudyDetails";
 import Contact from "./pages/Contact";
+import HomeFour from "./pages/HomeFour";
 import HomeOne from "./pages/HomeOne";
 import HomeThree from "./pages/HomeThree";
 import HomeTwo from "./pages/HomeTwo";
@@ -21,6 +22,7 @@ function App() {
         <Route exact path='/index-1' element={<HomeOne />} />
         <Route exact path='/index-2' element={<HomeTwo />} />
         <Route exact path='/index-3' element={<HomeThree />} />
+        <Route exact path='/index-4' element={<HomeFour />} />
         <Route exact path='/about' element={<About />} />
         <Route exact path='/blog' element={<Blog />} />
         <Route exact path='/blog-details' element={<BlogDetails />} />

@@ -1,13 +1,10 @@
 /*--------------------------------------------------
     ## All responsive style
 ---------------------------------------------------*/
-@media all and (min-width: 2000px) {
-  .contact-inner-2 {
-    max-width: 1920px;
-    margin: 0 auto;
-  }
-}
 @media all and (min-width: 1600px) {
+  .container {
+    max-width: 1280px;
+  }
   .back-to-top {
     right: 70px;
     bottom: 50px;
@@ -38,6 +35,9 @@
   .contact-inner-2 .section-title {
     margin-top: 134px;
   }
+  .banner-area-3 .bg-gray {
+    padding: 240px 0;
+  }
 }
 @media all and (max-width: 1599px) {
   .banner-area-1 .animate-img-1 {
@@ -56,8 +56,6 @@
     width: 40px;
     left: -100px;
   }
-}
-@media all and (min-width: 1200px) {
 }
 @media all and (max-width: 1199px) {
   .single-blog-inner .details h2 {
@@ -111,6 +109,9 @@
   }
   .contact-page-inner {
     padding: 50px;
+  }
+  .banner-area-3 .bg-gray {
+    padding: 80px 0;
   }
 }
 @media all and (max-width: 991px) {
@@ -188,6 +189,21 @@
   }
   .td-sidebar .widget.widget_author .social-media {
     text-align: center !important;
+  }
+  .single-project-inner .details span {
+    margin-bottom: 0px;
+  }
+  .single-project-inner .details a {
+    font-size: 13px;
+  }
+  .single-project-inner:after {
+    top: 15px;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+  }
+  .career-wrap {
+    padding: 30px;
   }
 }
 @media all and (max-width: 767px) {
@@ -321,6 +337,31 @@
   .blog-comment .comment-list .comment-author a {
     display: block;
   }
+  .banner-area-3 .img-right {
+    display: none;
+  }
+  .career-wrap {
+    padding: 30px;
+  }
+  .career-nav-tab button {
+    width: 50%;
+  }
+  .career-nav-tab button:nth-child(2) {
+    border-right: 0 !important;
+  }
+  .single-project-inner img {
+    width: 100%;
+  }
+  .single-testimonial-inner.style-3 .thumb {
+    margin-bottom: 20px;
+  }
+  .single-testimonial-inner.style-3 .thumb .shadow-img {
+    width: 180px;
+  }
+  .single-testimonial-inner.style-3 .thumb .main-img {
+    right: auto;
+    left: 130px;
+  }
 }
 @media all and (max-width: 360px) {
   .contact-inner-1 .section-title .title,
@@ -332,5 +373,22 @@
   }
   .single-case-study-inner .details .right-arrow {
     right: 15px;
+  }
+}
+
+@media all and (min-width: 1300px) {
+  .custom-container {
+    max-width: 1250px;
+  }
+}
+@media all and (min-width: 2000px) {
+  .contact-inner-2 {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+}
+@media all and (min-width: 1800px) {
+  .custom-container {
+    max-width: 1720px;
   }
 }

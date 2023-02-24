@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaPlus, FaSearch } from "react-icons/fa";
 
-const NavbarTwo = () => {
+const NavbarThree = () => {
   const [active, setActive] = useState(false);
   const menuActive = () => {
     setActive(!active);
@@ -22,8 +22,8 @@ const NavbarTwo = () => {
   return (
     <>
       {/* ==================== Navbar Two Start ====================*/}
-      <nav className='navbar navbar-area navbar-area-2 navbar-expand-lg'>
-        <div className='container nav-container'>
+      <nav className='navbar navbar-area navbar-area-2 navbar-expand-lg bg-white'>
+        <div className='container nav-container custom-container'>
           <div className='responsive-mobile-menu'>
             <button
               onClick={menuActive}
@@ -45,7 +45,7 @@ const NavbarTwo = () => {
             <a className='search-bar-btn' href='#'>
               <FaSearch />
             </a>
-          </div> 
+          </div>
           <div
             className={
               active
@@ -59,13 +59,16 @@ const NavbarTwo = () => {
                 <a href='#'>Home</a>
                 <ul className='sub-menu'>
                   <li>
-                    <a href='index.html'>Home 01</a>
+                    <a href='index-1.html'>Home 01</a>
                   </li>
                   <li>
                     <a href='index-2.html'>Home 02</a>
                   </li>
                   <li>
                     <a href='index-3.html'>Home 03</a>
+                  </li>
+                  <li>
+                    <a href='index-4.html'>Home 04</a>
                   </li>
                 </ul>
               </li>
@@ -113,7 +116,14 @@ const NavbarTwo = () => {
               </li>
             </ul>
           </div>
-          <div className='nav-right-part nav-right-part-desktop align-self-center'>
+          <div className='nav-right-part nav-right-part-desktop d-lg-inline-flex align-item-center'>
+            <a className='navbar-phone d-xl-inline-block d-none' href='tel:'>
+              <span className='icon'>
+                <img src='assets/img/icon/1.png' alt='img' />
+              </span>
+              <span>Need help?</span>
+              <h5>(808) 555-0111</h5>
+            </a>
             <a className='btn btn-border-base' href='about.html'>
               Discover More <FaPlus />
             </a>
@@ -125,4 +135,4 @@ const NavbarTwo = () => {
   );
 };
 
-export default NavbarTwo;
+export default NavbarThree;
