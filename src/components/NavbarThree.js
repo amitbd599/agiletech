@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaPlus, FaSearch } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const NavbarThree = () => {
   const [active, setActive] = useState(false);
@@ -37,9 +38,9 @@ const NavbarThree = () => {
             </button>
           </div>
           <div className='logo'>
-            <a href='index.html'>
+            <Link to='/index-1'>
               <img src='assets/img/logo.png' alt='img' />
-            </a>
+            </Link>
           </div>
           <div className='nav-right-part nav-right-part-mobile'>
             <a className='search-bar-btn' href='#'>
@@ -54,21 +55,21 @@ const NavbarThree = () => {
             }
             id='itech_main_menu'
           >
-            <ul className='navbar-nav menu-open text-lg-center ps-lg-5'>
+            <ul className='navbar-nav menu-open text-lg-end'>
               <li className='menu-item-has-children'>
                 <a href='#'>Home</a>
                 <ul className='sub-menu'>
                   <li>
-                    <a href='index-1.html'>Home 01</a>
+                    <Link to='/index-1'>Home 01</Link>
                   </li>
                   <li>
-                    <a href='index-2.html'>Home 02</a>
+                    <Link to='/index-2'>Home 02</Link>
                   </li>
                   <li>
-                    <a href='index-3.html'>Home 03</a>
+                    <Link to='/index-3'>Home 03</Link>
                   </li>
                   <li>
-                    <a href='index-4.html'>Home 04</a>
+                    <Link to='/index-4'>Home 04</Link>
                   </li>
                 </ul>
               </li>
@@ -76,10 +77,10 @@ const NavbarThree = () => {
                 <a href='#'>Service</a>
                 <ul className='sub-menu'>
                   <li>
-                    <a href='service.html'>Service</a>
+                    <Link to='/service'>Service</Link>
                   </li>
                   <li>
-                    <a href='service-details.html'>Service Single</a>
+                    <Link to='/service-details'>Service Single</Link>
                   </li>
                 </ul>
               </li>
@@ -87,16 +88,16 @@ const NavbarThree = () => {
                 <a href='#'>Pages</a>
                 <ul className='sub-menu'>
                   <li>
-                    <a href='about.html'>About Us</a>
+                    <Link to='/about'>About Us</Link>
                   </li>
                   <li>
-                    <a href='team.html'>Team</a>
+                    <Link to='/team'>Team</Link>
                   </li>
                   <li>
-                    <a href='team-details.html'>Team Details</a>
+                    <Link to='/team-details'>Team Details</Link>
                   </li>
                   <li>
-                    <a href='case-study-details.html'>Case Study Details</a>
+                    <Link to='/case-study-details'>Case Study Details</Link>
                   </li>
                 </ul>
               </li>
@@ -104,15 +105,15 @@ const NavbarThree = () => {
                 <a href='#'>Blog</a>
                 <ul className='sub-menu'>
                   <li>
-                    <a href='blog.html'>Blog</a>
+                    <Link to='/blog'>Blog</Link>
                   </li>
                   <li>
-                    <a href='blog-details.html'>Blog Details</a>
+                    <Link to='/blog-details'>Blog Details</Link>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href='contact.html'>Contact Us</a>
+                <Link to='/contact'>Contact Us</Link>
               </li>
             </ul>
           </div>

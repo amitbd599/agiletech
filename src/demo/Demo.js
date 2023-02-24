@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { FaCartArrowDown, FaCog } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import "./style.css";
 const Demo = () => {
   const [stickyNav, setStickyNav] = useState(false);
@@ -28,9 +29,9 @@ const Demo = () => {
         >
           <div className='container nav-container demo'>
             <div className='logo'>
-              <a className='main-logo' href='index.html'>
+              <Link className='main-logo' to='/'>
                 <img src='/assets/demo-img/logo.png' alt='img' />
-              </a>
+              </Link>
             </div>
             <div className='nav-right-part nav-right-part-mobile ms-auto'>
               <ul className='text-end'>
@@ -45,9 +46,9 @@ const Demo = () => {
                   </a>
                 </li>
                 <li>
-                  <a className='cart' href='log-in.html'>
+                  <Link className='cart' to='/'>
                     <img src='/assets/demo-img/add-to-cart.svg' alt='img' />
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -205,19 +206,15 @@ const Demo = () => {
                 data-wow-duration='1.5s'
                 data-wow-delay='0.2s'
               >
-                <a target='_blank' href='index-1.html'>
+                <Link target='_blank' to='/index-1'>
                   <span className='thumb'>
                     <img src='/assets/demo-img/1.png' alt='img' />
                   </span>
                   Home V.1
-                </a>
-                <a
-                  target='_blank'
-                  className='btns btns-base'
-                  href='index-1.html'
-                >
+                </Link>
+                <Link target='_blank' className='btns btns-base' to='/index-1'>
                   Live Demo
-                </a>
+                </Link>
               </div>
             </div>
             <div className='col-lg-4 col-md-6'>
@@ -226,19 +223,15 @@ const Demo = () => {
                 data-wow-duration='1.5s'
                 data-wow-delay='0.3s'
               >
-                <a target='_blank' href='index-2.html'>
+                <Link target='_blank' to='/index-2'>
                   <span className='thumb'>
                     <img src='/assets/demo-img/2.png' alt='img' />
                   </span>
                   Home V.2
-                </a>
-                <a
-                  target='_blank'
-                  className='btns btns-base'
-                  href='index-2.html'
-                >
+                </Link>
+                <Link target='_blank' className='btns btns-base' to='/index-2'>
                   Live Demo
-                </a>
+                </Link>
               </div>
             </div>
             <div className='col-lg-4 col-md-6'>
@@ -247,19 +240,15 @@ const Demo = () => {
                 data-wow-duration='1.5s'
                 data-wow-delay='0.3s'
               >
-                <a target='_blank' href='index-3.html'>
+                <Link target='_blank' to='/index-3'>
                   <span className='thumb'>
                     <img src='/assets/demo-img/3.png' alt='img' />
                   </span>
                   Home V.3
-                </a>
-                <a
-                  target='_blank'
-                  className='btns btns-base'
-                  href='index-3.html'
-                >
+                </Link>
+                <Link target='_blank' className='btns btns-base' to='/index-3'>
                   Live Demo
-                </a>
+                </Link>
               </div>
             </div>
             <div className='col-lg-4 col-md-6'>
@@ -268,19 +257,15 @@ const Demo = () => {
                 data-wow-duration='1.5s'
                 data-wow-delay='0.3s'
               >
-                <a target='_blank' href='index-4.html'>
+                <Link target='_blank' to='/index-4'>
                   <span className='thumb'>
                     <img src='/assets/demo-img/4.png' alt='img' />
                   </span>
                   Home V.4
-                </a>
-                <a
-                  target='_blank'
-                  className='btns btns-base'
-                  href='index-4.html'
-                >
+                </Link>
+                <Link target='_blank' className='btns btns-base' to='/index-4'>
                   Live Demo
-                </a>
+                </Link>
               </div>
             </div>
             <div className='col-lg-4 col-md-6'>
@@ -289,15 +274,15 @@ const Demo = () => {
                 data-wow-duration='1.5s'
                 data-wow-delay='0.3s'
               >
-                <a target='_blank' href='#'>
+                <Link target='_blank' to='#'>
                   <span className='thumb'>
                     <img src='/assets/demo-img/4.png' alt='img' />
                   </span>
                   Home V.5
-                </a>
-                <a target='_blank' className='btns btns-base' href='#'>
+                </Link>
+                <Link target='_blank' className='btns btns-base' to='#'>
                   Live Demo
-                </a>
+                </Link>
               </div>
             </div>
             <div className='col-lg-4 col-md-6'>
@@ -306,12 +291,12 @@ const Demo = () => {
                 data-wow-duration='1.5s'
                 data-wow-delay='0.4s'
               >
-                <a href='#'>
+                <Link to='#'>
                   <span className='thumb'>
                     <img src='/assets/demo-img/4.png' alt='img' />
                   </span>
                   <span className='cm-soon-title'>Comming Soon</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -338,15 +323,15 @@ const Demo = () => {
                 data-wow-duration='1.5s'
                 data-wow-delay='0.6s'
               >
-                <a href='about.html'>
+                <Link to='/about'>
                   <span className='thumb'>
                     <img src='/assets/demo-img/about.png' alt='img' />
                   </span>
                   About Page
-                </a>
-                <a className='btns btns-base' href='about.html'>
+                </Link>
+                <Link className='btns btns-base' to='/about'>
                   Live Demo
-                </a>
+                </Link>
               </div>
             </div>
             <div className='col-lg-4 col-md-6'>
@@ -355,15 +340,15 @@ const Demo = () => {
                 data-wow-duration='1.5s'
                 data-wow-delay='0.6s'
               >
-                <a href='service.html'>
+                <Link to='/service'>
                   <span className='thumb'>
                     <img src='/assets/demo-img/portfolio.png' alt='img' />
                   </span>
                   Service Page
-                </a>
-                <a className='btns btns-base' href='service.html'>
+                </Link>
+                <Link className='btns btns-base' to='/service'>
                   Live Demo
-                </a>
+                </Link>
               </div>
             </div>
             <div className='col-lg-4 col-md-6'>
@@ -372,7 +357,7 @@ const Demo = () => {
                 data-wow-duration='1.5s'
                 data-wow-delay='0.6s'
               >
-                <a href='service-details.html'>
+                <Link to='/service-details'>
                   <span className='thumb'>
                     <img
                       src='/assets/demo-img/portfolio-details.png'
@@ -380,10 +365,10 @@ const Demo = () => {
                     />
                   </span>
                   Service Details
-                </a>
-                <a className='btns btns-base' href='service-details.html'>
+                </Link>
+                <Link className='btns btns-base' to='/service-details'>
                   Live Demo
-                </a>
+                </Link>
               </div>
             </div>
             <div className='col-lg-4 col-md-6'>
@@ -392,15 +377,15 @@ const Demo = () => {
                 data-wow-duration='1.5s'
                 data-wow-delay='0.6s'
               >
-                <a href='team.html'>
+                <Link to='/team'>
                   <span className='thumb'>
                     <img src='/assets/demo-img/team.png' alt='img' />
                   </span>
                   Team Page{" "}
-                </a>
-                <a className='btns btns-base' href='team.html'>
+                </Link>
+                <Link className='btns btns-base' to='/team'>
                   Live Demo
-                </a>
+                </Link>
               </div>
             </div>
             <div className='col-lg-4 col-md-6'>
@@ -409,15 +394,15 @@ const Demo = () => {
                 data-wow-duration='1.5s'
                 data-wow-delay='0.6s'
               >
-                <a href='team-details.html'>
+                <Link to='/team-details'>
                   <span className='thumb'>
                     <img src='/assets/demo-img/team-details.png' alt='img' />
                   </span>
                   Team Details Page{" "}
-                </a>
-                <a className='btns btns-base' href='team-details.html'>
+                </Link>
+                <Link className='btns btns-base' to='/team-details'>
                   Live Demo
-                </a>
+                </Link>
               </div>
             </div>
             <div className='col-lg-4 col-md-6'>
@@ -426,15 +411,15 @@ const Demo = () => {
                 data-wow-duration='1.5s'
                 data-wow-delay='0.6s'
               >
-                <a href='blog.html'>
+                <Link href='/blog'>
                   <span className='thumb'>
                     <img src='/assets/demo-img/blog.png' alt='img' />
                   </span>
                   Blog Page
-                </a>
-                <a className='btns btns-base' href='blog.html'>
+                </Link>
+                <Link className='btns btns-base' to='/blog'>
                   Live Demo
-                </a>
+                </Link>
               </div>
             </div>
             <div className='col-lg-4 col-md-6'>
@@ -443,15 +428,15 @@ const Demo = () => {
                 data-wow-duration='1.5s'
                 data-wow-delay='0.6s'
               >
-                <a href='blog-details.html'>
+                <Link to='/blog-details'>
                   <span className='thumb'>
                     <img src='/assets/demo-img/blog-details.png' alt='img' />
                   </span>
                   Blog Details Page
-                </a>
-                <a className='btns btns-base' href='blog-details.html'>
+                </Link>
+                <Link className='btns btns-base' to='/blog-details'>
                   Live Demo
-                </a>
+                </Link>
               </div>
             </div>
             <div className='col-lg-4 col-md-6'>
@@ -460,15 +445,15 @@ const Demo = () => {
                 data-wow-duration='1.5s'
                 data-wow-delay='0.6s'
               >
-                <a href='contact.html'>
+                <Link to='/contact'>
                   <span className='thumb'>
                     <img src='/assets/demo-img/contact.png' alt='img' />
                   </span>
                   Contact
-                </a>
-                <a className='btns btns-base' href='contact.html'>
+                </Link>
+                <Link className='btns btns-base' to='/contact'>
                   Live Demo
-                </a>
+                </Link>
               </div>
             </div>
             <div className='col-lg-4 col-md-6'>
@@ -477,12 +462,12 @@ const Demo = () => {
                 data-wow-duration='1.5s'
                 data-wow-delay='0.4s'
               >
-                <a href='#'>
+                <Link to='#'>
                   <span className='thumb'>
                     <img src='/assets/demo-img/4.png' alt='img' />
                   </span>
                   <span className='cm-soon-title'>Comming Soon</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -747,9 +732,9 @@ const Demo = () => {
           <div className='row justify-content-center'>
             <div className='col-lg-9'>
               <div className='footer-widget widget text-center pd-bottom-100 demo-main'>
-                <a className='logo' href='index.html'>
+                <Link className='logo' to='/'>
                   <img src='/assets/demo-img/logo.png' alt='#' />
-                </a>
+                </Link>
                 <h5 className='text-white mb-5 mt-5 lh-base'>
                   Mechanic, car repair workshop, garage owner, car wash company.
                   No matter which of these businesses you choose, AglieTech is

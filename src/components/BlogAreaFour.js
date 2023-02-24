@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  FaArrowRight,
-  FaCalendarAlt,
-  FaRegComments,
-  FaRegFolderOpen,
-  FaRegUser,
-} from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
 const BlogAreaFour = () => {
   return (
     <>
@@ -42,7 +36,7 @@ const BlogAreaFour = () => {
                     </a>
                   </h5>
                   <a className='read-more-text' href='blog-details.html'>
-                    Read More <i className='fa fa-arrow-right' />
+                    Read More <FaArrowRight />
                   </a>
                 </div>
               </div>
@@ -65,7 +59,7 @@ const BlogAreaFour = () => {
                     </a>
                   </h5>
                   <a className='read-more-text' href='blog-details.html'>
-                    Read More <i className='fa fa-arrow-right' />
+                    Read More <FaArrowRight />
                   </a>
                 </div>
               </div>
@@ -88,7 +82,7 @@ const BlogAreaFour = () => {
                     </a>
                   </h5>
                   <a className='read-more-text' href='blog-details.html'>
-                    Read More <i className='fa fa-arrow-right' />
+                    Read More <FaArrowRight />
                   </a>
                 </div>
               </div>
