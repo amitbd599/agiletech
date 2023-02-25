@@ -118,9 +118,7 @@ body {
 .root-demo .btns-whites:hover:after {
   background: #fff;
 }
-.root-demo .btns-area {
-  animation: 1.5s 0.8s fadeInLeft both;
-}
+
 .root-demo .btns-area .btns {
   margin-right: 7px;
 }
@@ -367,7 +365,6 @@ body {
   font-weight: 700;
   font-size: 56px;
   margin-bottom: 60px;
-  animation: 1.5s 0.4s fadeInLeft both;
 }
 .root-demo .banner-inner h1 span {
   color: #ffd934;

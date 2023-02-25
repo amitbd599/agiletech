@@ -16,6 +16,7 @@ import TeamDetails from "./pages/TeamDetails";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import ScrollToTop from "react-scroll-to-top";
 function App() {
   useEffect(() => {
     AOS.init({
@@ -47,6 +48,7 @@ function App() {
         <Route exact path='/team' element={<Team />} />
         <Route exact path='/team-details' element={<TeamDetails />} />
       </Routes>
+      <ScrollToTop smooth color='#246BFD' />
     </BrowserRouter>
   );
 }

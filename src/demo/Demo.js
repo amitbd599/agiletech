@@ -121,8 +121,19 @@ const Demo = () => {
           <div className='row justify-content-center justify-content-xl-start'>
             <div className='col-xl-6 col-lg-6 align-self-center'>
               <div className='banner-inner text-xl-start text-center'>
-                <h1>AglieTech - Trendy &amp; Powerful Html Template</h1>
-                <div className='btns-area'>
+                <h1
+                  data-aos='fade-right'
+                  data-aos-delay='100'
+                  data-aos-duration='1500'
+                >
+                  AglieTech - Trendy &amp; Powerful React Template
+                </h1>
+                <div
+                  className='btns-area'
+                  data-aos='fade-right'
+                  data-aos-delay='200'
+                  data-aos-duration='1500'
+                >
                   <a
                     className='btns btns-border-whites page-scroll'
                     href='#demo'
@@ -138,7 +149,12 @@ const Demo = () => {
                 </div>
               </div>
             </div>
-            <div className='col-xl-6 col-lg-6'>
+            <div
+              className='col-xl-6 col-lg-6'
+              data-aos='fade-left'
+              data-aos-delay='100'
+              data-aos-duration='1500'
+            >
               <div className='row'>
                 <img src='/assets/demo-img/in.png' alt='img' />
               </div>
@@ -233,9 +249,10 @@ const Demo = () => {
           <div className='row justify-content-center'>
             <div className='col-lg-8 text-center'>
               <div
-                className='section-title wow animated fadeInUp'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.2s'
+                className='section-title '
+                data-aos='fade-up'
+                data-aos-delay='100'
+                data-aos-duration='1500'
               >
                 <h5 className='subtitle'>AWESOME DEMOS</h5>
                 <h2 className='title'>Great Home Pages</h2>
@@ -247,8 +264,8 @@ const Demo = () => {
               <div
                 className='inner-item style-large '
                 data-aos='fade-up'
-                // data-aos-delay='300'
-                // data-aos-once='true'
+                data-aos-delay='100'
+                data-aos-duration='1500'
               >
                 <Link target='_blank' to='/index-1'>
                   <span className='thumb'>
@@ -263,9 +280,10 @@ const Demo = () => {
             </div>
             <div className='col-lg-4 col-md-6'>
               <div
-                className='inner-item style-large wow animated fadeInUp'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.3s'
+                className='inner-item style-large '
+                data-aos='fade-up'
+                data-aos-delay='200'
+                data-aos-duration='1500'
               >
                 <Link target='_blank' to='/index-2'>
                   <span className='thumb'>
@@ -280,9 +298,10 @@ const Demo = () => {
             </div>
             <div className='col-lg-4 col-md-6'>
               <div
-                className='inner-item style-large wow animated fadeInUp'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.3s'
+                className='inner-item style-large '
+                data-aos='fade-up'
+                data-aos-delay='300'
+                data-aos-duration='1500'
               >
                 <Link target='_blank' to='/index-3'>
                   <span className='thumb'>
@@ -297,9 +316,10 @@ const Demo = () => {
             </div>
             <div className='col-lg-4 col-md-6'>
               <div
-                className='inner-item style-large wow animated fadeInUp'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.3s'
+                className='inner-item style-large '
+                data-aos='fade-up'
+                data-aos-delay='100'
+                data-aos-duration='1500'
               >
                 <Link target='_blank' to='/index-4'>
                   <span className='thumb'>
@@ -314,9 +334,10 @@ const Demo = () => {
             </div>
             <div className='col-lg-4 col-md-6'>
               <div
-                className='inner-item style-large wow animated fadeInUp coming-soon'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.3s'
+                className='inner-item style-large  coming-soon'
+                data-aos='fade-up'
+                data-aos-delay='200'
+                data-aos-duration='1500'
               >
                 <Link target='_blank' to='#'>
                   <span className='thumb'>
@@ -331,9 +352,10 @@ const Demo = () => {
             </div>
             <div className='col-lg-4 col-md-6'>
               <div
-                className='inner-item style-large wow animated fadeInUp coming-soon'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.4s'
+                className='inner-item style-large  coming-soon'
+                data-aos='fade-up'
+                data-aos-delay='300'
+                data-aos-duration='1500'
               >
                 <Link to='#'>
                   <span className='thumb'>
@@ -352,9 +374,10 @@ const Demo = () => {
           <div className='row justify-content-center'>
             <div className='col-lg-8 text-center'>
               <div
-                className='section-title wow animated fadeInUp'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.2s'
+                className='section-title '
+                data-aos='fade-up'
+                data-aos-delay='100'
+                data-aos-duration='1500'
               >
                 <h2 className='title'>Great Inner Pages</h2>
               </div>
@@ -363,9 +386,10 @@ const Demo = () => {
           <div className='row justify-content-center'>
             <div className='col-lg-4 col-md-6'>
               <div
-                className='inner-item inner-page-item wow animated fadeInUp'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.6s'
+                className='inner-item inner-page-item '
+                data-aos='fade-up'
+                data-aos-delay='100'
+                data-aos-duration='1500'
               >
                 <Link to='/about'>
                   <span className='thumb'>
@@ -380,9 +404,10 @@ const Demo = () => {
             </div>
             <div className='col-lg-4 col-md-6'>
               <div
-                className='inner-item inner-page-item wow animated fadeInUp'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.6s'
+                className='inner-item inner-page-item '
+                data-aos='fade-up'
+                data-aos-delay='200'
+                data-aos-duration='1500'
               >
                 <Link to='/service'>
                   <span className='thumb'>
@@ -397,9 +422,10 @@ const Demo = () => {
             </div>
             <div className='col-lg-4 col-md-6'>
               <div
-                className='inner-item inner-page-item wow animated fadeInUp'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.6s'
+                className='inner-item inner-page-item '
+                data-aos='fade-up'
+                data-aos-delay='300'
+                data-aos-duration='1500'
               >
                 <Link to='/service-details'>
                   <span className='thumb'>
@@ -417,9 +443,10 @@ const Demo = () => {
             </div>
             <div className='col-lg-4 col-md-6'>
               <div
-                className='inner-item inner-page-item wow animated fadeInUp'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.6s'
+                className='inner-item inner-page-item '
+                data-aos='fade-up'
+                data-aos-delay='100'
+                data-aos-duration='1500'
               >
                 <Link to='/team'>
                   <span className='thumb'>
@@ -434,9 +461,10 @@ const Demo = () => {
             </div>
             <div className='col-lg-4 col-md-6'>
               <div
-                className='inner-item inner-page-item wow animated fadeInUp'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.6s'
+                className='inner-item inner-page-item '
+                data-aos='fade-up'
+                data-aos-delay='200'
+                data-aos-duration='1500'
               >
                 <Link to='/team-details'>
                   <span className='thumb'>
@@ -451,9 +479,10 @@ const Demo = () => {
             </div>
             <div className='col-lg-4 col-md-6'>
               <div
-                className='inner-item inner-page-item wow animated fadeInUp'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.6s'
+                className='inner-item inner-page-item '
+                data-aos='fade-up'
+                data-aos-delay='300'
+                data-aos-duration='1500'
               >
                 <Link href='/blog'>
                   <span className='thumb'>
@@ -468,9 +497,10 @@ const Demo = () => {
             </div>
             <div className='col-lg-4 col-md-6'>
               <div
-                className='inner-item inner-page-item wow animated fadeInUp'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.6s'
+                className='inner-item inner-page-item '
+                data-aos='fade-up'
+                data-aos-delay='100'
+                data-aos-duration='1500'
               >
                 <Link to='/blog-details'>
                   <span className='thumb'>
@@ -485,9 +515,10 @@ const Demo = () => {
             </div>
             <div className='col-lg-4 col-md-6'>
               <div
-                className='inner-item inner-page-item wow animated fadeInUp'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.6s'
+                className='inner-item inner-page-item '
+                data-aos='fade-up'
+                data-aos-delay='200'
+                data-aos-duration='1500'
               >
                 <Link to='/contact'>
                   <span className='thumb'>
@@ -502,9 +533,10 @@ const Demo = () => {
             </div>
             <div className='col-lg-4 col-md-6'>
               <div
-                className='inner-item style-large wow animated fadeInUp coming-soon'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.4s'
+                className='inner-item style-large  coming-soon'
+                data-aos='fade-up'
+                data-aos-delay='300'
+                data-aos-duration='1500'
               >
                 <Link to='#'>
                   <span className='thumb'>
@@ -523,9 +555,10 @@ const Demo = () => {
           <div className='row justify-content-center'>
             <div className='col-lg-8 text-center'>
               <div
-                className='section-title wow animated fadeInUp'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.2s'
+                className='section-title '
+                data-aos='fade-up'
+                data-aos-delay='100'
+                data-aos-duration='1500'
               >
                 <h2 className='title'>Header Style</h2>
               </div>
@@ -606,9 +639,10 @@ const Demo = () => {
           <div className='row justify-content-center'>
             <div className='col-lg-8 text-center'>
               <div
-                className='section-title wow animated fadeInUp'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.2s'
+                className='section-title '
+                data-aos='fade-up'
+                data-aos-delay='100'
+                data-aos-duration='1500'
               >
                 <h2 className='title'>Core Features</h2>
               </div>
@@ -617,9 +651,10 @@ const Demo = () => {
           <div className='row justify-content-center'>
             <div className='col-lg-4 col-md-6'>
               <div
-                className='featured-item wow animated fadeInUp'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.2s'
+                className='featured-item '
+                data-aos='fade-up'
+                data-aos-delay='100'
+                data-aos-duration='1500'
               >
                 <img src='/assets/demo-img/featured/3.png' alt='img' />
                 Bootstrap 5+
@@ -627,9 +662,10 @@ const Demo = () => {
             </div>
             <div className='col-lg-4 col-md-6'>
               <div
-                className='featured-item wow animated fadeInUp'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.4s'
+                className='featured-item '
+                data-aos='fade-up'
+                data-aos-delay='200'
+                data-aos-duration='1500'
               >
                 <img src='/assets/demo-img/featured/1.png' alt='img' />
                 Sass
@@ -637,28 +673,32 @@ const Demo = () => {
             </div>
             <div className='col-lg-4 col-md-6'>
               <div
-                className='featured-item wow animated fadeInUp'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.6s'
+                className='featured-item '
+                data-aos='fade-up'
+                data-aos-delay='300'
+                data-aos-duration='1500'
               >
                 <img src='/assets/demo-img/featured/4.png' alt='img' />
-                Font-Awesome
+                React Icons
               </div>
             </div>
             <div className='col-lg-4 col-md-6'>
               <div
-                className='featured-item wow animated fadeInUp'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.2s'
+                className='featured-item '
+                data-aos='fade-up'
+                data-aos-delay='100'
+                data-aos-duration='1500'
               >
                 <img src='/assets/demo-img/featured/2.png' alt='img' />
+                React-Slick
               </div>
             </div>
             <div className='col-lg-4 col-md-6'>
               <div
-                className='featured-item wow animated fadeInUp'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.4s'
+                className='featured-item '
+                data-aos='fade-up'
+                data-aos-delay='200'
+                data-aos-duration='1500'
               >
                 <img src='/assets/demo-img/featured/5.png' alt='img' />
                 HTML5
@@ -666,9 +706,10 @@ const Demo = () => {
             </div>
             <div className='col-lg-4 col-md-6'>
               <div
-                className='featured-item wow animated fadeInUp'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.6s'
+                className='featured-item '
+                data-aos='fade-up'
+                data-aos-delay='300'
+                data-aos-duration='1500'
               >
                 <img src='/assets/demo-img/featured/6.png' alt='img' />
                 CSS3
@@ -676,29 +717,32 @@ const Demo = () => {
             </div>
             <div className='col-lg-4 col-md-6'>
               <div
-                className='featured-item wow animated fadeInUp'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.2s'
+                className='featured-item '
+                data-aos='fade-up'
+                data-aos-delay='100'
+                data-aos-duration='1500'
               >
                 <img src='/assets/demo-img/featured/7.png' alt='img' />
-                Jquery Tilt
+                NPM Package
               </div>
             </div>
             <div className='col-lg-4 col-md-6'>
               <div
-                className='featured-item wow animated fadeInUp'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.4s'
+                className='featured-item '
+                data-aos='fade-up'
+                data-aos-delay='200'
+                data-aos-duration='1500'
               >
                 <img src='/assets/demo-img/featured/8.png' alt='img' />
-                W3C Validation
+                React Router Dom
               </div>
             </div>
             <div className='col-lg-4 col-md-6'>
               <div
-                className='featured-item wow animated fadeInUp'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.6s'
+                className='featured-item '
+                data-aos='fade-up'
+                data-aos-delay='300'
+                data-aos-duration='1500'
               >
                 <img src='/assets/demo-img/featured/9.png' alt='img' />
                 Clean Code
@@ -706,9 +750,10 @@ const Demo = () => {
             </div>
             <div className='col-lg-4 col-md-6'>
               <div
-                className='featured-item wow animated fadeInUp'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.2s'
+                className='featured-item '
+                data-aos='fade-up'
+                data-aos-delay='100'
+                data-aos-duration='1500'
               >
                 <img src='/assets/demo-img/featured/10.png' alt='img' />
                 Magnific Popup
@@ -716,9 +761,10 @@ const Demo = () => {
             </div>
             <div className='col-lg-4 col-md-6'>
               <div
-                className='featured-item wow animated fadeInUp'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.4s'
+                className='featured-item '
+                data-aos='fade-up'
+                data-aos-delay='200'
+                data-aos-duration='1500'
               >
                 <img src='/assets/demo-img/featured/12.png' alt='img' />
                 100% Responsive
@@ -726,9 +772,10 @@ const Demo = () => {
             </div>
             <div className='col-lg-4 col-md-6'>
               <div
-                className='featured-item wow animated fadeInUp'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.6s'
+                className='featured-item '
+                data-aos='fade-up'
+                data-aos-delay='300'
+                data-aos-duration='1500'
               >
                 <img src='/assets/demo-img/featured/11.png' alt='img' />
                 Google Fonts
@@ -736,9 +783,10 @@ const Demo = () => {
             </div>
             <div className='col-lg-4 col-md-6'>
               <div
-                className='featured-item wow animated fadeInUp'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.2s'
+                className='featured-item '
+                data-aos='fade-up'
+                data-aos-delay='100'
+                data-aos-duration='1500'
               >
                 <img src='/assets/demo-img/featured/14.png' alt='img' />
                 Well Documented
@@ -746,9 +794,10 @@ const Demo = () => {
             </div>
             <div className='col-lg-4 col-md-6'>
               <div
-                className='featured-item wow animated fadeInUp'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.4s'
+                className='featured-item '
+                data-aos='fade-up'
+                data-aos-delay='200'
+                data-aos-duration='1500'
               >
                 <img src='/assets/demo-img/featured/15.png' alt='img' />
                 Counter Up
@@ -756,12 +805,13 @@ const Demo = () => {
             </div>
             <div className='col-lg-4 col-md-6'>
               <div
-                className='featured-item wow animated fadeInUp'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.6s'
+                className='featured-item '
+                data-aos='fade-up'
+                data-aos-delay='300'
+                data-aos-duration='1500'
               >
                 <img src='/assets/demo-img/featured/13.png' alt='img' />
-                Wow Js
+                Animation
               </div>
             </div>
           </div>

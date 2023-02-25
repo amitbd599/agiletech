@@ -10,7 +10,12 @@ const FaqAreaOne = () => {
       >
         <div className='container'>
           <div className='row pd-top-120'>
-            <div className='col-xl-5 col-lg-6 col-md-8 order-lg-last'>
+            <div
+              className='col-xl-5 col-lg-6 col-md-8 order-lg-last'
+              data-aos='fade-left'
+              data-aos-delay='100'
+              data-aos-duration='1500'
+            >
               <div className='about-thumb-inner pt-lg-3'>
                 <img
                   className='main-img'
@@ -24,7 +29,12 @@ const FaqAreaOne = () => {
                 />
               </div>
             </div>
-            <div className='col-xl-7 col-lg-6'>
+            <div
+              className='col-xl-7 col-lg-6'
+              data-aos='fade-right'
+              data-aos-delay='100'
+              data-aos-duration='1500'
+            >
               <div className='section-title mb-0 mt-4 mt-lg-0'>
                 <h6 className='sub-title'>SOME FAQ'S</h6>
                 <h2 className='title'>
