@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaPlus } from "react-icons/fa";
+import ModalVideo from "react-modal-video";
 import { Link } from "react-router-dom";
 
 const BannerThree = () => {
+  const [isOpen, setOpen] = useState(false);
   return (
     <>
       {/* ================== BannerThree Start ==================*/}
@@ -56,14 +58,21 @@ const BannerThree = () => {
                   data-aos-delay='300'
                   data-aos-duration='1500'
                 >
-                  <a
+                  <span
+                    onClick={() => setOpen(true)}
                     className='video-play-btn-hover'
-                    href='https://www.youtube.com/embed/Wimkqo8gDZ0'
                   >
                     <img src='assets/img/video.svg' alt='img' />{" "}
                     <h6 className='d-inline-block'>how we work</h6>
-                  </a>
+                  </span>
                 </div>
+                <ModalVideo
+                  channel='youtube'
+                  autoplay
+                  isOpen={isOpen}
+                  videoId='XM6kTQPzzpQ'
+                  onClose={() => setOpen(false)}
+                />
               </div>
             </div>
             <div className='col-lg-6 col-md-10'>

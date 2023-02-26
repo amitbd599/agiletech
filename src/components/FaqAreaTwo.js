@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
+import ModalVideo from "react-modal-video";
 
 const FaqAreaTwo = () => {
+  const [isOpen, setOpen] = useState(false);
   return (
     <>
       {/*==================== Faq area start ====================*/}
@@ -14,12 +16,20 @@ const FaqAreaTwo = () => {
                   src='assets/img/about/15.png'
                   alt='img'
                 />
-                <a
+                <span
+                  onClick={() => setOpen(true)}
                   className='video-play-btn-hover'
-                  href='https://www.youtube.com/embed/Wimkqo8gDZ0'
                 >
-                  <img src='assets/img/video.svg' alt='img' />
-                </a>
+                  <img src='assets/img/video.svg' alt='img' />{" "}
+                  <h6 className='d-inline-block'>how we work</h6>
+                </span>
+                <ModalVideo
+                  channel='youtube'
+                  autoplay
+                  isOpen={isOpen}
+                  videoId='XM6kTQPzzpQ'
+                  onClose={() => setOpen(false)}
+                />
               </div>
             </div>
             <div className='col-xl-5 col-lg-6 align-self-center'>
