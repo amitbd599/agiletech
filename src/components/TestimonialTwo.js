@@ -22,18 +22,20 @@ const TestimonialTwo = () => {
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 992,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
           initialSlide: 2,
+          arrows: false,
         },
       },
       {
-        breakpoint: 480,
+        breakpoint: 575,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          arrows: false,
         },
       },
     ],

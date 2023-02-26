@@ -13,7 +13,7 @@ const CounterAreaOne = () => {
         <div className='container pd-bottom-90'>
           <div className='row'>
             <div
-              className='col-lg-3 col-md-6'
+              className='col-lg-3 col-sm-6'
               data-aos='fade-up'
               data-aos-delay='100'
               data-aos-duration='1500'
@@ -38,7 +38,7 @@ const CounterAreaOne = () => {
               </div>
             </div>
             <div
-              className='col-lg-3 col-md-6'
+              className='col-lg-3 col-sm-6'
               data-aos='fade-up'
               data-aos-delay='150'
               data-aos-duration='1500'
@@ -63,7 +63,7 @@ const CounterAreaOne = () => {
               </div>
             </div>
             <div
-              className='col-lg-3 col-md-6'
+              className='col-lg-3 col-sm-6'
               data-aos='fade-up'
               data-aos-delay='200'
               data-aos-duration='1500'
@@ -88,7 +88,7 @@ const CounterAreaOne = () => {
               </div>
             </div>
             <div
-              className='col-lg-3 col-md-6 wow animated fadeInUp'
+              className='col-lg-3 col-sm-6 '
               data-aos='fade-up'
               data-aos-delay='250'
               data-aos-duration='1500'

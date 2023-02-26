@@ -46,7 +46,11 @@ const NavBar = () => {
           <div className='responsive-mobile-menu'>
             <button
               onClick={menuActive}
-              className='menu toggle-btn d-block d-lg-none'
+              className={
+                active
+                  ? "menu toggle-btn d-block d-lg-none open"
+                  : "menu toggle-btn d-block d-lg-none"
+              }
               data-target='#itech_main_menu'
               aria-expanded='false'
               aria-label='Toggle navigation'
