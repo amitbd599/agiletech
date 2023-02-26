@@ -2,6 +2,14 @@ import React from "react";
 import { FaAngleLeft, FaAngleRight, FaStar } from "react-icons/fa";
 import Slider from "react-slick";
 const TestimonialOne = () => {
+  function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return <FaAngleRight className={className} onClick={onClick} />;
+  }
+  function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return <FaAngleLeft className={className} onClick={onClick} />;
+  }
   const settings = {
     dots: false,
     arrows: true,
@@ -10,8 +18,8 @@ const TestimonialOne = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 0,
-    nextArrow: <FaAngleRight />,
-    prevArrow: <FaAngleLeft />,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
     responsive: [
       {
         breakpoint: 1024,

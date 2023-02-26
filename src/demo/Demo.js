@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 import "./style.css";
 const Demo = () => {
   const [stickyNav, setStickyNav] = useState(false);
-  console.log(stickyNav);
 
   useEffect(() => {
     window.onscroll = () => {

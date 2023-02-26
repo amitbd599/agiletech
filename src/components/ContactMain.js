@@ -1,9 +1,40 @@
-import React from "react";
-
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import { toast, Toaster } from "react-hot-toast";
 const ContactMain = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    // Please See Documentation for more information
+    emailjs
+      .sendForm(
+        "service_yipk4xg", //YOUR_SERVICE_ID
+        "template_71bgc2q", //YOUR_TEMPLATE_ID
+        form.current,
+        "cwf8kROl5o3__96Ti" //YOUR_PUBLIC_KEY
+      )
+      .then(
+        (result) => {
+          if (result.text === "OK") {
+            toast.success("Massage Sent Successfully!");
+            form.current[0].value = "";
+            form.current[1].value = "";
+            form.current[2].value = "";
+            form.current[3].value = "";
+          }
+        },
+        (error) => {
+          if (error.text !== "OK") {
+            toast.success("Massage Not Sent!");
+          }
+        }
+      );
+  };
   return (
     <>
       {/* ================= Contact Main start =================*/}
+      <Toaster position='bottom-center' reverseOrder={false} />
       <div className='contact-area pd-top-120 pd-bottom-120'>
         <div className='container'>
           <div className='contact-page-inner bg-gray'>
@@ -16,33 +47,63 @@ const ContactMain = () => {
                 car we will do som everything.
               </p>
             </div>
-            <div className='row'>
-              <div className='col-md-12'>
-                <div className='single-input-inner'>
-                  <input type='text' placeholder='Your Name' />
+            <form ref={form} onSubmit={sendEmail}>
+              <div className='row'>
+                <div className='col-md-12'>
+                  <div className='single-input-inner'>
+                    <input
+                      id='name'
+                      name='user_name'
+                      type='text'
+                      placeholder='Enter Your Name.'
+                      required
+                    />
+                  </div>
+                </div>
+                <div className='col-md-12'>
+                  <div className='single-input-inner'>
+                    <input
+                      id='email'
+                      name='user_email'
+                      type='email'
+                      placeholder='Enter Your Email.'
+                      required
+                    />
+                  </div>
+                </div>
+                <div className='col-md-12'>
+                  <div className='single-input-inner'>
+                    <input
+                      id='subject'
+                      name='subject'
+                      type='text'
+                      placeholder='Enter Your Subject.'
+                      required
+                    />
+                  </div>
+                </div>
+                <div className='col-12'>
+                  <div className='single-input-inner'>
+                    <textarea
+                      name='message'
+                      id='massage'
+                      cols='1'
+                      rows='5'
+                      placeholder='Enter Your Massage ...'
+                      required
+                    />
+                  </div>
+                </div>
+                <div className='col-12 text-center'>
+                  <button
+                    className='btn btn-base border-radius-5'
+                    type='submit'
+                  >
+                    Send Message
+                  </button>
                 </div>
               </div>
-              <div className='col-md-12'>
-                <div className='single-input-inner'>
-                  <input type='text' placeholder='Your Email' />
-                </div>
-              </div>
-              <div className='col-md-12'>
-                <div className='single-input-inner'>
-                  <input type='text' placeholder='Your Contact' />
-                </div>
-              </div>
-              <div className='col-12'>
-                <div className='single-input-inner'>
-                  <textarea placeholder='Message' defaultValue={""} />
-                </div>
-              </div>
-              <div className='col-12 text-center'>
-                <button className='btn btn-base border-radius-5'>
-                  Post Comment
-                </button>
-              </div>
-            </div>
+            </form>
           </div>
         </div>
       </div>
