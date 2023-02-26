@@ -4,8 +4,13 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
   const [active, setActive] = useState(false);
+  const [searchShow, setSearchShow] = useState(false);
   const menuActive = () => {
     setActive(!active);
+  };
+  const searchActive = () => {
+    setSearchShow(!searchShow);
+    console.log("hell");
   };
 
   // Control sidebar navigation
@@ -24,7 +29,10 @@ const NavBar = () => {
   return (
     <>
       {/* search popup start*/}
-      <div className='td-search-popup' id='td-search-popup'>
+      <div
+        className={searchShow ? "td-search-popup active" : "td-search-popup "}
+        id='td-search-popup'
+      >
         <form action='/' className='search-form'>
           <div className='form-group'>
             <input
@@ -39,7 +47,11 @@ const NavBar = () => {
         </form>
       </div>
       {/* search popup end*/}
-      <div className='body-overlay' id='body-overlay' />
+      <div
+        onClick={searchActive}
+        className={searchShow ? "body-overlay active" : "body-overlay"}
+        id='body-overlay'
+      ></div>
       {/* navbar start */}
       <nav className='navbar navbar-area navbar-expand-lg'>
         <div className='container nav-container navbar-bg'>
@@ -65,9 +77,9 @@ const NavBar = () => {
             </Link>
           </div>
           <div className='nav-right-part nav-right-part-mobile'>
-            <a className='search-bar-btn' href='#'>
+            <span className='search-bar-btn' onClick={searchActive}>
               <FaSearch />
-            </a>
+            </span>
           </div>
           <div
             className={

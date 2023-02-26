@@ -4,8 +4,13 @@ import { Link } from "react-router-dom";
 
 const NavbarThree = () => {
   const [active, setActive] = useState(false);
+  const [searchShow, setSearchShow] = useState(false);
   const menuActive = () => {
     setActive(!active);
+  };
+  const searchActive = () => {
+    setSearchShow(!searchShow);
+    console.log("hell");
   };
 
   // Control sidebar navigation
@@ -22,13 +27,41 @@ const NavbarThree = () => {
   }
   return (
     <>
+      {/* search popup start*/}
+      <div
+        className={searchShow ? "td-search-popup active" : "td-search-popup "}
+        id='td-search-popup'
+      >
+        <form action='/' className='search-form'>
+          <div className='form-group'>
+            <input
+              type='text'
+              className='form-control'
+              placeholder='Search.....'
+            />
+          </div>
+          <button type='submit' className='submit-btn'>
+            <FaSearch />
+          </button>
+        </form>
+      </div>
+      {/* search popup end*/}
+      <div
+        onClick={searchActive}
+        className={searchShow ? "body-overlay active" : "body-overlay"}
+        id='body-overlay'
+      ></div>
       {/* ==================== Navbar Two Start ====================*/}
       <nav className='navbar navbar-area navbar-area-2 navbar-expand-lg bg-white'>
         <div className='container nav-container custom-container'>
           <div className='responsive-mobile-menu'>
             <button
               onClick={menuActive}
-              className='menu toggle-btn d-block d-lg-none'
+              className={
+                active
+                  ? "menu toggle-btn d-block d-lg-none open"
+                  : "menu toggle-btn d-block d-lg-none"
+              }
               data-target='#itech_main_menu'
               aria-expanded='false'
               aria-label='Toggle navigation'
@@ -43,9 +76,9 @@ const NavbarThree = () => {
             </Link>
           </div>
           <div className='nav-right-part nav-right-part-mobile'>
-            <a className='search-bar-btn' href='#'>
+            <span className='search-bar-btn' onClick={searchActive}>
               <FaSearch />
-            </a>
+            </span>
           </div>
           <div
             className={
