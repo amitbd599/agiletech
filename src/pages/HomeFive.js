@@ -2,6 +2,7 @@ import React from "react";
 import AboutAreaFive from "../components/AboutAreaFive";
 import BannerFive from "../components/BannerFive";
 import NavbarFour from "../components/NavbarFour";
+import ServiceAreaFive from "../components/ServiceAreaFive";
 
 const HomeFive = () => {
   return (
@@ -14,6 +15,9 @@ const HomeFive = () => {
 
       {/* About Area Five */}
       <AboutAreaFive />
+
+      {/* Service Area Five */}
+      <ServiceAreaFive />
     </>
   );
 };
