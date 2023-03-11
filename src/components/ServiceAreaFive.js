@@ -11,7 +11,7 @@ const ServiceAreaFive = () => {
           <div className='row justify-content-center'>
             <div className='col-lg-6'>
               <div className='section-title text-center'>
-                <h6 className='sub-title'>Our Best Service</h6>
+                <h6 className='sub-title-sky-blue'>Our Best Service</h6>
                 <h2 className='title'>
                   Unlocking The Potential Of Data With Ai
                 </h2>

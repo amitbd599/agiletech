@@ -9,6 +9,9 @@
     bottom: 7px;
     z-index: 2;
   }
+  .top_image_bounce {
+    z-index: 9;
+  }
   .animate-img-2 {
     position: absolute;
     right: 50px;
@@ -19,6 +22,11 @@
     position: absolute;
     left: 80px;
     top: -20px;
+  }
+  .animate-img-4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
   }
   .animate-img-bottom-right {
     position: absolute;
@@ -34,6 +42,12 @@
   .main-img {
     position: relative;
     z-index: 1;
+  }
+  .video-play-btn-hover {
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    z-index: 9;
   }
 }
 

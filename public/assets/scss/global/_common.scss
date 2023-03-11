@@ -929,3 +929,30 @@
 .color-base {
   color: var(--main-color);
 }
+
+.border-1 {
+  border: 1px solid #ededed;
+}
+.border-top-1 {
+  border-top: 1px solid #ededed;
+}
+.border-right-1 {
+  border-right: 1px solid #ededed;
+}
+.border-radius-20 {
+  border-radius: 20px;
+}
+.border-radius-5 {
+  border-radius: 5px !important;
+}
+
+.image-hover-rotate {
+  .rotate-img {
+    transition: 0.4s;
+  }
+  &:hover {
+    .rotate-img {
+      transform: rotateY(180deg);
+    }
+  }
+}
