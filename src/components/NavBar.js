@@ -105,6 +105,9 @@ const NavBar = () => {
                   <li>
                     <Link to='/index-4'>Home 04</Link>
                   </li>
+                  <li>
+                    <Link to='/index-5'>Home 05</Link>
+                  </li>
                 </ul>
               </li>
               <li className='menu-item-has-children'>

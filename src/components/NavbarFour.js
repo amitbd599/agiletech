@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { FaPlus, FaSearch } from "react-icons/fa";
+import { FaAngleRight, FaArrowRight, FaSearch } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-const NavbarTwo = () => {
+const NavbarFour = () => {
   const [active, setActive] = useState(false);
   const [searchShow, setSearchShow] = useState(false);
   const menuActive = () => {
@@ -52,8 +52,8 @@ const NavbarTwo = () => {
         id='body-overlay'
       ></div>
       {/* ==================== Navbar Two Start ====================*/}
-      <nav className='navbar navbar-area navbar-area-2 navbar-expand-lg'>
-        <div className='container nav-container'>
+      <nav className='navbar navbar-area navbar-area-3 navbar-expand-lg'>
+        <div className='container nav-container custom-container'>
           <div className='responsive-mobile-menu'>
             <button
               onClick={menuActive}
@@ -72,7 +72,7 @@ const NavbarTwo = () => {
           </div>
           <div className='logo'>
             <Link to='/index-1'>
-              <img src='assets/img/logo.png' alt='img' />
+              <img src='assets/img/logo3.png' alt='img' />
             </Link>
           </div>
           <div className='nav-right-part nav-right-part-mobile'>
@@ -88,7 +88,7 @@ const NavbarTwo = () => {
             }
             id='itech_main_menu'
           >
-            <ul className='navbar-nav menu-open text-lg-end'>
+            <ul className='navbar-nav menu-open text-lg-center ps-lg-5 navbarFive'>
               <li className='menu-item-has-children'>
                 <a href='#'>Home</a>
                 <ul className='sub-menu'>
@@ -154,8 +154,11 @@ const NavbarTwo = () => {
             </ul>
           </div>
           <div className='nav-right-part nav-right-part-desktop align-self-center'>
-            <Link className='btn btn-border-base' to='/about'>
-              Discover More <FaPlus />
+            <Link
+              className='btn btn-base-color border-radius-5 d-flex align-items-center'
+              to='/about'
+            >
+              Get a quote <FaArrowRight className='mt-0' />
             </Link>
           </div>
         </div>
@@ -165,4 +168,4 @@ const NavbarTwo = () => {
   );
 };
 
-export default NavbarTwo;
+export default NavbarFour;

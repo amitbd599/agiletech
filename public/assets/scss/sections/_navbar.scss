@@ -500,6 +500,41 @@
 .navbar-area-2 .nav-right-part .navbar-phone span {
   color: var(--heading-color);
 }
+
+.navbar-area-3 {
+  .nav-container .navbar-collapse .navbar-nav li a {
+    color: #fff;
+  }
+  .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children:before,
+  .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children:after {
+    background: #fff;
+  }
+}
+.navbar-area-3 .navbarFive {
+  li {
+    &:hover {
+      & > a {
+        color: #50af9b !important;
+      }
+    }
+    &:hover:before {
+      background: #50af9b !important;
+    }
+    &:hover::after {
+      background: #50af9b !important;
+    }
+    .sub-menu {
+      li {
+        &:hover {
+          background: #50af9b !important;
+          & > a {
+            color: #fff !important;
+          }
+        }
+      }
+    }
+  }
+}
 .nav-right-part-desktop {
   margin-left: 20px;
 }
