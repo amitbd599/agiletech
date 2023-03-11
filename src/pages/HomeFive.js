@@ -5,6 +5,7 @@ import BannerFive from "../components/BannerFive";
 import CaseStudyAreaTwo from "../components/CaseStudyAreaTwo";
 import NavbarFour from "../components/NavbarFour";
 import ServiceAreaFive from "../components/ServiceAreaFive";
+import TeamAreaThree from "../components/TeamAreaThree";
 
 const HomeFive = () => {
   return (
@@ -26,6 +27,9 @@ const HomeFive = () => {
 
       {/* About Area Six */}
       <AboutAreaSix />
+
+      {/* Team Area Three */}
+      <TeamAreaThree />
     </>
   );
 };
