@@ -152,3 +152,24 @@
   opacity: 0.75;
   color: var(--main-color);
 }
+
+.testimonial-tab {
+  border: 0 !important;
+  button {
+    border: 2px dashed transparent !important;
+    padding: 0;
+    height: 140px;
+    width: 140px;
+    border-radius: 50% !important;
+    padding: 30px;
+    transition: 0.4s;
+    img {
+      width: 100%;
+      transition: 0.4s;
+    }
+    &.active {
+      border: 2px dashed #50af9b !important;
+      padding: 12px;
+    }
+  }
+}

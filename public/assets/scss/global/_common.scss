@@ -96,6 +96,15 @@
     background: var(--main-color);
   }
 }
+.btn-black.sky {
+  color: #fff !important;
+  background: var(--heading-color);
+  &:hover,
+  &:focus {
+    color: #fff !important;
+    background: #50af9b;
+  }
+}
 .btn-border-base {
   color: var(--heading-color);
   border: 2px solid var(--main-color);
@@ -791,6 +800,15 @@
 .bg-cover {
   background-size: cover !important;
   background-position: center;
+}
+.bg-position-right {
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.bg-left-50 {
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
 }
 .bg-overlay {
   position: relative;

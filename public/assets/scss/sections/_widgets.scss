@@ -389,6 +389,9 @@
       svg {
         margin-right: 14px;
         color: var(--main-color);
+        &.sky {
+          color: #50af9b;
+        }
       }
       &:last-child {
         margin-bottom: 0;
@@ -414,6 +417,15 @@
           border: 1px solid var(--main-color);
           svg {
             color: #fff !important;
+          }
+        }
+        &.sky {
+          &:hover {
+            background: #50af9b;
+            border: 1px solid #50af9b;
+            svg {
+              color: #fff !important;
+            }
           }
         }
       }

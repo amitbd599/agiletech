@@ -19,6 +19,9 @@
       left: 50%;
       transform: translateX(-50%);
       bottom: 10px;
+      &.sky {
+        background: #50af9b;
+      }
     }
   }
   .team-social-inner {

@@ -212,6 +212,88 @@
       }
     }
   }
+  &.style-3 {
+    .thumb {
+      img {
+        border-radius: 5px;
+      }
+    }
+    .details {
+      .blog-meta {
+        display: flex;
+        align-items: center;
+        background: #50af9b;
+        padding: 10px;
+        border-radius: 6px;
+        margin-right: 48px;
+        margin-top: -54px;
+        z-index: 2;
+        position: relative;
+        li {
+          color: #fff;
+          svg {
+            color: #fff;
+          }
+          span {
+            border-radius: 50%;
+            border: 1px solid #fff;
+            padding: 3px;
+            display: inline-block;
+            height: 30px;
+            width: 30px;
+            margin-right: 3px;
+            img {
+              border-radius: 50%;
+            }
+          }
+        }
+        .date {
+          height: 50px;
+          width: 50px;
+          border-radius: 5px;
+          color: #fff;
+          text-align: center;
+          padding: 8px;
+          line-height: 1.4;
+        }
+      }
+      .btn-wrap {
+        position: relative;
+        .read-more-text {
+          background: #fff;
+          z-index: 2;
+          position: relative;
+          padding-left: 5px;
+
+          svg {
+            background: #fff;
+          }
+        }
+        &:after {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 15px;
+          height: 1px;
+          width: 100%;
+          background: #ccc;
+          opacity: 1;
+          visibility: visible;
+        }
+        &:hover {
+          .read-more-text {
+            color: #50af9b;
+            &::after {
+              background: #50af9b;
+            }
+          }
+          &::after {
+            background: #50af9b;
+          }
+        }
+      }
+    }
+  }
 }
 
 /************ page navigation ************/
