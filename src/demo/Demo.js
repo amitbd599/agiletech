@@ -333,18 +333,18 @@ const Demo = () => {
             </div>
             <div className='col-lg-4 col-md-6'>
               <div
-                className='inner-item style-large  coming-soon'
+                className='inner-item style-large  '
                 data-aos='fade-up'
                 data-aos-delay='200'
                 data-aos-duration='1500'
               >
-                <Link target='_blank' to='#'>
+                <Link target='_blank' to='/index-5'>
                   <span className='thumb'>
-                    <img src='/assets/demo-img/4.png' alt='img' />
+                    <img src='/assets/demo-img/5.png' alt='img' />
                   </span>
                   Home V.5
                 </Link>
-                <Link target='_blank' className='btns btns-base' to='#'>
+                <Link target='_blank' className='btns btns-base' to='/index-5'>
                   Live Demo
                 </Link>
               </div>

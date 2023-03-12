@@ -24,7 +24,7 @@ const CaseStudyAreaTwo = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                    <a href='case-study-details.html'>Mind Tech</a>
+                    <Link to='/case-study-details'>Mind Tech</Link>
                   </h5>
                   <a className='cat' href='#'>
                     Las vegas
@@ -39,7 +39,7 @@ const CaseStudyAreaTwo = () => {
                     </div>
                     <div className='details'>
                       <h5>
-                        <a href='case-study-details.html'>Wise Mind</a>
+                        <Link to='/case-study-details'>Wise Mind</Link>
                       </h5>
                       <a className='cat' href='#'>
                         Las vegas
@@ -54,7 +54,7 @@ const CaseStudyAreaTwo = () => {
                     </div>
                     <div className='details'>
                       <h5>
-                        <a href='case-study-details.html'>Tecnology Farms</a>
+                        <Link to='/case-study-details'>Tecnology Farms</Link>
                       </h5>
                       <a className='cat' href='#'>
                         Las vegas
@@ -71,7 +71,7 @@ const CaseStudyAreaTwo = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                    <a href='case-study-details.html'>Neural Logic.</a>
+                    <Link to='/case-study-details'>Neural Logic.</Link>
                   </h5>
                   <a className='cat' href='#'>
                     California
@@ -84,7 +84,7 @@ const CaseStudyAreaTwo = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                    <a href='case-study-details.html'>AI Farms</a>
+                    <Link to='/case-study-details'>AI Farms</Link>
                   </h5>
                   <a className='cat' href='#'>
                     California

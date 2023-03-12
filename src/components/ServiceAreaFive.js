@@ -28,7 +28,7 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <a href='service-details.html'>AI Consult</a>
+                    <Link to='/service-details'>AI Consult</Link>
                   </h5>
                   <p className='mb-0'>
                     Aliquam eros justo, posuere loborti inh thi viverra coin
@@ -44,7 +44,7 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <a href='service-details.html'>Data Mind</a>
+                    <Link to='/service-details'>Data Mind</Link>
                   </h5>
                   <p className='mb-0'>
                     Aliquam eros justo, posuere loborti inh thi viverra coin
@@ -60,7 +60,7 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <a href='service-details.html'>IntelliSense</a>
+                    <Link to='/service-details'>IntelliSense</Link>
                   </h5>
                   <p className='mb-0'>
                     Aliquam eros justo, posuere loborti inh thi viverra coin
@@ -83,7 +83,7 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <a href='service-details.html'>Neural Solutions</a>
+                    <Link to='/service-details'>Neural Solutions</Link>
                   </h5>
                   <p className='mb-0'>
                     Aliquam eros justo, posuere loborti inh thi viverra coin
@@ -99,7 +99,7 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <a href='service-details.html'>Wise Logic</a>
+                    <Link to='/service-details'>Wise Logic</Link>
                   </h5>
                   <p className='mb-0'>
                     Aliquam eros justo, posuere loborti inh thi viverra coin
@@ -115,7 +115,7 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <a href='service-details.html'>Smart Vision</a>
+                    <Link to='/service-details'>Smart Vision</Link>
                   </h5>
                   <p className='mb-0'>
                     Aliquam eros justo, posuere loborti inh thi viverra coin

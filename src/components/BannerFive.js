@@ -17,31 +17,35 @@ const BannerFive = () => {
             <div className='col-lg-6 pb-xl-5 align-self-center'>
               <div className='banner-inner pe-xl-4 pb-5'>
                 <h6
-                  className='bg-base-2 text-white subtitle wow animated fadeInLeft'
-                  data-wow-duration='1.5s'
-                  data-wow-delay='0.3s'
+                  className='bg-base-2 text-white subtitle'
+                  data-aos='fade-right'
+                  data-aos-delay='100'
+                  data-aos-duration='1500'
                 >
                   Designing for the future
                 </h6>
                 <h2
-                  className='title text-white wow animated fadeInLeft'
-                  data-wow-duration='1.5s'
-                  data-wow-delay='0.4s'
+                  className='title text-white'
+                  data-aos='fade-right'
+                  data-aos-delay='250'
+                  data-aos-duration='1500'
                 >
                   Empowering Your Business With Artificial
                 </h2>
                 <p
-                  className='content pe-xl-4 wow animated fadeInLeft'
-                  data-wow-duration='1.5s'
-                  data-wow-delay='0.5s'
+                  className='content pe-xl-4'
+                  data-aos='fade-right'
+                  data-aos-delay='350'
+                  data-aos-duration='1500'
                 >
                   And In Order To Make A Business, Brand Advertising And
                   Marketing Plays An Important Role. Similarly, In
                 </p>
                 <Link
-                  className='btn btn-border-base-2 wow animated fadeInLeft'
-                  data-wow-duration='1.5s'
-                  data-wow-delay='0.6s'
+                  className='btn btn-border-base-2'
+                  data-aos='fade-right'
+                  data-aos-delay='450'
+                  data-aos-duration='1500'
                   to='/about'
                 >
                   Discover More <FaPlus />
@@ -52,13 +56,14 @@ const BannerFive = () => {
                   data-aos-delay='350'
                   data-aos-duration='1500'
                 >
-                  <span
+                  <a
+                    href='javascript:void(0)'
                     onClick={() => setOpen(true)}
                     className='video-play-btn-hover'
                   >
                     <img src='assets/img/video.svg' alt='img' />{" "}
                     <h6 className='d-inline-block text-white'>how we work</h6>
-                  </span>
+                  </a>
 
                   <div></div>
                 </div>
@@ -71,11 +76,7 @@ const BannerFive = () => {
                 />
               </div>
             </div>
-            <div
-              className='col-lg-6 col-md-9 align-self-end wow animated fadeInRight'
-              data-wow-duration='1.5s'
-              data-wow-delay='0.3s'
-            >
+            <div className='col-lg-6 col-md-9 align-self-end'>
               <div className='banner-thumb-2 mt-4 mt-lg-0'>
                 <div className='main-img-wrap'>
                   <img
@@ -88,11 +89,13 @@ const BannerFive = () => {
                     src='assets/img/banner-5/3.png'
                     alt='img'
                   />
-                  <img
-                    className='main-img'
-                    src='assets/img/banner-5/1.png'
-                    alt='img'
-                  />
+                  <div>
+                    <img
+                      className='main-img'
+                      src='assets/img/banner-5/1.png'
+                      alt='img'
+                    />
+                  </div>
                 </div>
               </div>
             </div>

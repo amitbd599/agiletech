@@ -1,5 +1,5 @@
 import React from "react";
-import { FaArrowRight, FaPlus } from "react-icons/fa";
+import { FaArrowRight, FaCalendarAlt, FaPlus } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const BlogAreaFive = () => {
   return (
@@ -32,22 +32,22 @@ const BlogAreaFive = () => {
                       Admin
                     </li>
                     <li>
-                      <i className='far fa-calendar-alt' /> Category
+                      <FaCalendarAlt /> Category
                     </li>
                   </ul>
                   <h5 className='mb-3'>
-                    <a href='blog-details.html'>
+                    <Link to='/blog-details'>
                       Transforming businesses, one pixel at a time
-                    </a>
+                    </Link>
                   </h5>
                   <p>
                     Lorem ipsum dolor sit consectetur Malesuada sed diam in the
                     aliquam
                   </p>
                   <div className='btn-wrap text-end pe-2'>
-                    <a className='read-more-text' href='blog-details.html'>
+                    <Link className='read-more-text' to='/blog-details'>
                       Read More <FaPlus />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -66,22 +66,22 @@ const BlogAreaFive = () => {
                       Admin
                     </li>
                     <li>
-                      <i className='far fa-calendar-alt' /> Category
+                      <FaCalendarAlt /> Category
                     </li>
                   </ul>
                   <h5 className='mb-3'>
-                    <a href='blog-details.html'>
+                    <Link to='/blog-details'>
                       The Importance of a Strong Digital for Strategy
-                    </a>
+                    </Link>
                   </h5>
                   <p>
                     Lorem ipsum dolor sit consectetur Malesuada sed diam in the
                     aliquam
                   </p>
                   <div className='btn-wrap text-end pe-2'>
-                    <a className='read-more-text' href='blog-details.html'>
+                    <Link className='read-more-text' to='/blog-details'>
                       Read More <FaPlus />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -100,22 +100,22 @@ const BlogAreaFive = () => {
                       Admin
                     </li>
                     <li>
-                      <i className='far fa-calendar-alt' /> Category
+                      <FaCalendarAlt /> Category
                     </li>
                   </ul>
                   <h5 className='mb-3'>
-                    <a href='blog-details.html'>
+                    <Link to='/blog-details'>
                       Creating Engaging Content: A Guide for Digital
-                    </a>
+                    </Link>
                   </h5>
                   <p>
                     Lorem ipsum dolor sit consectetur Malesuada sed diam in the
                     aliquam
                   </p>
                   <div className='btn-wrap text-end pe-2'>
-                    <a className='read-more-text' href='blog-details.html'>
+                    <Link className='read-more-text' to='/blog-details'>
                       Read More <FaPlus />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

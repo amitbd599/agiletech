@@ -103,34 +103,34 @@ const FooterFour = () => {
                 <h4 className='widget-title'>Our Service</h4>
                 <ul>
                   <li className='sky'>
-                    <a href='service.html'>
+                    <Link to='/service'>
                       <FaChevronRight /> Ui Design
-                    </a>
+                    </Link>
                   </li>
                   <li className='sky'>
-                    <a href='service.html'>
+                    <Link to='/service'>
                       <FaChevronRight /> Web design
-                    </a>
+                    </Link>
                   </li>
                   <li className='sky'>
-                    <a href='service.html'>
+                    <Link to='/service'>
                       <FaChevronRight /> Digital marketing{" "}
-                    </a>
+                    </Link>
                   </li>
                   <li className='sky'>
-                    <a href='service.html'>
+                    <Link to='/service'>
                       <FaChevronRight /> Video Editing
-                    </a>
+                    </Link>
                   </li>
                   <li className='sky'>
-                    <a href='service.html'>
+                    <Link to='/service'>
                       <FaChevronRight /> Pc Repairs
-                    </a>
+                    </Link>
                   </li>
                   <li className='sky'>
-                    <a href='service.html'>
+                    <Link to='/service'>
                       <FaChevronRight /> Web Development
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -140,34 +140,34 @@ const FooterFour = () => {
                 <h4 className='widget-title'>Pay links</h4>
                 <ul>
                   <li className='sky'>
-                    <a href='service.html'>
+                    <Link to='/service'>
                       <FaChevronRight /> Credit industrys
-                    </a>
+                    </Link>
                   </li>
                   <li className='sky'>
-                    <a href='service.html'>
+                    <Link to='/service'>
                       <FaChevronRight /> Reasearch sector
-                    </a>
+                    </Link>
                   </li>
                   <li className='sky'>
-                    <a href='service.html'>
+                    <Link to='/service'>
                       <FaChevronRight /> Finance Sector{" "}
-                    </a>
+                    </Link>
                   </li>
                   <li className='sky'>
-                    <a href='service.html'>
+                    <Link to='/service'>
                       <FaChevronRight /> Credit industrys
-                    </a>
+                    </Link>
                   </li>
                   <li className='sky'>
-                    <a href='service.html'>
+                    <Link to='/service'>
                       <FaChevronRight /> Reasearch sector
-                    </a>
+                    </Link>
                   </li>
                   <li className='sky'>
-                    <a href='service.html'>
+                    <Link to='/service'>
                       <FaChevronRight /> Finance Sector
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -184,9 +184,9 @@ const FooterFour = () => {
                           <span>january 11, 2023</span>
                         </div>
                         <h6 className='title sky mb-0'>
-                          <a href='blog-details.html'>
+                          <Link to='/blog-details'>
                             Social Media For Promote Business.
-                          </a>
+                          </Link>
                         </h6>
                       </div>
                     </div>
@@ -199,9 +199,9 @@ const FooterFour = () => {
                           <span>january 11, 2023</span>
                         </div>
                         <h6 className='title sky mb-0'>
-                          <a href='blog-details.html'>
+                          <Link to='/blog-details'>
                             Marketing For Base marketing watch
-                          </a>
+                          </Link>
                         </h6>
                       </div>
                     </div>

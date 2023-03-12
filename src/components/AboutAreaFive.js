@@ -10,9 +10,10 @@ const AboutAreaFive = () => {
         <div className='container'>
           <div className='row'>
             <div
-              className='col-lg-6 mb-4 mb-lg-0 wow animated fadeInLeft'
-              data-wow-duration='1.5s'
-              data-wow-delay='0.3s'
+              className='col-lg-6 mb-4 mb-lg-0'
+              data-aos='fade-right'
+              data-aos-delay='200'
+              data-aos-duration='1500'
             >
               <div className='about-thumb-inner'>
                 <img
@@ -28,9 +29,10 @@ const AboutAreaFive = () => {
               </div>
             </div>
             <div
-              className='col-lg-6 wow animated fadeInRight'
-              data-wow-duration='1.5s'
-              data-wow-delay='0.3s'
+              className='col-lg-6'
+              data-aos='fade-left'
+              data-aos-delay='200'
+              data-aos-duration='1500'
             >
               <div className='section-title mb-0 ps-xl-5'>
                 <h6 className='sub-title-sky-blue'>ABOUT COMPANY</h6>

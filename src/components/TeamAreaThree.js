@@ -99,7 +99,7 @@ const TeamAreaThree = () => {
                   </div>
                   <div className='details'>
                     <h5>
-                      <a href='team-details.html'>Devon Lane</a>
+                      <Link to='/team-details'>Devon Lane</Link>
                     </h5>
                     <p>SEO Department</p>
                   </div>
@@ -129,7 +129,7 @@ const TeamAreaThree = () => {
                   </div>
                   <div className='details'>
                     <h5>
-                      <a href='team-details.html'>Darrell Steward</a>
+                      <Link to='/team-details'>Darrell Steward</Link>
                     </h5>
                     <p>It Department</p>
                   </div>
@@ -159,7 +159,7 @@ const TeamAreaThree = () => {
                   </div>
                   <div className='details'>
                     <h5>
-                      <a href='team-details.html'>Bessie Cooper</a>
+                      <Link to='/team-details'>Bessie Cooper</Link>
                     </h5>
                     <p>Software Department</p>
                   </div>
@@ -189,7 +189,7 @@ const TeamAreaThree = () => {
                   </div>
                   <div className='details'>
                     <h5>
-                      <a href='team-details.html'>Devon Lane</a>
+                      <Link to='/team-details'>Devon Lane</Link>
                     </h5>
                     <p>SEO Department</p>
                   </div>

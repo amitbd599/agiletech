@@ -38,6 +38,12 @@
   .banner-area-3 .bg-gray {
     padding: 240px 0;
   }
+  .single-service-inner-3.single-service-inner-3-left {
+    padding: 43px 70px 43px 40px;
+  }
+  .single-service-inner-3.single-service-inner-3-right {
+    padding: 43px 40px 43px 70px;
+  }
 }
 @media all and (max-width: 1599px) {
   .banner-area-1 .animate-img-1 {
@@ -210,6 +216,17 @@
   }
   .banner-area-3 .bg-gray {
     padding: 80px 0;
+  }
+  .single-service-inner-3 {
+    margin-right: 40px;
+    padding: 25px 60px 25px 25px !important;
+  }
+  .single-service-inner-3.single-service-inner-3-right .thumb {
+    left: auto;
+    right: -40px;
+  }
+  .footer-subscribe .footer-subscribe-inner.style-2 .border-1 {
+    margin: 5px 0;
   }
 }
 @media all and (max-width: 767px) {

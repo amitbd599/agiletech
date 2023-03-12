@@ -21,7 +21,7 @@ import HomeFive from "./pages/HomeFive";
 function App() {
   useEffect(() => {
     AOS.init({
-      offset: 100,
+      offset: 0,
       easing: "ease",
       once: true,
     });

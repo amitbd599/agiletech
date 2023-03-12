@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
+import ModalVideo from "react-modal-video";
 
 const AboutAreaSix = () => {
+  const [isOpen, setOpen] = useState(false);
   return (
     <>
       {/* ================== AboutAreaSix start  ==================*/}
@@ -10,9 +12,10 @@ const AboutAreaSix = () => {
             <div className='row'>
               <div className='col-lg-6'>
                 <div
-                  className='about-thumb-inner pe-xl-5 pb-5 me-xl-4 wow animated fadeInLeft'
-                  data-wow-duration='1.5s'
-                  data-wow-delay='0.3s'
+                  className='about-thumb-inner pe-xl-5 pb-5 me-xl-4'
+                  data-aos='fade-right'
+                  data-aos-delay='200'
+                  data-aos-duration='1500'
                 >
                   <img
                     className='animate-img-4 top_image_bounce z-index-2'
@@ -25,17 +28,26 @@ const AboutAreaSix = () => {
                     alt='img'
                   />
                   <a
+                    onClick={() => setOpen(true)}
                     className='video-play-btn-hover z-index-2'
-                    href='https://www.youtube.com/embed/Wimkqo8gDZ0'
+                    href='javascript:void(0)'
                   >
                     <img src='assets/img/video.svg' alt='img' />
                   </a>
                 </div>
+                <ModalVideo
+                  channel='youtube'
+                  autoplay
+                  isOpen={isOpen}
+                  videoId='XM6kTQPzzpQ'
+                  onClose={() => setOpen(false)}
+                />
               </div>
               <div
-                className='col-lg-6 wow animated fadeInRight'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.3s'
+                className='col-lg-6'
+                data-aos='fade-left'
+                data-aos-delay='200'
+                data-aos-duration='1500'
               >
                 <div className='section-title mt-5 mt-lg-0 mb-0'>
                   <h6 className='sub-title-sky-blue'>ABOUT COMPANY</h6>
