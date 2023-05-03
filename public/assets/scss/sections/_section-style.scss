@@ -116,3 +116,58 @@
   margin-bottom: -120px;
   z-index: 2;
 }
+
+.navbar-area-4 {
+  position: relative;
+  z-index: 2;
+  background: #fff;
+  padding-left: 328px;
+  .left-bg {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 38.4%;
+  }
+  .logo {
+    position: relative;
+    z-index: 2;
+  }
+  .navbar-top {
+    position: relative;
+    background: transparent;
+    &:after {
+      content: "";
+      position: absolute;
+      left: -20%;
+      top: 0;
+      background: #f8f9fc;
+      height: 100%;
+      width: 120%;
+      z-index: -1;
+    }
+    ul {
+      li {color: #010d14;
+        a {
+          color: #010d14;
+        }
+      }
+    }
+    .topbar-right {
+      li {color: #010d14;
+        margin-right: 8px;
+        a {
+          color: #010d14;
+        }
+      }
+    }
+  }
+  .btn-base{
+    color: #fff;
+  }
+  .navbar-nav{
+    margin-left: 10px;
+  }
+}

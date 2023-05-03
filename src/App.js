@@ -18,6 +18,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import ScrollToTop from "react-scroll-to-top";
 import HomeFive from "./pages/HomeFive";
+import HomeSix from "./pages/HomeSix";
 function App() {
   useEffect(() => {
     AOS.init({
@@ -36,6 +37,7 @@ function App() {
         <Route exact path='/index-3' element={<HomeThree />} />
         <Route exact path='/index-4' element={<HomeFour />} />
         <Route exact path='/index-5' element={<HomeFive />} />
+        <Route exact path='/index-6' element={<HomeSix />} />
         <Route exact path='/about' element={<About />} />
         <Route exact path='/blog' element={<Blog />} />
         <Route exact path='/blog-details' element={<BlogDetails />} />
