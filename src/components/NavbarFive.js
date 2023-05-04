@@ -1,5 +1,16 @@
 import React, { useState } from "react";
-import { FaAngleRight, FaArrowRight, FaEnvelope, FaFacebookF, FaLinkedinIn, FaMapMarkerAlt, FaPhoneAlt, FaPinterestP, FaSearch, FaTwitter } from "react-icons/fa";
+import {
+  FaAngleRight,
+  FaArrowRight,
+  FaEnvelope,
+  FaFacebookF,
+  FaLinkedinIn,
+  FaMapMarkerAlt,
+  FaPhoneAlt,
+  FaPinterestP,
+  FaSearch,
+  FaTwitter,
+} from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const NavbarFive = () => {
@@ -68,14 +79,13 @@ const NavbarFive = () => {
                 <div className='col-lg-8'>
                   <ul>
                     <li>
-                      <FaPhoneAlt/> (629) 555-0129
+                      <FaPhoneAlt /> (629) 555-0129
                     </li>
                     <li>
                       <FaEnvelope /> info@example.com
                     </li>
                     <li>
-                      <FaMapMarkerAlt/> 6391 Elgin St.
-                      Celina, 10299
+                      <FaMapMarkerAlt /> 6391 Elgin St. Celina, 10299
                     </li>
                   </ul>
                 </div>
@@ -94,7 +104,7 @@ const NavbarFive = () => {
                     </li>
                     <li>
                       <a href='#'>
-                        <FaLinkedinIn/>
+                        <FaLinkedinIn />
                       </a>
                     </li>
                     <li>
@@ -140,7 +150,7 @@ const NavbarFive = () => {
                           <a href='index-3.html'>Payments Solution</a>
                         </li>
                         <li>
-                          <a href='index-4.html'>Startup / Software Company</a>
+                          <a href='index-4.html'>Software Company</a>
                         </li>
                         <li>
                           <a href='index-5.html'>Artificial Intelligence</a>

@@ -149,14 +149,16 @@
       z-index: -1;
     }
     ul {
-      li {color: #010d14;
+      li {
+        color: #010d14;
         a {
           color: #010d14;
         }
       }
     }
     .topbar-right {
-      li {color: #010d14;
+      li {
+        color: #010d14;
         margin-right: 8px;
         a {
           color: #010d14;
@@ -164,10 +166,16 @@
       }
     }
   }
-  .btn-base{
+  .btn-base {
     color: #fff;
   }
-  .navbar-nav{
+  .navbar-nav {
     margin-left: 10px;
+    li {
+      &::before,
+      &::after {
+        display: none;
+      }
+    }
   }
 }

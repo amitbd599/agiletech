@@ -636,7 +636,19 @@
       }
     }
   }
+
+  &.white {
+    .slick-slider {
+      .slick-next {
+        color: #fff;
+      }
+      .slick-prev {
+        color: #fff;
+      }
+    }
+  }
 }
+
 .slider-control-square {
   .slick-slider {
     .slick-next {

@@ -129,6 +129,15 @@
       color: var(--heading-color);
       font-weight: 600;
     }
+    .date-2 {
+      background: var(--main-color);
+      padding: 9px 20px;
+      border-radius: 7px;
+      color: #fff;
+      position: absolute;
+      right: 15px;
+      top: 15px;
+    }
   }
   .details {
     padding: 25px 30px;
