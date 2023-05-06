@@ -71,6 +71,13 @@
     color: #fff;
   }
 }
+.btn-base-pink {
+  color: #fff;
+  background: linear-gradient(56.64deg, #2600fc 0.04%, #ff00ea 99.88%);
+  &:hover {
+    color: #fff;
+  }
+}
 .btn-red {
   color: #fff;
   background: #f14d5d;
@@ -825,6 +832,11 @@
 .ratting-inner {
   color: #ffc107;
 }
+.ratting-inner.star {
+  svg {
+    margin-right: 3px;
+  }
+}
 .bg-base {
   background: var(--main-color);
 }
@@ -1037,4 +1049,17 @@
       transform: rotateY(180deg);
     }
   }
+}
+
+.position-top-left {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.pink-bg-color {
+  background: var(--main-color3) !important;
+}
+.pink-color {
+  color: var(--main-color3) !important;
 }

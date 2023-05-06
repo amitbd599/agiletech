@@ -74,3 +74,29 @@
 .client-border-radius {
   border-radius: 15px 15px 0 0;
 }
+
+.saller-area-inner {
+  margin: 0 -10px;
+  padding-left: 0;
+}
+
+.single-saller-inner {
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  .img-file {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+.FaqAreaThree .accordion-inner .accordion-item .accordion-button {
+  color: var(--main-color3);
+}
