@@ -124,6 +124,20 @@
     color: #fff;
   }
 }
+
+.btn-border-base-3 {
+  color: var(--heading-color);
+  border: 2px solid var(--main-color4);
+  line-height: 52px;
+  &:after {
+    background: var(--main-color4);
+  }
+  &:hover,
+  &:focus {
+    color: #fff;
+  }
+}
+
 .btn-border-base-2 {
   color: #50af9b;
   border: 2px solid#50AF9B;
@@ -1062,4 +1076,11 @@
 }
 .pink-color {
   color: var(--main-color3) !important;
+}
+
+.purple-bg-color {
+  background: var(--main-color4) !important;
+}
+.purple-color {
+  color: var(--main-color4) !important;
 }

@@ -227,3 +227,24 @@
     }
   }
 }
+
+.why-choose-us-list {
+  background: #ffffff;
+  border: 1px solid #e3e3e3;
+  padding: 25px 25px 25px 70px;
+  position: relative;
+  .count {
+    height: 60px;
+    padding: 0 25px;
+    line-height: 60px;
+    background: var(--main-color4);
+    color: #fff;
+    position: absolute;
+    left: -37px;
+    top: 50%;
+    margin-top: -30px;
+  }
+  p {
+    margin-bottom: 0;
+  }
+}

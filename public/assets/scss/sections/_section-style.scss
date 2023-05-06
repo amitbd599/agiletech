@@ -99,6 +99,30 @@
       color: var(--main-color) !important;
     }
   }
+  &.style-2 {
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
+    button {
+      height: 60px;
+      line-height: 60px;
+      background: #ffffff;
+      border: 1px solid #e3e3e3 !important;
+      padding: 0 35px;
+      border-radius: 4px;
+      margin: 0 4px;
+      &.active {
+        background: var(--main-color4) !important;
+        border: 1px solid var(--main-color4) !important;
+        color: #fff !important;
+      }
+      &:hover {
+        background: var(--main-color4) !important;
+        border: 1px solid var(--main-color4) !important;
+        color: #fff !important;
+      }
+    }
+  }
 }
 
 .counter-4-area {

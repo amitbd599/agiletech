@@ -1,7 +1,8 @@
 import React from "react";
 import { FaArrowRight, FaCheckCircle } from "react-icons/fa";
 import { Link } from "react-router-dom";
-
+import TrackVisibility from "react-on-screen";
+import CountUp from "react-countup";
 const AboutAreaEight = () => {
   return (
     <>
@@ -43,7 +44,15 @@ const AboutAreaEight = () => {
                         </div>
                         <div className='media-body'>
                           <h2 className='mb-1'>
-                            <span className='counter'>2540</span>+
+                            <TrackVisibility once>
+                              {({ isVisible }) =>
+                                isVisible && (
+                                  <span className='counter'>
+                                    <CountUp delay={0} start={0} end={2540} /> +
+                                  </span>
+                                )
+                              }
+                            </TrackVisibility>
                           </h2>
                           <p className='mb-0'>Project Done</p>
                         </div>
@@ -56,7 +65,15 @@ const AboutAreaEight = () => {
                         </div>
                         <div className='media-body'>
                           <h2 className='mb-1'>
-                            <span className='counter'>100</span>k+
+                            <TrackVisibility once>
+                              {({ isVisible }) =>
+                                isVisible && (
+                                  <span className='counter'>
+                                    <CountUp delay={0} start={0} end={100} /> +
+                                  </span>
+                                )
+                              }
+                            </TrackVisibility>
                           </h2>
                           <p className='mb-0'>Project Win</p>
                         </div>
@@ -69,7 +86,15 @@ const AboutAreaEight = () => {
                         </div>
                         <div className='media-body'>
                           <h2 className='mb-1'>
-                            <span className='counter'>10</span>+
+                            <TrackVisibility once>
+                              {({ isVisible }) =>
+                                isVisible && (
+                                  <span className='counter'>
+                                    <CountUp delay={0} start={0} end={10} /> +
+                                  </span>
+                                )
+                              }
+                            </TrackVisibility>
                           </h2>
                           <p className='mb-0'>Glorious Years</p>
                         </div>
@@ -82,7 +107,15 @@ const AboutAreaEight = () => {
                         </div>
                         <div className='media-body'>
                           <h2 className='mb-1'>
-                            <span className='counter'>8255</span>+
+                            <TrackVisibility once>
+                              {({ isVisible }) =>
+                                isVisible && (
+                                  <span className='counter'>
+                                    <CountUp delay={0} start={0} end={6540} /> +
+                                  </span>
+                                )
+                              }
+                            </TrackVisibility>
                           </h2>
                           <p className='mb-0'>Active Clients</p>
                         </div>

@@ -103,12 +103,12 @@
     }
     &:hover {
       .thumb {
-        border: 1px solid var(--main-color);
+        border: 1px solid var(--main-color4);
       }
       .details {
-        border-bottom: 6px solid var(--main-color);
+        border-bottom: 6px solid var(--main-color4);
         .btn {
-          background: var(--main-color);
+          background: var(--main-color4);
         }
       }
     }
