@@ -10,7 +10,6 @@ const NavbarFour = () => {
   };
   const searchActive = () => {
     setSearchShow(!searchShow);
-    console.log("hell");
   };
 
   // Control sidebar navigation

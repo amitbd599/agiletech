@@ -11,8 +11,9 @@ const ContactAreaFive = () => {
             <div className='row'>
               <div
                 className='col-lg-8 wow animated fadeInLeft'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.3s'
+                data-aos='fade-right'
+                data-aos-delay='200'
+                data-aos-duration='1500'
               >
                 <img
                   className='w-100'
@@ -22,8 +23,9 @@ const ContactAreaFive = () => {
               </div>
               <div
                 className='col-lg-4 wow animated fadeInRight'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.3s'
+                data-aos='fade-left'
+                data-aos-delay='200'
+                data-aos-duration='1500'
               >
                 <div className='section-title mb-0'>
                   <h6 className='bg-none color-base mb-3'>GET IN TOUCH</h6>

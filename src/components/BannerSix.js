@@ -17,31 +17,35 @@ const BannerSix = () => {
             <div className='col-lg-5 pb-xl-5 align-self-center'>
               <div className='banner-inner pe-xl-4 pb-5'>
                 <h6
-                  className='bg-none text-white wow animated fadeInLeft mb-4'
-                  data-wow-duration='1.5s'
-                  data-wow-delay='0.3s'
+                  className='bg-none text-white    mb-4'
+                  data-aos='fade-right'
+                  data-aos-delay='100'
+                  data-aos-duration='1500'
                 >
                   Protecting your data
                 </h6>
                 <h2
-                  className='title text-white wow animated fadeInLeft'
-                  data-wow-duration='1.5s'
-                  data-wow-delay='0.4s'
+                  className='title text-white   '
+                  data-aos='fade-right'
+                  data-aos-delay='200'
+                  data-aos-duration='1500'
                 >
                   Data Security is Our Top Priority
                 </h2>
                 <p
-                  className='content pe-xl-4 wow animated fadeInLeft'
-                  data-wow-duration='1.5s'
-                  data-wow-delay='0.5s'
+                  className='content pe-xl-4   '
+                  data-aos='fade-right'
+                  data-aos-delay='300'
+                  data-aos-duration='1500'
                 >
                   Lorem is Ipsum is simply design designer best isthe text Lorem
                   Ipsum this the is simply is our com best ourbe designer Lorem
                 </p>
                 <a
-                  className='btn btn-base wow animated fadeInLeft'
-                  data-wow-duration='1.5s'
-                  data-wow-delay='0.6s'
+                  className='btn btn-base   '
+                  data-aos='fade-right'
+                  data-aos-delay='400'
+                  data-aos-duration='1500'
                   href='about.html'
                 >
                   Explore now

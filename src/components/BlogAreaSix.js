@@ -43,7 +43,7 @@ const BlogAreaSix = () => {
                 </div>
                 <div className='thumb'>
                   <img
-                    className='border-radius-5'
+                    className='border-radius-5 img-fluid'
                     src='assets/img/blog/4.png'
                     alt='img'
                   />
@@ -75,7 +75,7 @@ const BlogAreaSix = () => {
                 </div>
                 <div className='thumb'>
                   <img
-                    className='border-radius-5'
+                    className='border-radius-5 img-fluid'
                     src='assets/img/blog/4.png'
                     alt='img'
                   />
@@ -107,7 +107,7 @@ const BlogAreaSix = () => {
                 </div>
                 <div className='thumb'>
                   <img
-                    className='border-radius-5'
+                    className='border-radius-5 img-fluid'
                     src='assets/img/blog/4.png'
                     alt='img'
                   />

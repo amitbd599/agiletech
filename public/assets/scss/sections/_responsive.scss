@@ -62,6 +62,12 @@
     width: 40px;
     left: -100px;
   }
+  .navbar-area-4 .navbar-top ul li {
+    font-size: 13px;
+  }
+  .navbar-area-4 .left-bg {
+    width: 43%;
+  }
 }
 @media all and (max-width: 1199px) {
   .single-blog-inner .details h2 {
@@ -122,10 +128,26 @@
   .banner-area-3 {
     padding: 0;
   }
+
+  .navbar-area-4 {
+    padding-left: 15px;
+  }
+  .navbar-area-4 .navbar-top {
+    display: none;
+  }
+  .navbar-area-4 .left-bg {
+    width: 26%;
+  }
 }
 @media all and (max-width: 991px) {
   .navbar {
     padding: 14px 0;
+  }
+  .navbar-area-4 .nav-right-part.nav-right-part-mobile {
+    opacity: 0;
+  }
+  .navbar-area-4 .left-bg {
+    width: 100%;
   }
   .td-sidebar {
     margin-top: 100px;

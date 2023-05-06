@@ -13,10 +13,11 @@ const CounterAreaFive = () => {
           <div className='row'>
             <div
               className='col-lg-3 col-md-6 wow animated fadeInUp'
-              data-wow-duration='1.5s'
-              data-wow-delay='0.1s'
+              data-aos='fade-up'
+              data-aos-delay='100'
+              data-aos-duration='1500'
             >
-              <div className='single-counter-inner'>
+              <div className='single-counter-inner text-center'>
                 <div className='thumb'>
                   <img src='assets/img/home-6/7.png' alt='img' />
                 </div>
@@ -28,10 +29,11 @@ const CounterAreaFive = () => {
             </div>
             <div
               className='col-lg-3 col-md-6 wow animated fadeInUp'
-              data-wow-duration='1.5s'
-              data-wow-delay='0.3s'
+              data-aos='fade-up'
+              data-aos-delay='200'
+              data-aos-duration='1500'
             >
-              <div className='single-counter-inner'>
+              <div className='single-counter-inner text-center'>
                 <div className='thumb'>
                   <img src='assets/img/home-6/8.png' alt='img' />
                 </div>
@@ -43,10 +45,11 @@ const CounterAreaFive = () => {
             </div>
             <div
               className='col-lg-3 col-md-6 wow animated fadeInUp'
-              data-wow-duration='1.5s'
-              data-wow-delay='0.4s'
+              data-aos='fade-up'
+              data-aos-delay='300'
+              data-aos-duration='1500'
             >
-              <div className='single-counter-inner'>
+              <div className='single-counter-inner text-center'>
                 <div className='thumb'>
                   <img src='assets/img/home-6/9.png' alt='img' />
                 </div>
@@ -58,10 +61,11 @@ const CounterAreaFive = () => {
             </div>
             <div
               className='col-lg-3 col-md-6 wow animated fadeInUp'
-              data-wow-duration='1.5s'
-              data-wow-delay='0.5s'
+              data-aos='fade-up'
+              data-aos-delay='400'
+              data-aos-duration='1500'
             >
-              <div className='single-counter-inner'>
+              <div className='single-counter-inner text-center'>
                 <div className='thumb'>
                   <img src='assets/img/home-6/10.png' alt='img' />
                 </div>

@@ -121,7 +121,12 @@ const NavbarFive = () => {
               <div className='container nav-container custom-container ps-lg-0'>
                 <div className='responsive-mobile-menu'>
                   <button
-                    className='menu toggle-btn d-block d-lg-none'
+                    onClick={menuActive}
+                    className={
+                      active
+                        ? "menu toggle-btn d-block d-lg-none open"
+                        : "menu toggle-btn d-block d-lg-none"
+                    }
                     data-target='#itech_main_menu'
                     aria-expanded='false'
                     aria-label='Toggle navigation'
@@ -135,7 +140,14 @@ const NavbarFive = () => {
                     <i className='fa fa-search' />
                   </a>
                 </div>
-                <div className='collapse navbar-collapse' id='itech_main_menu'>
+                <div
+                  className={
+                    active
+                      ? "collapse navbar-collapse sopen"
+                      : "collapse navbar-collapse"
+                  }
+                  id='itech_main_menu'
+                >
                   <ul className='navbar-nav menu-open'>
                     <li className='menu-item-has-children'>
                       <a href='#'>Home</a>

@@ -11,9 +11,9 @@ const AboutAreaSeven = () => {
           <div className='row'>
             <div className='col-lg-6 align-self-center'>
               <div
-                className='wow animated fadeInLeft'
-                data-wow-duration='1.5s'
-                data-wow-delay='0.3s'
+                data-aos='fade-right'
+                data-aos-delay='100'
+                data-aos-duration='1500'
               >
                 <img
                   className='main-img m-md-4'
@@ -23,9 +23,10 @@ const AboutAreaSeven = () => {
               </div>
             </div>
             <div
-              className='col-lg-6 align-self-center wow animated fadeInRight'
-              data-wow-duration='1.5s'
-              data-wow-delay='0.3s'
+              className='col-lg-6 align-self-center   '
+              data-aos='fade-left'
+              data-aos-delay='100'
+              data-aos-duration='1500'
             >
               <div className='section-title mt-5 mt-lg-0 mb-0 ps-lg-4'>
                 <h6 className='bg-none color-base mb-3'>ABOUT US</h6>
