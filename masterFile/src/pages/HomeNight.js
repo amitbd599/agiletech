@@ -8,6 +8,9 @@ import CounterAreaSix from '../components/CounterAreaSix';
 import TestimonialEight from '../components/TestimonialEight';
 import GalleryOne from '../components/GalleryOne';
 import ProgressOne from '../components/ProgressOne';
+import TeamAreaSix from '../components/TeamAreaSix';
+import BlogAreaNine from '../components/BlogAreaNine';
+import FooterEight from '../components/FooterEight';
 
 const HomeNight = () => {
   return (
@@ -38,6 +41,15 @@ const HomeNight = () => {
 
       {/* ProgressOne */}
       <ProgressOne />
+
+      {/* TeamAreaSix */}
+      <TeamAreaSix />
+
+      {/* BlogAreaNine */}
+      <BlogAreaNine />
+
+      {/* FooterEight */}
+      <FooterEight />
     </>
   );
 };

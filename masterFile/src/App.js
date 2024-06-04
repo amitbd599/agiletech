@@ -22,6 +22,7 @@ import HomeSix from './pages/HomeSix';
 import HomeSeven from './pages/HomeSeven';
 import HomeEight from './pages/HomeEight';
 import HomeNight from './pages/HomeNight';
+import HomeTen from './pages/HomeTen';
 function App() {
   useEffect(() => {
     AOS.init({
@@ -44,6 +45,7 @@ function App() {
         <Route exact path="/index-7" element={<HomeSeven />} />
         <Route exact path="/index-8" element={<HomeEight />} />
         <Route exact path="/index-9" element={<HomeNight />} />
+        <Route exact path="/index-10" element={<HomeTen />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/blog" element={<Blog />} />
         <Route exact path="/blog-details" element={<BlogDetails />} />
