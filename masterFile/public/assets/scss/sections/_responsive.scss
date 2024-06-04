@@ -259,6 +259,9 @@
   .footer-subscribe .footer-subscribe-inner.style-2 .border-1 {
     margin: 5px 0;
   }
+  .roadmap-line:before {
+    height: 91%;
+  }
 }
 @media all and (max-width: 767px) {
   .breadcrumb-area .page-title {
@@ -418,6 +421,9 @@
   .single-testimonial-inner.style-3 .thumb .main-img {
     right: auto;
     left: 130px;
+  }
+  .roadmap-line:before {
+    height: 103%;
   }
 }
 @media all and (max-width: 360px) {

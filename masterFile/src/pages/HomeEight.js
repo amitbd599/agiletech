@@ -9,6 +9,8 @@ import SolutionOne from '../components/SolutionOne';
 import TeamAreaFive from '../components/TeamAreaFive';
 import ContactAreaSix from '../components/ContactAreaSix';
 import TestimonialSeven from '../components/TestimonialSeven';
+import BlogAreaEight from '../components/BlogAreaEight';
+import FooterSeven from '../components/FooterSeven';
 
 const HomeEight = () => {
   return (
@@ -42,6 +44,12 @@ const HomeEight = () => {
 
       {/* TestimonialSeven */}
       <TestimonialSeven />
+
+      {/* BlogAreaEight */}
+      <BlogAreaEight />
+
+      {/* FooterSeven */}
+      <FooterSeven />
     </>
   );
 };

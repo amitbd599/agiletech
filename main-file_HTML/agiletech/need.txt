@@ -1,0 +1,34 @@
+
+1.	IT / Software Agency ((yes))
+2.	SaaS App Landing (yes)
+3.	Payment Solution (yes)
+4.	Startup / Software Company (yes)
+5.	Cyber Security (yes)
+6.	AI Solution (yes)
+7.	Hardware Solution (yes)
+8.	NFT Service (yes)
+9.	ICO Landing (yes)
+10.	Software Service
+11.	SEO Service (yes)
+12.	Personal Portfolio (yes)
+
+
+
+
+
+13.	It Consulting
+14.	It Service
+================
+	
+	
+	Section title index-8	
+
+	Hero down section (index-4)
+	About Video section (index-4 + index-7)
+	It Service (index-4)
+	Fun fact = Get in touch (index-1)
+
+	Pricing Plan (index-2)
+
+	Blog (index-1)
+
