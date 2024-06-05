@@ -28,6 +28,12 @@ import ServiceThree from './pages/ServiceThree';
 import ServiceFour from './pages/ServiceFour';
 import ServiceFive from './pages/ServiceFive';
 import TeamTwo from './pages/TeamTwo';
+import TeamThree from './pages/TeamThree';
+import PriceOne from './pages/PriceOne';
+import PriceTwo from './pages/PriceTwo';
+import BlogTwo from './pages/BlogTwo';
+import BlogThree from './pages/BlogThree';
+import BlogFour from './pages/BlogFour';
 function App() {
   useEffect(() => {
     AOS.init({
@@ -53,6 +59,9 @@ function App() {
         <Route exact path="/index-10" element={<HomeTen />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/blog" element={<Blog />} />
+        <Route exact path="/blog-2" element={<BlogTwo />} />
+        <Route exact path="/blog-3" element={<BlogThree />} />
+        <Route exact path="/blog-4" element={<BlogFour />} />
         <Route exact path="/blog-details" element={<BlogDetails />} />
         <Route
           exact
@@ -68,6 +77,9 @@ function App() {
         <Route exact path="/service-details" element={<ServiceDetails />} />
         <Route exact path="/team" element={<Team />} />
         <Route exact path="/team-2" element={<TeamTwo />} />
+        <Route exact path="/team-3" element={<TeamThree />} />
+        <Route exact path="/pricing" element={<PriceOne />} />
+        <Route exact path="/pricing-2" element={<PriceTwo />} />
         <Route exact path="/team-details" element={<TeamDetails />} />
       </Routes>
       <ScrollToTop smooth color="#246BFD" />

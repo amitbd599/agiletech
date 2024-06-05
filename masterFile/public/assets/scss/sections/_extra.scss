@@ -739,6 +739,24 @@
   background: var(--main-color) !important;
 }
 
+.blog-area_group_1 {
+  .details .blog-meta {
+    background: var(--main-color) !important;
+  }
+  .details .btn-wrap .read-more-text {
+    color: var(--heading-color);
+  }
+  .details .btn-wrap:hover .read-more-text {
+    color: var(--main-color) !important;
+  }
+  .details .btn-wrap:hover .read-more-text::after {
+    background: var(--main-color) !important;
+  }
+  .details .btn-wrap:hover::after {
+    background: var(--paragraph-color) !important;
+  }
+}
+
 @media (min-width: 1600px) {
   .banner-area-8 {
     margin-top: -96px;
