@@ -757,6 +757,17 @@
   }
 }
 
+.blog-area_details {
+  .btn:hover:after {
+    height: 100%;
+    width: 219%;
+  }
+
+  .btn:after {
+    left: -100%;
+  }
+}
+
 @media (min-width: 1600px) {
   .banner-area-8 {
     margin-top: -96px;
