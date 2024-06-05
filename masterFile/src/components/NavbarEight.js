@@ -1,15 +1,66 @@
-import React from 'react';
-import { FaArrowRight } from 'react-icons/fa';
+import React, { useState } from 'react';
+import { FaArrowRight, FaSearch } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const NavbarEight = () => {
+  const [active, setActive] = useState(false);
+  const [searchShow, setSearchShow] = useState(false);
+  const menuActive = () => {
+    setActive(!active);
+  };
+  const searchActive = () => {
+    setSearchShow(!searchShow);
+  };
+
+  // Control sidebar navigation
+  let items = document.querySelectorAll('.menu-item-has-children > a');
+  for (let i in items) {
+    if (items.hasOwnProperty(i)) {
+      items[i].onclick = function () {
+        this.parentElement
+          .querySelector('.sub-menu')
+          .classList.toggle('active');
+        this.classList.toggle('open');
+      };
+    }
+  }
   return (
     <>
+      {/* search popup start*/}
+      <div
+        className={searchShow ? 'td-search-popup active' : 'td-search-popup '}
+        id="td-search-popup"
+      >
+        <form action="/" className="search-form">
+          <div className="form-group">
+            <input
+              type="text"
+              className="form-control"
+              placeholder="Search....."
+            />
+          </div>
+          <button type="submit" className="submit-btn">
+            <FaSearch />
+          </button>
+        </form>
+      </div>
+      {/* search popup end*/}
+      <div
+        onClick={searchActive}
+        className={searchShow ? 'body-overlay active' : 'body-overlay'}
+        id="body-overlay"
+      ></div>
       {/* navbar start */}
       <nav className="navbar navbar-area navbar-area-3 mt-0 navbar-expand-lg">
         <div className="container nav-container">
           <div className="responsive-mobile-menu">
             <button
-              className="menu toggle-btn d-block d-lg-none"
+              onClick={menuActive}
+              className={
+                active
+                  ? 'menu toggle-btn d-block d-lg-none open'
+                  : 'menu toggle-btn d-block d-lg-none'
+              }
               data-target="#itech_main_menu"
               aria-expanded="false"
               aria-label="Toggle navigation"
@@ -27,225 +78,230 @@ const NavbarEight = () => {
             </a>
           </div>
           <div className="nav-right-part nav-right-part-mobile">
-            <a className="search-bar-btn" href="#">
-              <i className="fa fa-search" />
-            </a>
+            <span className="search-bar-btn" onClick={searchActive}>
+              <FaSearch />
+            </span>
           </div>
-          <div className="collapse navbar-collapse" id="itech_main_menu">
+          <div
+            className={
+              active
+                ? 'collapse navbar-collapse sopen'
+                : 'collapse navbar-collapse'
+            }
+            id="itech_main_menu"
+          >
             <ul className="navbar-nav menu-open text-lg-center ps-lg-5">
               <li className="menu-item-has-children">
-                <a href="#">Home</a>
+                <Link to="#">Home</Link>
                 <ul className="sub-menu">
                   <li>
-                    <a href="index-1.html">IT / Softwer Agency</a>
+                    <Link to="/index-1">IT / Softwer Agency</Link>
                   </li>
                   <li>
-                    <a href="index-2.html">SaaS App Landing</a>
+                    <Link to="/index-2">SaaS App Landing</Link>
                   </li>
                   <li>
-                    <a href="index-3.html">Payments Solution</a>
+                    <Link to="/index-3">Payments Solution</Link>
                   </li>
                   <li>
-                    <a href="index-4.html">Startup / Software Company</a>
+                    <Link to="/index-4">Software Company</Link>
                   </li>
                   <li>
-                    <a href="index-5.html">Artificial Intelligence</a>
+                    <Link to="/index-5">Artificial Intelligence</Link>
                   </li>
                   <li>
-                    <a href="index-6.html">NFT Service</a>
+                    <Link to="/index-6">NFT Service</Link>
                   </li>
                   <li>
-                    <a href="index-7.html">Cyber Security</a>
+                    <Link to="/index-7">Cyber Security</Link>
                   </li>
                   <li>
-                    <a href="index-8.html">Hardware Service</a>
+                    <Link to="/index-8">Hardware Service</Link>
                   </li>
                   <li>
-                    <a href="index-9.html">ICO Landing</a>
+                    <Link to="/index-9">ICO Landing</Link>
                   </li>
                   <li>
-                    <a href="index-10.html">Personal Portfolio</a>
-                  </li>
-                  <li>
-                    <a href="index-11.html">SEO Service</a>
+                    <Link to="/index-10">Personal Portfolio</Link>
                   </li>
                 </ul>
               </li>
               <li className="menu-item-has-children">
-                <a href="#">Service</a>
+                <Link to="#">Service</Link>
                 <ul className="sub-menu">
                   <li>
-                    <a href="service.html">Service 01</a>
+                    <Link to="/service">Service 01</Link>
                   </li>
                   <li>
-                    <a href="service-2.html">Service 02</a>
+                    <Link to="/service-2">Service 02</Link>
                   </li>
                   <li>
-                    <a href="service-3.html">Service 03</a>
+                    <Link to="/service-3">Service 03</Link>
                   </li>
                   <li>
-                    <a href="service-4.html">Service 04</a>
+                    <Link to="/service-4">Service 04</Link>
                   </li>
                   <li>
-                    <a href="service-5.html">Service 05</a>
+                    <Link to="/service-5">Service 05</Link>
                   </li>
                   <li>
-                    <a href="service-details.html">Service Single</a>
+                    <Link to="/service-details">Service Single</Link>
                   </li>
                 </ul>
               </li>
               <li className="menu-item-has-children">
-                <a href="#">Pages</a>
+                <Link to="#">Pages</Link>
                 <ul className="sub-menu">
                   <li>
-                    <a href="about.html">About Us</a>
+                    <Link to="/about">About Us</Link>
                   </li>
                   <li>
-                    <a href="team.html">Team 01</a>
+                    <Link to="/team">Team 01</Link>
                   </li>
                   <li>
-                    <a href="team-2.html">Team 02</a>
+                    <Link to="/team-2">Team 02</Link>
                   </li>
                   <li>
-                    <a href="team-3.html">Team 03</a>
+                    <Link to="/team-3">Team 03</Link>
                   </li>
                   <li>
-                    <a href="team-details.html">Team Details</a>
+                    <Link to="/team-details">Team Details</Link>
                   </li>
                   <li>
-                    <a href="pricing.html">Pricing 01</a>
+                    <Link to="/pricing">Pricing 01</Link>
                   </li>
                   <li>
-                    <a href="pricing-2.html">Pricing 02</a>
+                    <Link to="/pricing-2">Pricing 02</Link>
                   </li>
                 </ul>
               </li>
               <li className="menu-item-has-children mega-menu">
-                <a href="#">Mega Menu</a>
+                <Link to="#">Mega Menu</Link>
                 <div className="sub-menu">
                   <div className="row">
-                    <div className="col-lg-3">
+                    <div className=" mb-lg-4 col-lg-4 col-xl-3">
                       <ul>
                         <li>
-                          <a href="index-1.html">IT / Softwer Agency</a>
+                          <Link to="/index-1">IT / Softwer Agency</Link>
                         </li>
                         <li>
-                          <a href="index-2.html">SaaS App Landing</a>
+                          <Link to="/index-2">SaaS App Landing</Link>
                         </li>
                         <li>
-                          <a href="index-3.html">Payments Solution</a>
+                          <Link to="/index-3">Payments Solution</Link>
                         </li>
                         <li>
-                          <a href="index-4.html">Startup / Software Company</a>
+                          <Link to="/index-4"> Software Company</Link>
                         </li>
                         <li>
-                          <a href="index-5.html">Artificial Intelligence</a>
+                          <Link to="/index-5">Artificial Intelligence</Link>
                         </li>
                         <li>
-                          <a href="index-6.html">NFT Service</a>
+                          <Link to="/index-6">NFT Service</Link>
                         </li>
                         <li>
-                          <a href="index-7.html">Cyber Security</a>
+                          <Link to="/index-7">Cyber Security</Link>
                         </li>
                         <li>
-                          <a href="index-8.html">Hardware Service</a>
+                          <Link to="/index-8">Hardware Service</Link>
                         </li>
                         <li>
-                          <a href="index-9.html">ICO Landing</a>
+                          <Link to="/index-9">ICO Landing</Link>
                         </li>
                         <li>
-                          <a href="index-10.html">Personal Portfolio</a>
+                          <Link to="/index-10">Personal Portfolio</Link>
                         </li>
                       </ul>
                     </div>
-                    <div className="col-lg-3">
+                    <div className=" mb-lg-4 col-lg-4 col-xl-3">
                       <ul>
                         <li>
-                          <a href="service.html">Service 01</a>
+                          <Link to="/service">Service 01</Link>
                         </li>
                         <li>
-                          <a href="service-2.html">Service 02</a>
+                          <Link to="/service-2">Service 02</Link>
                         </li>
                         <li>
-                          <a href="service-3.html">Service 03</a>
+                          <Link to="/service-3">Service 03</Link>
                         </li>
                         <li>
-                          <a href="service-4.html">Service 04</a>
+                          <Link to="/service-4">Service 04</Link>
                         </li>
                         <li>
-                          <a href="service-5.html">Service 05</a>
+                          <Link to="/service-5">Service 05</Link>
                         </li>
                         <li>
-                          <a href="service-details.html">Service Single</a>
+                          <Link to="/service-details">Service Single</Link>
                         </li>
                       </ul>
                     </div>
-                    <div className="col-lg-3">
+                    <div className=" mb-lg-4 col-lg-4 col-xl-3">
                       <ul>
                         <li>
-                          <a href="project.html">Project 01</a>
+                          <Link to="/project">Project 01</Link>
                         </li>
                         <li>
-                          <a href="project-2.html">Project 02</a>
+                          <Link to="/project-2">Project 02</Link>
                         </li>
                         <li>
-                          <a href="project-3.html">Project 03</a>
+                          <Link to="/project-3">Project 03</Link>
                         </li>
                         <li>
-                          <a href="project-details.html">Case Study Details</a>
+                          <Link to="/project-details">Case Study Details</Link>
                         </li>
                         <li>
-                          <a href="pricing.html">Pricing 01</a>
+                          <Link to="/pricing">Pricing 01</Link>
                         </li>
                         <li>
-                          <a href="pricing-2.html">Pricing 02</a>
+                          <Link to="/pricing-2">Pricing 02</Link>
                         </li>
                       </ul>
                     </div>
-                    <div className="col-lg-3">
+                    <div className=" mb-lg-4 col-lg-4 col-xl-3">
                       <ul>
                         <li>
-                          <a href="about.html">About Us</a>
+                          <Link to="/about">About Us</Link>
                         </li>
                         <li>
-                          <a href="team.html">Team 01</a>
+                          <Link to="/team">Team 01</Link>
                         </li>
                         <li>
-                          <a href="team-2.html">Team 02</a>
+                          <Link to="/team-2">Team 02</Link>
                         </li>
                         <li>
-                          <a href="team-3.html">Team 03</a>
+                          <Link to="/team-3">Team 03</Link>
                         </li>
                         <li>
-                          <a href="team-details.html">Team Details</a>
+                          <Link to="/team-details">Team Details</Link>
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
               </li>
+
               <li className="menu-item-has-children">
-                <a href="#">Blog</a>
+                <Link to="#">Blog</Link>
                 <ul className="sub-menu">
                   <li>
-                    <a href="blog.html">Blog 01</a>
+                    <Link to="/blog">Blog 01</Link>
                   </li>
                   <li>
-                    <a href="blog-2.html">Blog 02</a>
+                    <Link to="/blog-2">Blog 02</Link>
                   </li>
                   <li>
-                    <a href="blog-3.html">Blog 03</a>
+                    <Link to="/blog-3">Blog 03</Link>
                   </li>
                   <li>
-                    <a href="blog-4.html">Blog 04</a>
+                    <Link to="/blog-4">Blog 04</Link>
                   </li>
                   <li>
-                    <a href="blog-details.html">Blog Details</a>
+                    <Link to="/blog-details">Blog Details</Link>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="contact.html">Contact Us</a>
+                <Link to="/contact">Contact Us</Link>
               </li>
             </ul>
           </div>

@@ -3,7 +3,7 @@ import Demo from './demo/Demo';
 import About from './pages/About';
 import Blog from './pages/Blog';
 import BlogDetails from './pages/BlogDetails';
-import CaseStudyDetails from './pages/CaseStudyDetails';
+import ProjectDetails from './pages/ProjectDetails';
 import Contact from './pages/Contact';
 import HomeFour from './pages/HomeFour';
 import HomeOne from './pages/HomeOne';
@@ -21,7 +21,7 @@ import HomeFive from './pages/HomeFive';
 import HomeSix from './pages/HomeSix';
 import HomeSeven from './pages/HomeSeven';
 import HomeEight from './pages/HomeEight';
-import HomeNight from './pages/HomeNight';
+import HomeNine from './pages/HomeNine';
 import HomeTen from './pages/HomeTen';
 import ServiceTwo from './pages/ServiceTwo';
 import ServiceThree from './pages/ServiceThree';
@@ -34,6 +34,10 @@ import PriceTwo from './pages/PriceTwo';
 import BlogTwo from './pages/BlogTwo';
 import BlogThree from './pages/BlogThree';
 import BlogFour from './pages/BlogFour';
+import Project from './pages/Project';
+import ProjectTwo from './pages/ProjectTwo';
+import ProjectThree from './pages/ProjectThree';
+import HomeEleven from './pages/HomeEleven';
 function App() {
   useEffect(() => {
     AOS.init({
@@ -55,19 +59,15 @@ function App() {
         <Route exact path="/index-6" element={<HomeSix />} />
         <Route exact path="/index-7" element={<HomeSeven />} />
         <Route exact path="/index-8" element={<HomeEight />} />
-        <Route exact path="/index-9" element={<HomeNight />} />
+        <Route exact path="/index-9" element={<HomeNine />} />
         <Route exact path="/index-10" element={<HomeTen />} />
+        <Route exact path="/index-11" element={<HomeEleven />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/blog" element={<Blog />} />
         <Route exact path="/blog-2" element={<BlogTwo />} />
         <Route exact path="/blog-3" element={<BlogThree />} />
         <Route exact path="/blog-4" element={<BlogFour />} />
         <Route exact path="/blog-details" element={<BlogDetails />} />
-        <Route
-          exact
-          path="/case-study-details"
-          element={<CaseStudyDetails />}
-        />
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/service" element={<Service />} />
         <Route exact path="/service-2" element={<ServiceTwo />} />
@@ -76,11 +76,15 @@ function App() {
         <Route exact path="/service-5" element={<ServiceFive />} />
         <Route exact path="/service-details" element={<ServiceDetails />} />
         <Route exact path="/team" element={<Team />} />
+        <Route exact path="/team-details" element={<TeamDetails />} />
         <Route exact path="/team-2" element={<TeamTwo />} />
         <Route exact path="/team-3" element={<TeamThree />} />
         <Route exact path="/pricing" element={<PriceOne />} />
         <Route exact path="/pricing-2" element={<PriceTwo />} />
-        <Route exact path="/team-details" element={<TeamDetails />} />
+        <Route exact path="/project" element={<Project />} />
+        <Route exact path="/project-2" element={<ProjectTwo />} />
+        <Route exact path="/project-3" element={<ProjectThree />} />
+        <Route exact path="/project-details" element={<ProjectDetails />} />
       </Routes>
       <ScrollToTop smooth color="#246BFD" />
     </BrowserRouter>

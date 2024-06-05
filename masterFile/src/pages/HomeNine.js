@@ -12,7 +12,7 @@ import TeamAreaSix from '../components/TeamAreaSix';
 import BlogAreaNine from '../components/BlogAreaNine';
 import FooterEight from '../components/FooterEight';
 
-const HomeNight = () => {
+const HomeNine = () => {
   return (
     <>
       {/* NavbarEight */}
@@ -54,4 +54,4 @@ const HomeNight = () => {
   );
 };
 
-export default HomeNight;
+export default HomeNine;
