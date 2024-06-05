@@ -1,6 +1,43 @@
 /*--------------------------------------------------
     ## All responsive style
 ---------------------------------------------------*/
+.testimonial-tab button img {
+  border-radius: 50%;
+}
+.mega-menu .sub-menu {
+  min-width: 1200px !important;
+  padding: 20px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+
+.navbar-area
+  .nav-container
+  .navbar-collapse
+  .navbar-nav
+  > li.menu-item-has-children:before,
+.navbar-area
+  .nav-container
+  .navbar-collapse
+  .navbar-nav
+  > li.menu-item-has-children:after {
+  display: none !important;
+}
+.navbar-area
+  .nav-container
+  .navbar-collapse
+  .navbar-nav
+  > li.menu-item-has-children {
+  padding-left: 3px !important;
+}
+.navbar-area
+  .nav-container
+  .navbar-collapse
+  .navbar-nav
+  > li.menu-item-has-children.mega-menu {
+  position: initial;
+}
+
 @media all and (min-width: 1600px) {
   .container {
     max-width: 1280px;
@@ -50,6 +87,9 @@
   .margin-right--150 {
     margin-right: -150px;
   }
+  .mega-menu .sub-menu {
+    min-width: 1200px !important;
+  }
 }
 @media all and (max-width: 1599px) {
   .banner-area-1 .animate-img-1 {
@@ -76,6 +116,9 @@
   }
   .navbar-area .nav-container .navbar-collapse .navbar-nav li a {
     font-size: 14px;
+  }
+  .mega-menu .sub-menu {
+    min-width: 1100px !important;
   }
 }
 @media all and (max-width: 1199px) {
@@ -146,6 +189,19 @@
   }
   .navbar-area-4 .left-bg {
     width: 26%;
+  }
+
+  .contact-page-inner {
+    padding: 50px;
+  }
+  .banner-area-3 .bg-gray {
+    padding: 80px 0;
+  }
+  .mega-menu .sub-menu {
+    min-width: 880px !important;
+  }
+  .saller-area-inner li {
+    width: 30.7%;
   }
 }
 @media all and (max-width: 991px) {
@@ -261,6 +317,18 @@
   }
   .roadmap-line:before {
     height: 91%;
+  }
+
+  .mega-menu .sub-menu {
+    min-width: 100% !important;
+    left: 0 !important;
+    padding: 0 !important;
+  }
+  .mega-menu {
+    display: none !important;
+  }
+  .banner-thumb-2 .banner-animate-img {
+    position: static;
   }
 }
 @media all and (max-width: 767px) {

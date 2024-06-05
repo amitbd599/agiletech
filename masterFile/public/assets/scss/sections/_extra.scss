@@ -729,6 +729,16 @@
   }
 }
 
+.navbar-area_1.navbar-area
+  .nav-container
+  .navbar-collapse
+  .navbar-nav
+  li.menu-item-has-children
+  .sub-menu
+  li:hover {
+  background: var(--main-color) !important;
+}
+
 @media (min-width: 1600px) {
   .banner-area-8 {
     margin-top: -96px;

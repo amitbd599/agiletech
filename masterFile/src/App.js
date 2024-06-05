@@ -23,6 +23,11 @@ import HomeSeven from './pages/HomeSeven';
 import HomeEight from './pages/HomeEight';
 import HomeNight from './pages/HomeNight';
 import HomeTen from './pages/HomeTen';
+import ServiceTwo from './pages/ServiceTwo';
+import ServiceThree from './pages/ServiceThree';
+import ServiceFour from './pages/ServiceFour';
+import ServiceFive from './pages/ServiceFive';
+import TeamTwo from './pages/TeamTwo';
 function App() {
   useEffect(() => {
     AOS.init({
@@ -56,8 +61,13 @@ function App() {
         />
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/service" element={<Service />} />
+        <Route exact path="/service-2" element={<ServiceTwo />} />
+        <Route exact path="/service-3" element={<ServiceThree />} />
+        <Route exact path="/service-4" element={<ServiceFour />} />
+        <Route exact path="/service-5" element={<ServiceFive />} />
         <Route exact path="/service-details" element={<ServiceDetails />} />
         <Route exact path="/team" element={<Team />} />
+        <Route exact path="/team-2" element={<TeamTwo />} />
         <Route exact path="/team-details" element={<TeamDetails />} />
       </Routes>
       <ScrollToTop smooth color="#246BFD" />
