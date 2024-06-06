@@ -127,25 +127,25 @@ const BlogGroup = () => {
                 </div>
               </div>
               <div className='pagination'>
-                <a className='prev page-numbers' href='http://icare.local/'>
+                <Link className='prev page-numbers' to="#">
                   <FaAngleLeft />
-                </a>
-                <a className='page-numbers' href='http://icare.local/'>
+                </Link>
+                <Link className='page-numbers' to="#">
                   1
-                </a>
+                </Link>
                 <span className='page-numbers current'>2</span>
-                <a className='page-numbers' href='http://icare.local/page/3/'>
+                <Link className='page-numbers' to="#">
                   3
-                </a>
-                <a className='page-numbers' href='http://icare.local/page/4/'>
+                </Link>
+                <Link className='page-numbers' to="#">
                   4
-                </a>
-                <a
+                </Link>
+                <Link
                   className='next page-numbers'
-                  href='http://icare.local/page/3/'
+                  to="#"
                 >
                   <FaAngleRight />
-                </a>
+                </Link>
               </div>
             </div>
             <div className='col-lg-4 col-12'>
@@ -159,19 +159,19 @@ const BlogGroup = () => {
                     <h6>(480) 555-0103</h6>
                     <ul className='social-media'>
                       <li>
-                        <a href='#'>
+                        <Link to='#'>
                           <FaFacebookF />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href='#'>
+                        <Link to='#'>
                           <FaTwitter />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href='#'>
+                        <Link to='#'>
                           <FaInstagram />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -278,14 +278,14 @@ const BlogGroup = () => {
                 <div className='widget widget_tag_cloud mb-0'>
                   <h4 className='widget-title'>Tags</h4>
                   <div className='tagcloud'>
-                    <a href='#'>Information</a>
-                    <a href='#'>Learn</a>
-                    <a href='#'>ICT</a>
-                    <a href='#'>Business</a>
-                    <a href='#'>Portfolio</a>
-                    <a href='#'>Project</a>
-                    <a href='#'>Personal</a>
-                    <a href='#'>Server</a>
+                    <Link to='#'>Information</Link>
+                    <Link to='#'>Learn</Link>
+                    <Link to='#'>ICT</Link>
+                    <Link to='#'>Business</Link>
+                    <Link to='#'>Portfolio</Link>
+                    <Link to='#'>Project</Link>
+                    <Link to='#'>Personal</Link>
+                    <Link to='#'>Server</Link>
                   </div>
                 </div>
               </div>

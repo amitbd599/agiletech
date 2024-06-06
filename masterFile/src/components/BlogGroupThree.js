@@ -1,17 +1,5 @@
 import React from 'react';
-import {
-  FaAngleLeft,
-  FaArrowRight,
-  FaCalendarAlt,
-  FaChevronRight,
-  FaFacebookF,
-  FaRegFolderOpen,
-  FaInstagram,
-  FaPlus,
-  FaTwitter,
-  FaRegUser,
-  FaRegComments,
-} from 'react-icons/fa';
+import { FaArrowRight, FaRegFolderOpen, FaRegUser } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const BlogGroupThree = () => {
@@ -41,13 +29,13 @@ const BlogGroupThree = () => {
                     </li>
                   </ul>
                   <h5 className="mb-4">
-                    <a href="blog-details.html">
+                    <Link to="/blog-details">
                       Transforming businesses, one pixel at a time
-                    </a>
+                    </Link>
                   </h5>
-                  <a className="btn btn-border-base" href="blog-details.html">
+                  <Link className="btn btn-border-base" to="/blog-details">
                     Read More <FaArrowRight className="mb-1" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -71,13 +59,13 @@ const BlogGroupThree = () => {
                     </li>
                   </ul>
                   <h5 className="mb-4">
-                    <a href="blog-details.html">
+                    <Link to="/blog-details">
                       The Importance of a Strong Digital for Strategy
-                    </a>
+                    </Link>
                   </h5>
-                  <a className="btn btn-border-base" href="blog-details.html">
+                  <Link className="btn btn-border-base" to="/blog-details">
                     Read More <FaArrowRight className="mb-1" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -101,13 +89,13 @@ const BlogGroupThree = () => {
                     </li>
                   </ul>
                   <h5 className="mb-4">
-                    <a href="blog-details.html">
+                    <Link to="/blog-details">
                       Creating Engaging Content: A Guide for Digital
-                    </a>
+                    </Link>
                   </h5>
-                  <a className="btn btn-border-base" href="blog-details.html">
+                  <Link className="btn btn-border-base" to="/blog-details">
                     Read More <FaArrowRight className="mb-1" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -131,13 +119,13 @@ const BlogGroupThree = () => {
                     </li>
                   </ul>
                   <h5 className="mb-4">
-                    <a href="blog-details.html">
+                    <Link to="/blog-details">
                       Transforming businesses, one pixel at a time
-                    </a>
+                    </Link>
                   </h5>
-                  <a className="btn btn-border-base" href="blog-details.html">
+                  <Link className="btn btn-border-base" to="/blog-details">
                     Read More <FaArrowRight className="mb-1" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -161,13 +149,13 @@ const BlogGroupThree = () => {
                     </li>
                   </ul>
                   <h5 className="mb-4">
-                    <a href="blog-details.html">
+                    <Link to="/blog-details">
                       The Importance of a Strong Digital for Strategy
-                    </a>
+                    </Link>
                   </h5>
-                  <a className="btn btn-border-base" href="blog-details.html">
+                  <Link className="btn btn-border-base" to="/blog-details">
                     Read More <FaArrowRight className="mb-1" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -191,34 +179,34 @@ const BlogGroupThree = () => {
                     </li>
                   </ul>
                   <h5 className="mb-4">
-                    <a href="blog-details.html">
+                    <Link to="/blog-details">
                       Creating Engaging Content: A Guide for Digital
-                    </a>
+                    </Link>
                   </h5>
-                  <a className="btn btn-border-base" href="blog-details.html">
+                  <Link className="btn btn-border-base" to="/blog-details">
                     Read More <FaArrowRight className="mb-1" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
           <div className="pagination">
-            <a className="prev page-numbers" href="http://icare.local/">
+            <Link className="prev page-numbers" to='#'>
               <i className="fa fa-angle-left" />
-            </a>
-            <a className="page-numbers" href="http://icare.local/">
+            </Link>
+            <Link className="page-numbers" to='#'>
               1
-            </a>
+            </Link>
             <span className="page-numbers current">2</span>
-            <a className="page-numbers" href="http://icare.local/page/3/">
+            <Link className="page-numbers" to='#'>
               3
-            </a>
-            <a className="page-numbers" href="http://icare.local/page/4/">
+            </Link>
+            <Link className="page-numbers" to='#'>
               4
-            </a>
-            <a className="next page-numbers" href="http://icare.local/page/3/">
+            </Link>
+            <Link className="next page-numbers" to='#'>
               <i className="fa fa-angle-right" />
-            </a>
+            </Link>
           </div>
         </div>
       </div>

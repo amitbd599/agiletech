@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaArrowRight, FaRegFolderOpen, FaRegUser } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const BlogAreaEight = () => {
   return (
@@ -31,14 +32,14 @@ const BlogAreaEight = () => {
                     </li>
                   </ul>
                   <h5 className="mb-3">
-                    <a href="blog-details.html">Transforming pixel at a time</a>
+                    <Link to="/blog-details">Transforming pixel at a time</Link>
                   </h5>
                   <p className="mb-3">
                     Melbourne is simply is dumiomy is text Lorem Ipsum is simply
                   </p>
-                  <a className="read-more-text" href="blog-details.html">
+                  <Link className="read-more-text" to="/blog-details">
                     Read More <FaArrowRight />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -61,17 +62,17 @@ const BlogAreaEight = () => {
                     </li>
                   </ul>
                   <h5 className="mb-3">
-                    <a href="blog-details.html">
+                    <Link to="/blog-details">
                       {' '}
                       Businesses, one pixel at a time
-                    </a>
+                    </Link>
                   </h5>
                   <p className="mb-3">
                     Melbourne is simply is dumiomy is text Lorem Ipsum is simply
                   </p>
-                  <a className="read-more-text" href="blog-details.html">
+                  <Link className="read-more-text" to="/blog-details">
                     Read More <FaArrowRight />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -94,14 +95,14 @@ const BlogAreaEight = () => {
                     </li>
                   </ul>
                   <h5 className="mb-3">
-                    <a href="blog-details.html">Your trusted tech experts</a>
+                    <Link to="/blog-details">Your trusted tech experts</Link>
                   </h5>
                   <p className="mb-3">
                     Melbourne is simply is dumiomy is text Lorem Ipsum is simply
                   </p>
-                  <a className="read-more-text" href="blog-details.html">
+                  <Link className="read-more-text" to="/blog-details">
                     Read More <FaArrowRight />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

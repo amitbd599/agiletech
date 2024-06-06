@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaCheckCircle } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const SolutionOne = () => {
   return (
@@ -85,12 +86,12 @@ const SolutionOne = () => {
                         </div>
                       </div>
                       <div className="col-12">
-                        <a
+                        <Link
                           className="btn btn-black mt-0 w-100 border-radius-5"
-                          href="#"
+                          to="#"
                         >
                           Submit now
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </form>

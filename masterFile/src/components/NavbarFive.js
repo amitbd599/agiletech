@@ -67,9 +67,9 @@ const NavbarFive = () => {
         <div className="row">
           <div className="col-lg-3 align-self-center">
             <div className="logo">
-              <a href="index.html">
+              <Link to="/index-1">
                 <img src="assets/img/logo2.png" alt="img" />
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-lg-9">
@@ -92,24 +92,24 @@ const NavbarFive = () => {
                   <ul className="topbar-right">
                     <li>Follow On: </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <FaFacebookF />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <FaTwitter />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <FaLinkedinIn />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <FaPinterestP />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -135,9 +135,9 @@ const NavbarFive = () => {
                   </button>
                 </div>
                 <div className="nav-right-part nav-right-part-mobile">
-                  <a className="search-bar-btn" href="#">
+                  <Link className="search-bar-btn" to="#">
                     <i className="fa fa-search" />
-                  </a>
+                  </Link>
                 </div>
                 <div
                   className={
@@ -369,9 +369,9 @@ const NavbarFive = () => {
                   </ul>
                 </div>
                 <div className="nav-right-part nav-right-part-desktop d-lg-inline-flex align-item-center">
-                  <a className="btn btn-base" href="about.html">
+                  <Link className="btn btn-base" to="/about">
                     Explore Now
-                  </a>
+                  </Link>
                 </div>
               </div>
             </nav>

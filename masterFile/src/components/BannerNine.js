@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaPlus } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const BannerNine = () => {
   return (
@@ -29,14 +30,14 @@ const BannerNine = () => {
                   Marketing Plays An Important Role. Similarly, In Making
                   Cultivation Business Are Necessary Brand Advertising.
                 </p>
-                <a
+                <Link
                   className="btn btn-base bg-base-9 wow animated fadeInLeft"
                   data-wow-duration="1.5s"
                   data-wow-delay="0.6s"
-                  href="about.html"
+                  to="/about"
                 >
                   Discover More <FaPlus className="mt-4" />
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-lg-6">

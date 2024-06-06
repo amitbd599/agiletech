@@ -1,17 +1,5 @@
 import React from 'react';
-import {
-  FaAngleLeft,
-  FaArrowRight,
-  FaCalendarAlt,
-  FaChevronRight,
-  FaFacebookF,
-  FaRegFolderOpen,
-  FaInstagram,
-  FaPlus,
-  FaTwitter,
-  FaRegUser,
-  FaRegComments,
-} from 'react-icons/fa';
+import { FaCalendarAlt, FaPlus } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const BlogGroupFour = () => {
@@ -39,18 +27,18 @@ const BlogGroupFour = () => {
                     </li>
                   </ul>
                   <h5 className="mb-3">
-                    <a href="blog-details.html">
+                    <Link to="/blog-details">
                       Transforming businesses, one pixel at a time
-                    </a>
+                    </Link>
                   </h5>
                   <p>
                     Lorem ipsum dolor sit consectetur Malesuada sed diam in the
                     aliquam
                   </p>
                   <div className="btn-wrap text-end pe-2">
-                    <a className="read-more-text" href="blog-details.html">
+                    <Link className="read-more-text" to="/blog-details">
                       Read More <FaPlus className="mb-1" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -73,18 +61,18 @@ const BlogGroupFour = () => {
                     </li>
                   </ul>
                   <h5 className="mb-3">
-                    <a href="blog-details.html">
+                    <Link to="/blog-details">
                       The Importance of a Strong Digital for Strategy
-                    </a>
+                    </Link>
                   </h5>
                   <p>
                     Lorem ipsum dolor sit consectetur Malesuada sed diam in the
                     aliquam
                   </p>
                   <div className="btn-wrap text-end pe-2">
-                    <a className="read-more-text" href="blog-details.html">
+                    <Link className="read-more-text" to="/blog-details">
                       Read More <FaPlus className="mb-1" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -107,18 +95,18 @@ const BlogGroupFour = () => {
                     </li>
                   </ul>
                   <h5 className="mb-3">
-                    <a href="blog-details.html">
+                    <Link to="/blog-details">
                       Creating Engaging Content: A Guide for Digital
-                    </a>
+                    </Link>
                   </h5>
                   <p>
                     Lorem ipsum dolor sit consectetur Malesuada sed diam in the
                     aliquam
                   </p>
                   <div className="btn-wrap text-end pe-2">
-                    <a className="read-more-text" href="blog-details.html">
+                    <Link className="read-more-text" to="/blog-details">
                       Read More <FaPlus className="mb-1" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -141,18 +129,18 @@ const BlogGroupFour = () => {
                     </li>
                   </ul>
                   <h5 className="mb-3">
-                    <a href="blog-details.html">
+                    <Link to="/blog-details">
                       Transforming businesses, one pixel at a time
-                    </a>
+                    </Link>
                   </h5>
                   <p>
                     Lorem ipsum dolor sit consectetur Malesuada sed diam in the
                     aliquam
                   </p>
                   <div className="btn-wrap text-end pe-2">
-                    <a className="read-more-text" href="blog-details.html">
+                    <Link className="read-more-text" to="/blog-details">
                       Read More <FaPlus className="mb-1" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -175,18 +163,18 @@ const BlogGroupFour = () => {
                     </li>
                   </ul>
                   <h5 className="mb-3">
-                    <a href="blog-details.html">
+                    <Link to="/blog-details">
                       The Importance of a Strong Digital for Strategy
-                    </a>
+                    </Link>
                   </h5>
                   <p>
                     Lorem ipsum dolor sit consectetur Malesuada sed diam in the
                     aliquam
                   </p>
                   <div className="btn-wrap text-end pe-2">
-                    <a className="read-more-text" href="blog-details.html">
+                    <Link className="read-more-text" to="/blog-details">
                       Read More <FaPlus className="mb-1" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -209,40 +197,40 @@ const BlogGroupFour = () => {
                     </li>
                   </ul>
                   <h5 className="mb-3">
-                    <a href="blog-details.html">
+                    <Link to="/blog-details">
                       Creating Engaging Content: A Guide for Digital
-                    </a>
+                    </Link>
                   </h5>
                   <p>
                     Lorem ipsum dolor sit consectetur Malesuada sed diam in the
                     aliquam
                   </p>
                   <div className="btn-wrap text-end pe-2">
-                    <a className="read-more-text" href="blog-details.html">
+                    <Link className="read-more-text" to="/blog-details">
                       Read More <FaPlus className="mb-1" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div className="pagination">
-            <a className="prev page-numbers" href="http://icare.local/">
+            <Link className="prev page-numbers" to="#">
               <i className="fa fa-angle-left" />
-            </a>
-            <a className="page-numbers" href="http://icare.local/">
+            </Link>
+            <Link className="page-numbers" to="#">
               1
-            </a>
+            </Link>
             <span className="page-numbers current">2</span>
-            <a className="page-numbers" href="http://icare.local/page/3/">
+            <Link className="page-numbers" to="#">
               3
-            </a>
-            <a className="page-numbers" href="http://icare.local/page/4/">
+            </Link>
+            <Link className="page-numbers" to="#">
               4
-            </a>
-            <a className="next page-numbers" href="http://icare.local/page/3/">
+            </Link>
+            <Link className="next page-numbers" to="#">
               <i className="fa fa-angle-right" />
-            </a>
+            </Link>
           </div>
         </div>
       </div>

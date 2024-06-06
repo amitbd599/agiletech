@@ -2,8 +2,6 @@ import React from 'react';
 import {
   FaCalendarAlt,
   FaCheckCircle,
-  FaChevronCircleLeft,
-  FaChevronCircleRight,
   FaFacebookF,
   FaRegFolderOpen,
   FaInstagram,
@@ -118,20 +116,20 @@ const BlogDetailsArea = () => {
                     <div className="tag-and-share">
                       <div className="tags d-inline-block">
                         <strong>Tag : </strong>
-                        <a href="#">Agency</a> <a href="#">Marketing</a>
+                        <Link to="#">Agency</Link> <Link to="#">Marketing</Link>
                       </div>
                     </div>
                     <div className="prev-next-post">
                       <div className="row">
                         <div className="col-6 border-right-1">
-                          <a className="btn btn-base border-radius-5" href="#">
+                          <Link className="btn btn-base border-radius-5" to="#">
                             <FaChevronLeft />
-                          </a>
+                          </Link>
                         </div>
                         <div className="col-6 text-end">
-                          <a className="btn btn-base border-radius-5" href="#">
+                          <Link className="btn btn-base border-radius-5" to="#">
                             <FaChevronRight />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -168,21 +166,21 @@ const BlogDetailsArea = () => {
                               alt="img"
                               src="assets/img/about/7.png"
                             />{' '}
-                            <a
-                              href=""
+                            <Link
+                              to="#"
                               rel="external nofollow ugc"
                               className="url"
                             >
                               John Κώστας Doe Τάδε
-                            </a>{' '}
+                            </Link>{' '}
                             <span className="says">says:</span>
                           </div>
                           <div className="comment-metadata">
-                            <a href="#">March 14, 2013 at 7:57 am</a>
+                            <Link to="#">March 14, 2013 at 7:57 am</Link>
                             <span className="edit-link">
-                              <a className="comment-edit-link" href="#">
+                              <Link className="comment-edit-link" to="#">
                                 Edit
-                              </a>
+                              </Link>
                             </span>
                           </div>
                         </footer>
@@ -190,13 +188,13 @@ const BlogDetailsArea = () => {
                           <p>Comment Depth 01</p>
                         </div>
                         <div className="reply">
-                          <a
+                          <Link
                             rel="nofollow"
                             className="comment-reply-link"
-                            href="#"
+                            to="#"
                           >
                             Reply
-                          </a>
+                          </Link>
                         </div>
                       </article>
                     </li>
@@ -209,21 +207,21 @@ const BlogDetailsArea = () => {
                               alt="img"
                               src="assets/img/about/7.png"
                             />
-                            <a
-                              href="http://example.org/"
+                            <Link
+                              to="#"
                               rel="external nofollow ugc"
                               className="url"
                             >
                               John Κώστας Doe Τάδε
-                            </a>{' '}
+                            </Link>{' '}
                             <span className="says">says:</span>
                           </div>
                           <div className="comment-metadata">
-                            <a href="#">March 14, 2013 at 7:57 am</a>
+                            <Link to="#">March 14, 2013 at 7:57 am</Link>
                             <span className="edit-link">
-                              <a className="comment-edit-link" href="#">
+                              <Link className="comment-edit-link" to="#">
                                 Edit
-                              </a>
+                              </Link>
                             </span>
                           </div>
                         </footer>
@@ -231,13 +229,13 @@ const BlogDetailsArea = () => {
                           <p>Comment Depth 01</p>
                         </div>
                         <div className="reply">
-                          <a
+                          <Link
                             rel="nofollow"
                             className="comment-reply-link"
-                            href="#"
+                            to="#"
                           >
                             Reply
-                          </a>
+                          </Link>
                         </div>
                       </article>
                     </li>
@@ -283,19 +281,19 @@ const BlogDetailsArea = () => {
                     <h6>(480) 555-0103</h6>
                     <ul className="social-media">
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaFacebookF />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaTwitter />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaInstagram />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -402,14 +400,14 @@ const BlogDetailsArea = () => {
                 <div className="widget widget_tag_cloud mb-0">
                   <h4 className="widget-title">Tags</h4>
                   <div className="tagcloud">
-                    <a href="#">Information</a>
-                    <a href="#">Learn</a>
-                    <a href="#">ICT</a>
-                    <a href="#">Business</a>
-                    <a href="#">Portfolio</a>
-                    <a href="#">Project</a>
-                    <a href="#">Personal</a>
-                    <a href="#">Server</a>
+                    <Link to="#">Information</Link>
+                    <Link to="#">Learn</Link>
+                    <Link to="#">ICT</Link>
+                    <Link to="#">Business</Link>
+                    <Link to="#">Portfolio</Link>
+                    <Link to="#">Project</Link>
+                    <Link to="#">Personal</Link>
+                    <Link to="#">Server</Link>
                   </div>
                 </div>
               </div>

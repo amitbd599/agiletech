@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaPlus } from 'react-icons/fa';
 import { FaAnglesRight } from 'react-icons/fa6';
+import { Link } from 'react-router-dom';
 
 const GalleryOne = () => {
   return (
@@ -15,9 +16,9 @@ const GalleryOne = () => {
                 <h2 className="title">Leading The Digital Revolution</h2>
               </div>
               <div className="col-md-4 text-md-end align-self-center">
-                <a className="btn btn-base bg-base-9 mt-lg-0" href="about.html">
+                <Link className="btn btn-base bg-base-9 mt-lg-0" to="/about">
                   All Category <FaPlus />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -29,14 +30,14 @@ const GalleryOne = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <a href="project-details.html">Tecnology Farms</a>
+                    <Link to="/project-details">Tecnology Farms</Link>
                   </h5>
-                  <a className="cat" href="#">
+                  <Link className="cat" to="#">
                     Las vegas
-                  </a>
-                  <a className="right-arrow " href="#">
+                  </Link>
+                  <Link className="right-arrow " to="#">
                     <FaAnglesRight />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="single-case-study-inner style-3">
@@ -45,14 +46,14 @@ const GalleryOne = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <a href="project-details.html">Tecnology Farms</a>
+                    <Link to="/project-details">Tecnology Farms</Link>
                   </h5>
-                  <a className="cat" href="#">
+                  <Link className="cat" to="#">
                     Las vegas
-                  </a>
-                  <a className="right-arrow " href="#">
+                  </Link>
+                  <Link className="right-arrow " to="#">
                     <FaAnglesRight />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -63,14 +64,14 @@ const GalleryOne = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <a href="project-details.html">Tecnology Farms</a>
+                    <Link to="/project-details">Tecnology Farms</Link>
                   </h5>
-                  <a className="cat" href="#">
+                  <Link className="cat" to="#">
                     Las vegas
-                  </a>
-                  <a className="right-arrow" href="#">
+                  </Link>
+                  <Link className="right-arrow" to="#">
                     <FaAnglesRight />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="single-case-study-inner style-3">
@@ -79,14 +80,14 @@ const GalleryOne = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <a href="project-details.html">Tecnology Farms</a>
+                    <Link to="/project-details">Tecnology Farms</Link>
                   </h5>
-                  <a className="cat" href="#">
+                  <Link className="cat" to="#">
                     Las vegas
-                  </a>
-                  <a className="right-arrow" href="#">
+                  </Link>
+                  <Link className="right-arrow" to="#">
                     <FaAnglesRight />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -97,14 +98,14 @@ const GalleryOne = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <a href="project-details.html">Tecnology Farms</a>
+                    <Link to="/project-details">Tecnology Farms</Link>
                   </h5>
-                  <a className="cat" href="#">
+                  <Link className="cat" to="#">
                     Las vegas
-                  </a>
-                  <a className="right-arrow" href="#">
+                  </Link>
+                  <Link className="right-arrow" to="#">
                     <FaAnglesRight />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="single-case-study-inner style-3">
@@ -113,14 +114,14 @@ const GalleryOne = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <a href="project-details.html">Tecnology Farms</a>
+                    <Link to="/project-details">Tecnology Farms</Link>
                   </h5>
-                  <a className="cat" href="#">
+                  <Link className="cat" to="#">
                     Las vegas
-                  </a>
-                  <a className="right-arrow" href="#">
+                  </Link>
+                  <Link className="right-arrow" to="#">
                     <FaAnglesRight />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

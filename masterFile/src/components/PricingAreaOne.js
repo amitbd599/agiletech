@@ -1,11 +1,12 @@
 import React from 'react';
 import { FaCheck } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const PricingAreaOne = () => {
   return (
     <>
       {/* Pricing Area One start */}
-      <div className="pricing-area  pd-top-120 pd-bottom-90">
+      <div className="pricing-area   pd-bottom-90">
         <div className="container">
           <div className="section-title text-center">
             <h6 className="sub-title">Pricing plan</h6>
@@ -46,12 +47,12 @@ const PricingAreaOne = () => {
                     Video &amp; Animation Production{' '}
                   </li>
                 </ul>
-                <a
+                <Link
                   className="btn btn-black border-radius border-radius-0 w-100"
-                  href="#"
+                  to="#"
                 >
                   Started
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
@@ -86,12 +87,12 @@ const PricingAreaOne = () => {
                     Video &amp; Animation Production{' '}
                   </li>
                 </ul>
-                <a
+                <Link
                   className="btn btn-black border-radius border-radius-0 w-100"
-                  href="#"
+                  to="#"
                 >
                   Started
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
@@ -126,12 +127,12 @@ const PricingAreaOne = () => {
                     Video &amp; Animation Production{' '}
                   </li>
                 </ul>
-                <a
+                <Link
                   className="btn btn-black border-radius border-radius-0 w-100"
-                  href="#"
+                  to="#"
                 >
                   Started
-                </a>
+                </Link>
               </div>
             </div>
           </div>

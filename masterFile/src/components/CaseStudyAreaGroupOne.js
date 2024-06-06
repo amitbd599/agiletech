@@ -17,9 +17,9 @@ const CaseStudyAreaGroupOne = () => {
                   <h5>
                     <Link to="/case-study-details">Mind Tech</Link>
                   </h5>
-                  <a className="cat" href="#">
+                  <Link className="cat" to='#'>
                     Las vegas
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="row">
@@ -32,9 +32,9 @@ const CaseStudyAreaGroupOne = () => {
                       <h5>
                         <Link to="/case-study-details">Wise Mind</Link>
                       </h5>
-                      <a className="cat" href="#">
+                      <Link className="cat" to='#'>
                         Las vegas
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -47,9 +47,9 @@ const CaseStudyAreaGroupOne = () => {
                       <h5>
                         <Link to="/case-study-details">Tecnology Farms</Link>
                       </h5>
-                      <a className="cat" href="#">
+                      <Link className="cat" to='#'>
                         Las vegas
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -64,9 +64,9 @@ const CaseStudyAreaGroupOne = () => {
                   <h5>
                     <Link to="/case-study-details">Neural Logic.</Link>
                   </h5>
-                  <a className="cat" href="#">
+                  <Link className="cat" to='#'>
                     California
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="single-case-study-inner style-2">
@@ -77,9 +77,9 @@ const CaseStudyAreaGroupOne = () => {
                   <h5>
                     <Link to="/case-study-details">AI Farms</Link>
                   </h5>
-                  <a className="cat" href="#">
+                  <Link className="cat" to='#'>
                     California
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

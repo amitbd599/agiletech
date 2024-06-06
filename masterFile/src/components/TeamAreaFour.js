@@ -1,5 +1,6 @@
 import React from "react";
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const TeamAreaFour = () => {
   return (
@@ -21,25 +22,25 @@ const TeamAreaFour = () => {
                   <img src='assets/img/team/1.png' alt='img' />
                   <ul className='team-social-inner'>
                     <li>
-                      <a href='#'>
+                      <Link to='#'>
                         <FaFacebookF />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href='#'>
+                      <Link to='#'>
                         <FaTwitter />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href='#'>
+                      <Link to='#'>
                         <FaInstagram />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
                 <div className='details'>
                   <h5>
-                    <a href='team-details.html'>Kathryn Murphy</a>
+                    <Link to='/team-details'>Kathryn Murphy</Link>
                   </h5>
                   <p>Merketing Department</p>
                 </div>
@@ -51,25 +52,25 @@ const TeamAreaFour = () => {
                   <img src='assets/img/team/2.png' alt='img' />
                   <ul className='team-social-inner'>
                     <li>
-                      <a href='#'>
+                      <Link to='#'>
                         <FaFacebookF />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href='#'>
+                      <Link to='#'>
                         <FaTwitter />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href='#'>
+                      <Link to='#'>
                         <FaInstagram />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
                 <div className='details'>
                   <h5>
-                    <a href='team-details.html'>Kathryn Murphy</a>
+                    <Link to='/team-details'>Kathryn Murphy</Link>
                   </h5>
                   <p>Merketing Department</p>
                 </div>
@@ -81,25 +82,25 @@ const TeamAreaFour = () => {
                   <img src='assets/img/team/3.png' alt='img' />
                   <ul className='team-social-inner'>
                     <li>
-                      <a href='#'>
+                      <Link to='#'>
                         <FaFacebookF />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href='#'>
+                      <Link to='#'>
                         <FaTwitter />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href='#'>
+                      <Link to='#'>
                         <FaInstagram />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
                 <div className='details'>
                   <h5>
-                    <a href='team-details.html'>Kathryn Murphy</a>
+                    <Link to='/team-details'>Kathryn Murphy</Link>
                   </h5>
                   <p>Merketing Department</p>
                 </div>

@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaLink, FaPlus } from 'react-icons/fa';
+import { FaLink } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const ProjectAreaThree = () => {
   return (
@@ -91,9 +92,9 @@ const ProjectAreaThree = () => {
                     diam ut est pulvinar
                   </p>
                   <div className="link-wrap text-center">
-                    <a href="#">
+                    <Link to="#">
                       <FaLink />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -109,9 +110,9 @@ const ProjectAreaThree = () => {
                     diam ut est pulvinar
                   </p>
                   <div className="link-wrap text-center">
-                    <a href="#">
+                    <Link to="#">
                       <FaLink />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -127,9 +128,9 @@ const ProjectAreaThree = () => {
                     diam ut est pulvinar
                   </p>
                   <div className="link-wrap text-center">
-                    <a href="#">
+                    <Link to="#">
                       <FaLink />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -145,9 +146,9 @@ const ProjectAreaThree = () => {
                     diam ut est pulvinar
                   </p>
                   <div className="link-wrap text-center">
-                    <a href="#">
+                    <Link to="#">
                       <FaLink />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -163,9 +164,9 @@ const ProjectAreaThree = () => {
                     diam ut est pulvinar
                   </p>
                   <div className="link-wrap text-center">
-                    <a href="#">
+                    <Link to="#">
                       <FaLink />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -181,9 +182,9 @@ const ProjectAreaThree = () => {
                     diam ut est pulvinar
                   </p>
                   <div className="link-wrap text-center">
-                    <a href="#">
+                    <Link to="#">
                       <FaLink />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -208,9 +209,9 @@ const ProjectAreaThree = () => {
                     diam ut est pulvinar
                   </p>
                   <div className="link-wrap text-center">
-                    <a href="#">
+                    <Link to="#">
                       <FaLink />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -226,9 +227,9 @@ const ProjectAreaThree = () => {
                     diam ut est pulvinar
                   </p>
                   <div className="link-wrap text-center">
-                    <a href="#">
+                    <Link to="#">
                       <FaLink />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -244,9 +245,9 @@ const ProjectAreaThree = () => {
                     diam ut est pulvinar
                   </p>
                   <div className="link-wrap text-center">
-                    <a href="#">
+                    <Link to="#">
                       <FaLink />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -262,9 +263,9 @@ const ProjectAreaThree = () => {
                     diam ut est pulvinar
                   </p>
                   <div className="link-wrap text-center">
-                    <a href="#">
+                    <Link to="#">
                       <FaLink />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -280,9 +281,9 @@ const ProjectAreaThree = () => {
                     diam ut est pulvinar
                   </p>
                   <div className="link-wrap text-center">
-                    <a href="#">
+                    <Link to="#">
                       <FaLink />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -298,9 +299,9 @@ const ProjectAreaThree = () => {
                     diam ut est pulvinar
                   </p>
                   <div className="link-wrap text-center">
-                    <a href="#">
+                    <Link to="#">
                       <FaLink />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -325,9 +326,9 @@ const ProjectAreaThree = () => {
                     diam ut est pulvinar
                   </p>
                   <div className="link-wrap text-center">
-                    <a href="#">
+                    <Link to="#">
                       <FaLink />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -343,9 +344,9 @@ const ProjectAreaThree = () => {
                     diam ut est pulvinar
                   </p>
                   <div className="link-wrap text-center">
-                    <a href="#">
+                    <Link to="#">
                       <FaLink />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -361,9 +362,9 @@ const ProjectAreaThree = () => {
                     diam ut est pulvinar
                   </p>
                   <div className="link-wrap text-center">
-                    <a href="#">
+                    <Link to="#">
                       <FaLink />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -379,9 +380,9 @@ const ProjectAreaThree = () => {
                     diam ut est pulvinar
                   </p>
                   <div className="link-wrap text-center">
-                    <a href="#">
+                    <Link to="#">
                       <FaLink />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -397,9 +398,9 @@ const ProjectAreaThree = () => {
                     diam ut est pulvinar
                   </p>
                   <div className="link-wrap text-center">
-                    <a href="#">
+                    <Link to="#">
                       <FaLink />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -415,9 +416,9 @@ const ProjectAreaThree = () => {
                     diam ut est pulvinar
                   </p>
                   <div className="link-wrap text-center">
-                    <a href="#">
+                    <Link to="#">
                       <FaLink />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -442,9 +443,9 @@ const ProjectAreaThree = () => {
                     diam ut est pulvinar
                   </p>
                   <div className="link-wrap text-center">
-                    <a href="#">
+                    <Link to="#">
                       <FaLink />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -460,9 +461,9 @@ const ProjectAreaThree = () => {
                     diam ut est pulvinar
                   </p>
                   <div className="link-wrap text-center">
-                    <a href="#">
+                    <Link to="#">
                       <FaLink />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -478,9 +479,9 @@ const ProjectAreaThree = () => {
                     diam ut est pulvinar
                   </p>
                   <div className="link-wrap text-center">
-                    <a href="#">
+                    <Link to="#">
                       <FaLink />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -496,9 +497,9 @@ const ProjectAreaThree = () => {
                     diam ut est pulvinar
                   </p>
                   <div className="link-wrap text-center">
-                    <a href="#">
+                    <Link to="#">
                       <FaLink />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -514,9 +515,9 @@ const ProjectAreaThree = () => {
                     diam ut est pulvinar
                   </p>
                   <div className="link-wrap text-center">
-                    <a href="#">
+                    <Link to="#">
                       <FaLink />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -532,9 +533,9 @@ const ProjectAreaThree = () => {
                     diam ut est pulvinar
                   </p>
                   <div className="link-wrap text-center">
-                    <a href="#">
+                    <Link to="#">
                       <FaLink />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

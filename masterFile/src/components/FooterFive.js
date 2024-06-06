@@ -7,6 +7,7 @@ import {
   FaTwitter,
   FaYoutube,
 } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const FooterFive = () => {
   return (
@@ -78,24 +79,24 @@ const FooterFive = () => {
                   </div>
                   <ul className="social-media">
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <FaFacebookF />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <FaTwitter />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <FaInstagram />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <FaYoutube />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -106,34 +107,34 @@ const FooterFive = () => {
                 <h4 className="widget-title">All LINKS</h4>
                 <ul>
                   <li>
-                    <a href="service.html">
+                    <Link to="/service">
                       <FaChevronRight /> Credit industrys
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="service.html">
+                    <Link to="/service">
                       <FaChevronRight /> Reasearch sector
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="service.html">
+                    <Link to="/service">
                       <FaChevronRight /> Finance Sector{' '}
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="service.html">
+                    <Link to="/service">
                       <FaChevronRight /> Credit industrys
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="service.html">
+                    <Link to="/service">
                       <FaChevronRight /> Reasearch sector
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="service.html">
+                    <Link to="/service">
                       <FaChevronRight /> Finance Sector
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -143,34 +144,34 @@ const FooterFive = () => {
                 <h4 className="widget-title">Our Service</h4>
                 <ul>
                   <li>
-                    <a href="service.html">
+                    <Link to="/service">
                       <FaChevronRight /> Ui Design
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="service.html">
+                    <Link to="/service">
                       <FaChevronRight /> Web design
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="service.html">
+                    <Link to="/service">
                       <FaChevronRight /> Digital marketing{' '}
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="service.html">
+                    <Link to="/service">
                       <FaChevronRight /> Video Editing
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="service.html">
+                    <Link to="/service">
                       <FaChevronRight /> Pc Repairs
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="service.html">
+                    <Link to="/service">
                       <FaChevronRight /> Web Development
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -190,9 +191,9 @@ const FooterFive = () => {
                           <span>january 11, 2023</span>
                         </div>
                         <h6 className="title mb-0">
-                          <a href="blog-details.html">
+                          <Link to="/blog-details">
                             Social Media For Promote Business.
-                          </a>
+                          </Link>
                         </h6>
                       </div>
                     </div>
@@ -208,9 +209,9 @@ const FooterFive = () => {
                           <span>january 11, 2023</span>
                         </div>
                         <h6 className="title mb-0">
-                          <a href="blog-details.html">
+                          <Link to="/blog-details">
                             Marketing For Base market watch
-                          </a>
+                          </Link>
                         </h6>
                       </div>
                     </div>
@@ -227,9 +228,9 @@ const FooterFive = () => {
                 <p>© AglieTech 2024 | All Rights Reserved</p>
               </div>
               <div className="col-md-6 text-lg-end">
-                <a href="#">Trams &amp; Condition</a>
-                <a href="#">Privacy Policy</a>
-                <a href="#">Contact Us</a>
+                <Link to="#">Trams &amp; Condition</Link>
+                <Link to="#">Privacy Policy</Link>
+                <Link to="#">Contact Us</Link>
               </div>
             </div>
           </div>

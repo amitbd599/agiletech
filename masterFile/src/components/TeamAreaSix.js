@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaFacebookF, FaInstagram, FaYoutube } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const TeamAreaSix = () => {
   return (
@@ -26,19 +27,19 @@ const TeamAreaSix = () => {
                 <div className="details">
                   <ul className="social-media">
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <FaFacebookF />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <FaInstagram />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <FaYoutube />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                   <h5 className="text-white">Dianne Russell</h5>
@@ -54,19 +55,19 @@ const TeamAreaSix = () => {
                 <div className="details">
                   <ul className="social-media">
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <FaFacebookF />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <FaInstagram />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <FaYoutube />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                   <h5 className="text-white">Kathryn Murphy</h5>
@@ -82,19 +83,19 @@ const TeamAreaSix = () => {
                 <div className="details">
                   <ul className="social-media">
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <FaFacebookF />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <FaInstagram />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <FaYoutube />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                   <h5 className="text-white">Marvin McKinney</h5>

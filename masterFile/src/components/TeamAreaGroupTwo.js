@@ -17,24 +17,24 @@ const TeamAreaGroupTwo = () => {
                 <div className="details">
                   <div className="details-inner">
                     <h5>
-                      <a href="team-details.html">Devon Lane</a>
+                      <Link to="/team-details">Devon Lane</Link>
                     </h5>
                     <p>Merketing Department</p>
                     <ul className="team-social-inner mt-3 mb-1">
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaFacebookF />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaTwitter />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaInstagram />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -49,24 +49,24 @@ const TeamAreaGroupTwo = () => {
                 <div className="details">
                   <div className="details-inner">
                     <h5>
-                      <a href="team-details.html">Falcon Lane</a>
+                      <Link to="/team-details">Falcon Lane</Link>
                     </h5>
                     <p>Merketing Department</p>
                     <ul className="team-social-inner mt-3 mb-1">
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaFacebookF />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaTwitter />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaInstagram />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -81,24 +81,24 @@ const TeamAreaGroupTwo = () => {
                 <div className="details">
                   <div className="details-inner">
                     <h5>
-                      <a href="team-details.html">Wilson Jac</a>
+                      <Link to="/team-details">Wilson Jac</Link>
                     </h5>
                     <p>Merketing Department</p>
                     <ul className="team-social-inner mt-3 mb-1">
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaFacebookF />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaTwitter />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaInstagram />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -113,24 +113,24 @@ const TeamAreaGroupTwo = () => {
                 <div className="details">
                   <div className="details-inner">
                     <h5>
-                      <a href="team-details.html">Devon Lane</a>
+                      <Link to="/team-details">Devon Lane</Link>
                     </h5>
                     <p>Merketing Department</p>
                     <ul className="team-social-inner mt-3 mb-1">
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaFacebookF />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaTwitter />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaInstagram />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -145,24 +145,24 @@ const TeamAreaGroupTwo = () => {
                 <div className="details">
                   <div className="details-inner">
                     <h5>
-                      <a href="team-details.html">Falcon Lane</a>
+                      <Link to="/team-details">Falcon Lane</Link>
                     </h5>
                     <p>Merketing Department</p>
                     <ul className="team-social-inner mt-3 mb-1">
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaFacebookF />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaTwitter />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaInstagram />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -177,24 +177,24 @@ const TeamAreaGroupTwo = () => {
                 <div className="details">
                   <div className="details-inner">
                     <h5>
-                      <a href="team-details.html">Wilson Jac</a>
+                      <Link to="/team-details">Wilson Jac</Link>
                     </h5>
                     <p>Merketing Department</p>
                     <ul className="team-social-inner mt-3 mb-1">
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaFacebookF />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaTwitter />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaInstagram />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>

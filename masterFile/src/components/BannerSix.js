@@ -39,15 +39,15 @@ const BannerSix = () => {
                   Lorem is Ipsum is simply design designer best isthe text Lorem
                   Ipsum this the is simply is our com best ourbe designer Lorem
                 </p>
-                <a
+                <Link
                   className="btn btn-base   "
                   data-aos="fade-right"
                   data-aos-delay="400"
                   data-aos-duration="1500"
-                  href="about.html"
+                  to="/about"
                 >
                   Explore now
-                </a>
+                </Link>
               </div>
             </div>
           </div>

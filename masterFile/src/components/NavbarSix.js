@@ -100,14 +100,14 @@ const NavbarSix = () => {
               </button>
             </div>
             <div className="logo">
-              <a href="index.html">
+              <Link to="/index-1">
                 <img src="assets/img/home-8/logo.png" alt="img" />
-              </a>
+              </Link>
             </div>
             <div className="nav-right-part nav-right-part-mobile">
-              <a className="search-bar-btn" href="#">
+              <Link className="search-bar-btn" to="#">
                 <i className="fa fa-search" />
-              </a>
+              </Link>
             </div>
             <div
               className={
@@ -335,9 +335,9 @@ const NavbarSix = () => {
               </ul>
             </div>
             <div className="nav-right-part nav-right-part-desktop align-self-center">
-              <a className="btn btn-base-pink text-white" href="about.html">
+              <Link className="btn btn-base-pink text-white" to="/about">
                 Discover More <i className="fa fa-arrow-right" />
-              </a>
+              </Link>
             </div>
           </div>
         </nav>

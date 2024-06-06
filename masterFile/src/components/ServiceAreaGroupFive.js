@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 const ServiceAreaGroupFive = () => {
   return (
     <>
@@ -13,15 +14,15 @@ const ServiceAreaGroupFive = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <a href="service-details.html">Only the best</a>
+                    <Link to="/service-details">Only the best</Link>
                   </h5>
                   <p>
                     You can access SaaS applications through a web browser or
                     mobile app, as long as you have an internet connection
                   </p>
-                  <a className="read-more-text" href="service-details.html">
+                  <Link className="read-more-text" to="/service-details">
                     Touch More <i className="fa fa-plus" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -32,15 +33,15 @@ const ServiceAreaGroupFive = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <a href="service-details.html">Focusing on details</a>
+                    <Link to="/service-details">Focusing on details</Link>
                   </h5>
                   <p>
                     You can access SaaS applications through a web browser or
                     mobile app, as long as you have an internet connection
                   </p>
-                  <a className="read-more-text" href="service-details.html">
+                  <Link className="read-more-text" to="/service-details">
                     Touch More <i className="fa fa-plus" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -51,15 +52,15 @@ const ServiceAreaGroupFive = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <a href="service-details.html">No flaws here</a>
+                    <Link to="/service-details">No flaws here</Link>
                   </h5>
                   <p>
                     You can access SaaS applications through a web browser or
                     mobile app, as long as you have an internet connection
                   </p>
-                  <a className="read-more-text" href="service-details.html">
+                  <Link className="read-more-text" to="/service-details">
                     Touch More <i className="fa fa-plus" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

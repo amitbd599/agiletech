@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { FaArrowRight, FaSearch } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import { FaRegCircleXmark } from 'react-icons/fa6';
 const NavbarFour = () => {
   const [active, setActive] = useState(false);
   const [searchShow, setSearchShow] = useState(false);

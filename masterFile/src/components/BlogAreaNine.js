@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaArrowRight, FaRegFolderOpen, FaRegUser } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const BlogAreaNine = () => {
   return (
@@ -16,9 +17,9 @@ const BlogAreaNine = () => {
                 </h2>
               </div>
               <div className="col-lg-7 text-lg-end align-self-center">
-                <a className="btn btn-base bg-base-9" href="about.html">
+                <Link className="btn btn-base bg-base-9" to="/about">
                   More Blogs <FaArrowRight />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -46,21 +47,21 @@ const BlogAreaNine = () => {
                         </li>
                       </ul>
                       <h5 className="mb-3 text-white">
-                        <a href="blog-details.html">
+                        <Link to="/blog-details">
                           Transforming the world of ownership with NFTs
-                        </a>
+                        </Link>
                       </h5>
                       <p className="mb-3 text-white">
                         Many desktop publishing packages web page editors now
                         use Lorem Ipsum a default model text, and a search for
                         'lorem ipsum
                       </p>
-                      <a
+                      <Link
                         className="read-more-text text-white"
-                        href="blog-details.html"
+                        to="/blog-details"
                       >
                         Read More <FaArrowRight />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -89,21 +90,21 @@ const BlogAreaNine = () => {
                         </li>
                       </ul>
                       <h5 className="mb-3 text-white">
-                        <a href="blog-details.html">
+                        <Link to="/blog-details">
                           Transforming the world of ownership with NFTs
-                        </a>
+                        </Link>
                       </h5>
                       <p className="mb-3 text-white">
                         Many desktop publishing packages web page editors now
                         use Lorem Ipsum a default model text, and a search for
                         'lorem ipsum
                       </p>
-                      <a
+                      <Link
                         className="read-more-text text-white"
-                        href="blog-details.html"
+                        to="/blog-details"
                       >
                         Read More <FaArrowRight />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -132,21 +133,21 @@ const BlogAreaNine = () => {
                         </li>
                       </ul>
                       <h5 className="mb-3 text-white">
-                        <a href="blog-details.html">
+                        <Link to="/blog-details">
                           Transforming the world of ownership with NFTs
-                        </a>
+                        </Link>
                       </h5>
                       <p className="mb-3 text-white">
                         Many desktop publishing packages web page editors now
                         use Lorem Ipsum a default model text, and a search for
                         'lorem ipsum
                       </p>
-                      <a
+                      <Link
                         className="read-more-text text-white"
-                        href="blog-details.html"
+                        to="/blog-details"
                       >
                         Read More <FaArrowRight />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -175,21 +176,21 @@ const BlogAreaNine = () => {
                         </li>
                       </ul>
                       <h5 className="mb-3 text-white">
-                        <a href="blog-details.html">
+                        <Link to="/blog-details">
                           Transforming the world of ownership with NFTs
-                        </a>
+                        </Link>
                       </h5>
                       <p className="mb-3 text-white">
                         Many desktop publishing packages web page editors now
                         use Lorem Ipsum a default model text, and a search for
                         'lorem ipsum
                       </p>
-                      <a
+                      <Link
                         className="read-more-text text-white"
-                        href="blog-details.html"
+                        to="/blog-details"
                       >
                         Read More <FaArrowRight />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

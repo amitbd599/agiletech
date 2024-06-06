@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaAngleRight, FaPlus } from 'react-icons/fa';
+import { FaPlus } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const ServiceAreaNine = () => {
@@ -26,12 +26,12 @@ const ServiceAreaNine = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <a href="service-details.html">CloudCRM</a>
+                    <Link to="/service-details">CloudCRM</Link>
                   </h5>
                   <p>SaaS stands for Software as a Service. It is a software</p>
-                  <a className="read-more-text" href="blog-details.html">
+                  <Link className="read-more-text" to="/blog-details">
                     Touch More <FaPlus />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -42,12 +42,12 @@ const ServiceAreaNine = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <a href="service-details.html">SmartBiz</a>
+                    <Link to="/service-details">SmartBiz</Link>
                   </h5>
                   <p>SaaS stands for Software as a Service. It is a software</p>
-                  <a className="read-more-text" href="blog-details.html">
+                  <Link className="read-more-text" to="/blog-details">
                     Touch More <FaPlus />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -58,12 +58,12 @@ const ServiceAreaNine = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <a href="service-details.html">AppGenius</a>
+                    <Link to="/service-details">AppGenius</Link>
                   </h5>
                   <p>SaaS stands for Software as a Service. It is a software</p>
-                  <a className="read-more-text" href="blog-details.html">
+                  <Link className="read-more-text" to="/blog-details">
                     Touch More <FaPlus />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -76,12 +76,12 @@ const ServiceAreaNine = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <a href="service-details.html">Content Marketing</a>
+                    <Link to="/service-details">Content Marketing</Link>
                   </h5>
                   <p>SaaS stands for Software as a Service. It is a software</p>
-                  <a className="read-more-text" href="blog-details.html">
+                  <Link className="read-more-text" to="/blog-details">
                     Touch More <FaPlus />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -92,12 +92,12 @@ const ServiceAreaNine = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <a href="service-details.html">Mobile App Development</a>
+                    <Link to="/service-details">Mobile App Development</Link>
                   </h5>
                   <p>SaaS stands for Software as a Service. It is a software</p>
-                  <a className="read-more-text" href="blog-details.html">
+                  <Link className="read-more-text" to="/blog-details">
                     Touch More <FaPlus />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -108,12 +108,12 @@ const ServiceAreaNine = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <a href="service-details.html">Design Solutions</a>
+                    <Link to="/service-details">Design Solutions</Link>
                   </h5>
                   <p>SaaS stands for Software as a Service. It is a software</p>
-                  <a className="read-more-text" href="blog-details.html">
+                  <Link className="read-more-text" to="/blog-details">
                     Touch More <FaPlus />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

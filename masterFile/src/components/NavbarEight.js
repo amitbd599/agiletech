@@ -70,12 +70,12 @@ const NavbarEight = () => {
             </button>
           </div>
           <div className="logo">
-            <a className="d-none d-lg-inline-block" href="index.html">
+            <Link className="d-none d-lg-inline-block" to="index-1">
               <img src="assets/img/home-9/1.png" alt="img" />
-            </a>
-            <a className="d-lg-none d-inline-block" href="index.html">
+            </Link>
+            <Link className="d-lg-none d-inline-block" to="index-1">
               <img src="assets/img/logo.png" alt="img" />
-            </a>
+            </Link>
           </div>
           <div className="nav-right-part nav-right-part-mobile">
             <span className="search-bar-btn" onClick={searchActive}>
@@ -306,9 +306,9 @@ const NavbarEight = () => {
             </ul>
           </div>
           <div className="nav-right-part nav-right-part-desktop align-self-center">
-            <a className="btn btn-base bg-base-9" href="about.html">
+            <Link className="btn btn-base bg-base-9" to="about">
               Discover More <FaArrowRight className="mt-4" />
-            </a>
+            </Link>
           </div>
         </div>
       </nav>

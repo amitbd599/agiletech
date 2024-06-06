@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import {
-  FaArrowRight,
   FaFacebookF,
   FaLinkedinIn,
   FaMapMarkerAlt,
@@ -10,7 +9,6 @@ import {
   FaSearch,
   FaTwitter,
 } from 'react-icons/fa';
-import { FaRegCircleXmark } from 'react-icons/fa6';
 import { Link } from 'react-router-dom';
 
 const NavbarSeven = () => {
@@ -78,24 +76,24 @@ const NavbarSeven = () => {
               <ul className="topbar-right">
                 <li>Follow On: </li>
                 <li>
-                  <a href="#">
+                  <Link to="#">
                     <FaFacebookF />
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link to="#">
                     <FaTwitter />
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link to="#">
                     <FaLinkedinIn />
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link to="#">
                     <FaPinterestP />
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -122,9 +120,9 @@ const NavbarSeven = () => {
             </button>
           </div>
           <div className="logo">
-            <a href="index.html">
+            <Link to="index-1">
               <img src="assets/img/logo.png" alt="img" />
-            </a>
+            </Link>
           </div>
           <div className="nav-right-part nav-right-part-mobile">
             <Link className="search-bar-btn" to="#" onClick={searchActive}>
@@ -369,9 +367,9 @@ const NavbarSeven = () => {
             >
               <FaSearch />
             </Link>
-            <a className="btn btn-border-base" href="about.html">
+            <Link className="btn btn-border-base" to="/about">
               Discover More <FaPlus />
-            </a>
+            </Link>
           </div>
         </div>
       </nav>

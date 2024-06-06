@@ -62,25 +62,25 @@ const TeamAreaGroupThree = () => {
                     <img src="assets/img/team/1.png" alt="img" />
                     <ul className="team-social-inner border-radius-5">
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaFacebookF />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaTwitter />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaInstagram />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
                   <div className="details">
                     <h5>
-                      <a href="team-details.html">Devon Lane</a>
+                      <Link to="/team-details">Devon Lane</Link>
                     </h5>
                     <p>SEO Department</p>
                   </div>
@@ -92,25 +92,25 @@ const TeamAreaGroupThree = () => {
                     <img src="assets/img/team/2.png" alt="img" />
                     <ul className="team-social-inner border-radius-5">
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaFacebookF />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaTwitter />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaInstagram />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
                   <div className="details">
                     <h5>
-                      <a href="team-details.html">Darrell Steward</a>
+                      <Link to="/team-details">Darrell Steward</Link>
                     </h5>
                     <p>It Department</p>
                   </div>
@@ -122,25 +122,25 @@ const TeamAreaGroupThree = () => {
                     <img src="assets/img/team/3.png" alt="img" />
                     <ul className="team-social-inner border-radius-5">
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaFacebookF />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaTwitter />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaInstagram />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
                   <div className="details">
                     <h5>
-                      <a href="team-details.html">Bessie Cooper</a>
+                      <Link to="/team-details">Bessie Cooper</Link>
                     </h5>
                     <p>Software Department</p>
                   </div>
@@ -152,25 +152,25 @@ const TeamAreaGroupThree = () => {
                     <img src="assets/img/team/1.png" alt="img" />
                     <ul className="team-social-inner border-radius-5">
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaFacebookF />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaTwitter />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaInstagram />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
                   <div className="details">
                     <h5>
-                      <a href="team-details.html">Devon Lane</a>
+                      <Link to="/team-details">Devon Lane</Link>
                     </h5>
                     <p>SEO Department</p>
                   </div>
@@ -182,25 +182,25 @@ const TeamAreaGroupThree = () => {
                     <img src="assets/img/team/2.png" alt="img" />
                     <ul className="team-social-inner border-radius-5">
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaFacebookF />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaTwitter />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaInstagram />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
                   <div className="details">
                     <h5>
-                      <a href="team-details.html">Darrell Steward</a>
+                      <Link to="/team-details">Darrell Steward</Link>
                     </h5>
                     <p>It Department</p>
                   </div>
@@ -212,25 +212,25 @@ const TeamAreaGroupThree = () => {
                     <img src="assets/img/team/3.png" alt="img" />
                     <ul className="team-social-inner border-radius-5">
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaFacebookF />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaTwitter />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <FaInstagram />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
                   <div className="details">
                     <h5>
-                      <a href="team-details.html">Bessie Cooper</a>
+                      <Link to="/team-details">Bessie Cooper</Link>
                     </h5>
                     <p>Software Department</p>
                   </div>

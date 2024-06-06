@@ -683,10 +683,7 @@
   }
   @media all and (max-width: 1599px) {
     .banner-area {
-      padding: 300px 0 130px 0;
-    }
-    .banner-animate-image {
-      margin-top: -4%;
+      padding: 400px 0 200px 0;
     }
   }
   @media all and (max-width: 1199px) {
@@ -711,7 +708,7 @@
       padding-top: 47px;
     }
     .banner-area {
-      padding: 228px 0px 218px;
+      padding: 400px 0 200px 0;
     }
     .banner-animate-image {
       display: none;

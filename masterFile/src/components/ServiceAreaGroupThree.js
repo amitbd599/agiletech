@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 const ServiceAreaGroupThree = () => {
   return (
     <>
@@ -17,9 +18,9 @@ const ServiceAreaGroupThree = () => {
                     Research ipsum dolor sit consec tetur sed diam in the
                     aliquam tempor
                   </p>
-                  <a className="read-more-text" href="service-details.html">
+                  <Link className="read-more-text" to="/service-details">
                     Read More <i className="fa fa-arrow-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -34,9 +35,9 @@ const ServiceAreaGroupThree = () => {
                     Create ipsum dolor sit consec tetur sed diam in the aliquam
                     tempor
                   </p>
-                  <a className="read-more-text" href="service-details.html">
+                  <Link className="read-more-text" to="/service-details">
                     Read More <i className="fa fa-arrow-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -51,9 +52,9 @@ const ServiceAreaGroupThree = () => {
                     Develope ipsum dolor sit consec tetur sed diam in the
                     aliquam tempor
                   </p>
-                  <a className="read-more-text" href="service-details.html">
+                  <Link className="read-more-text" to="/service-details">
                     Read More <i className="fa fa-arrow-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -68,9 +69,9 @@ const ServiceAreaGroupThree = () => {
                     Shop ipsum dolor sit consec tetur Malesuada sed diam in the
                     tempor
                   </p>
-                  <a className="read-more-text" href="service-details.html">
+                  <Link className="read-more-text" to="/service-details">
                     Read More <i className="fa fa-arrow-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -85,9 +86,9 @@ const ServiceAreaGroupThree = () => {
                     Research ipsum dolor sit consec tetur sed diam in the
                     aliquam
                   </p>
-                  <a className="read-more-text" href="service-details.html">
+                  <Link className="read-more-text" to="/service-details">
                     Read More <i className="fa fa-arrow-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -101,9 +102,9 @@ const ServiceAreaGroupThree = () => {
                   <p className="content mb-3">
                     Create ipsum dolor sit consec tetur sed diam in the aliquam
                   </p>
-                  <a className="read-more-text" href="service-details.html">
+                  <Link className="read-more-text" to="/service-details">
                     Read More <i className="fa fa-arrow-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

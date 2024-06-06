@@ -1,22 +1,21 @@
-import React from "react";
+import React from 'react';
 import {
   FaAngleLeft,
   FaAngleRight,
   FaFacebookF,
   FaInstagram,
-  FaTwitter,
   FaYoutube,
-} from "react-icons/fa";
-import { Link } from "react-router-dom";
-import Slider from "react-slick";
+} from 'react-icons/fa';
+import { Link } from 'react-router-dom';
+import Slider from 'react-slick';
 
 const CreatorOne = () => {
   function SampleNextArrow(props) {
-    const { className, style, onClick } = props;
+    const { className, onClick } = props;
     return <FaAngleRight className={className} onClick={onClick} />;
   }
   function SamplePrevArrow(props) {
-    const { className, style, onClick } = props;
+    const { className, onClick } = props;
     return <FaAngleLeft className={className} onClick={onClick} />;
   }
   const settings = {
@@ -61,182 +60,182 @@ const CreatorOne = () => {
   return (
     <>
       {/*====================== creator start ======================*/}
-      <div className='creator-area pd-top-115'>
-        <div className='container'>
-          <div className='row justify-content-center'>
-            <div className='col-lg-6'>
-              <div className='section-title text-center'>
-                <h2 className='title'>Connect with your favorite creators</h2>
+      <div className="creator-area pd-top-115">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-6">
+              <div className="section-title text-center">
+                <h2 className="title">Connect with your favorite creators</h2>
               </div>
             </div>
           </div>
-          <div className='creator-slider owl-carousel slider-control-dots'>
+          <div className="creator-slider owl-carousel slider-control-dots">
             <Slider {...settings}>
-              <div className='item'>
-                <div className='single-creator-inner text-center'>
-                  <div className='thumb'>
-                    <img src='assets/img/home-8/52.png' alt='img' />
+              <div className="item">
+                <div className="single-creator-inner text-center">
+                  <div className="thumb">
+                    <img src="assets/img/home-8/52.png" alt="img" />
                   </div>
-                  <div className='details'>
-                    <ul className='social-media'>
+                  <div className="details">
+                    <ul className="social-media">
                       <li>
-                        <a href='#'>
+                        <Link to="#">
                           <FaFacebookF />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href='#'>
+                        <Link to="#">
                           <FaInstagram />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href='#'>
+                        <Link to="#">
                           <FaYoutube />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                     <h5>Dianne Russell</h5>
-                    <p className='mb-0'>Python Developer</p>
+                    <p className="mb-0">Python Developer</p>
                   </div>
                 </div>
               </div>
-              <div className='item'>
-                <div className='single-creator-inner text-center'>
-                  <div className='thumb'>
-                    <img src='assets/img/home-8/53.png' alt='img' />
+              <div className="item">
+                <div className="single-creator-inner text-center">
+                  <div className="thumb">
+                    <img src="assets/img/home-8/53.png" alt="img" />
                   </div>
-                  <div className='details'>
-                    <ul className='social-media'>
+                  <div className="details">
+                    <ul className="social-media">
                       <li>
-                        <a href='#'>
+                        <Link to="#">
                           <FaFacebookF />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href='#'>
+                        <Link to="#">
                           <FaInstagram />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href='#'>
+                        <Link to="#">
                           <FaYoutube />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                     <h5>Kathryn Murphy</h5>
-                    <p className='mb-0'>Php Developer</p>
+                    <p className="mb-0">Php Developer</p>
                   </div>
                 </div>
               </div>
-              <div className='item'>
-                <div className='single-creator-inner text-center'>
-                  <div className='thumb'>
-                    <img src='assets/img/home-8/54.png' alt='img' />
+              <div className="item">
+                <div className="single-creator-inner text-center">
+                  <div className="thumb">
+                    <img src="assets/img/home-8/54.png" alt="img" />
                   </div>
-                  <div className='details'>
-                    <ul className='social-media'>
+                  <div className="details">
+                    <ul className="social-media">
                       <li>
-                        <a href='#'>
+                        <Link to="#">
                           <FaFacebookF />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href='#'>
+                        <Link to="#">
                           <FaInstagram />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href='#'>
+                        <Link to="#">
                           <FaYoutube />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                     <h5>Marvin McKinney</h5>
-                    <p className='mb-0'>Wordpress Developer</p>
+                    <p className="mb-0">Wordpress Developer</p>
                   </div>
                 </div>
               </div>
-              <div className='item'>
-                <div className='single-creator-inner text-center'>
-                  <div className='thumb'>
-                    <img src='assets/img/home-8/55.png' alt='img' />
+              <div className="item">
+                <div className="single-creator-inner text-center">
+                  <div className="thumb">
+                    <img src="assets/img/home-8/55.png" alt="img" />
                   </div>
-                  <div className='details'>
-                    <ul className='social-media'>
+                  <div className="details">
+                    <ul className="social-media">
                       <li>
-                        <a href='#'>
+                        <Link to="#">
                           <FaFacebookF />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href='#'>
+                        <Link to="#">
                           <FaInstagram />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href='#'>
+                        <Link to="#">
                           <FaYoutube />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                     <h5>Cameron Williamson</h5>
-                    <p className='mb-0'>Joomla Developer</p>
+                    <p className="mb-0">Joomla Developer</p>
                   </div>
                 </div>
               </div>
-              <div className='item'>
-                <div className='single-creator-inner text-center'>
-                  <div className='thumb'>
-                    <img src='assets/img/home-8/52.png' alt='img' />
+              <div className="item">
+                <div className="single-creator-inner text-center">
+                  <div className="thumb">
+                    <img src="assets/img/home-8/52.png" alt="img" />
                   </div>
-                  <div className='details'>
-                    <ul className='social-media'>
+                  <div className="details">
+                    <ul className="social-media">
                       <li>
-                        <a href='#'>
+                        <Link to="#">
                           <FaFacebookF />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href='#'>
+                        <Link to="#">
                           <FaInstagram />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href='#'>
+                        <Link to="#">
                           <FaYoutube />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                     <h5>Dianne Russell</h5>
-                    <p className='mb-0'>Python Developer</p>
+                    <p className="mb-0">Python Developer</p>
                   </div>
                 </div>
               </div>
-              <div className='item'>
-                <div className='single-creator-inner text-center'>
-                  <div className='thumb'>
-                    <img src='assets/img/home-8/53.png' alt='img' />
+              <div className="item">
+                <div className="single-creator-inner text-center">
+                  <div className="thumb">
+                    <img src="assets/img/home-8/53.png" alt="img" />
                   </div>
-                  <div className='details'>
-                    <ul className='social-media'>
+                  <div className="details">
+                    <ul className="social-media">
                       <li>
-                        <a href='#'>
+                        <Link to="#">
                           <FaFacebookF />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href='#'>
+                        <Link to="#">
                           <FaInstagram />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href='#'>
+                        <Link to="#">
                           <FaYoutube />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                     <h5>Kathryn Murphy</h5>
-                    <p className='mb-0'>Php Developer</p>
+                    <p className="mb-0">Php Developer</p>
                   </div>
                 </div>
               </div>

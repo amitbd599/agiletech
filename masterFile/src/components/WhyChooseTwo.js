@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaPlus } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const WhyChooseTwo = () => {
   return (
@@ -88,11 +89,11 @@ const WhyChooseTwo = () => {
                 viverra purus imperdiet a. Ut nisl est at ultricies neque ornare
                 tellus tellus enim.
               </p>
-              <a
+              <Link
                 className="btn btn-border-base wow  fadeInLeft animated mt-4"
                 data-wow-duration="1.5s"
                 data-wow-delay="0.6s"
-                href="about.html"
+                to="/about"
                 style={{
                   visibility: 'visible',
                   animationDuration: '1.5s',
@@ -101,7 +102,7 @@ const WhyChooseTwo = () => {
                 }}
               >
                 Discover More <FaPlus />
-              </a>
+              </Link>
             </div>
           </div>
         </div>

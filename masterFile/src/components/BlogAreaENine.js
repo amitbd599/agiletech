@@ -5,6 +5,7 @@ import {
   FaRegFolderOpen,
   FaRegUser,
 } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const BlogAreaENine = () => {
   return (
@@ -21,9 +22,9 @@ const BlogAreaENine = () => {
                 </h2>
               </div>
               <div className="col-lg-5 text-lg-end align-self-end">
-                <a className="btn btn-border-base" href="blog.html">
+                <Link className="btn btn-border-base" to="/blog">
                   More Blogs
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -47,13 +48,13 @@ const BlogAreaENine = () => {
                     </li>
                   </ul>
                   <h5 className="mb-4">
-                    <a href="blog-details.html">
+                    <Link to="/blog-details">
                       Transforming businesses, one pixel at a time
-                    </a>
+                    </Link>
                   </h5>
-                  <a className="read-more-text" href="blog-details.html">
+                  <Link className="read-more-text" to="/blog-details">
                     Discover More <FaPlus className="mb-1" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -76,13 +77,13 @@ const BlogAreaENine = () => {
                     </li>
                   </ul>
                   <h5 className="mb-4">
-                    <a href="blog-details.html">
+                    <Link to="/blog-details">
                       The Importance of a Strong Digital for Strategy
-                    </a>
+                    </Link>
                   </h5>
-                  <a className="read-more-text" href="blog-details.html">
+                  <Link className="read-more-text" to="/blog-details">
                     Discover More <FaPlus className="mb-1" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -105,13 +106,13 @@ const BlogAreaENine = () => {
                     </li>
                   </ul>
                   <h5 className="mb-4">
-                    <a href="blog-details.html">
+                    <Link to="/blog-details">
                       Creating Engaging Content: A Guide for Digital
-                    </a>
+                    </Link>
                   </h5>
-                  <a className="read-more-text" href="blog-details.html">
+                  <Link className="read-more-text" to="/blog-details">
                     Discover More <FaPlus className="mb-1" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

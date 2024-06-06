@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Marquee from 'react-fast-marquee';
 import { FaPlus } from 'react-icons/fa';
 import ModalVideo from 'react-modal-video';
+import { Link } from 'react-router-dom';
 const BannerTen = () => {
   const [isOpen, setOpen] = useState(false);
   return (
@@ -27,14 +28,14 @@ const BannerTen = () => {
                   {' '}
                   Smarter Way To Serve <span>Digital Product </span>SEO
                 </h2>
-                <a
+                <Link
                   className="btn btn-border-base wow animated fadeInLeft"
                   data-wow-duration="1.5s"
                   data-wow-delay="0.6s"
-                  href="about.html"
+                  to="/about"
                 >
                   Contact Us
-                </a>
+                </Link>
                 <div
                   className="d-inline-block align-self-center wow animated fadeInLeft"
                   data-wow-duration="1.5s"

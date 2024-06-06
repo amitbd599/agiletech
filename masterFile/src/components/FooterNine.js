@@ -1,7 +1,5 @@
 import React from 'react';
 import {
-  FaArrowRight,
-  FaCalendarAlt,
   FaChevronRight,
   FaEnvelope,
   FaFacebookF,
@@ -11,6 +9,7 @@ import {
   FaTwitter,
   FaYoutube,
 } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const FooterNine = () => {
   return (
@@ -42,34 +41,34 @@ const FooterNine = () => {
                 <h4 className="widget-title">Our Service</h4>
                 <ul>
                   <li>
-                    <a href="service.html">
+                    <Link to="/service">
                       <FaChevronRight className="mb-1" /> Ui Design
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="service.html">
+                    <Link to="/service">
                       <FaChevronRight className="mb-1" /> Web design
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="service.html">
+                    <Link to="/service">
                       <FaChevronRight className="mb-1" /> Digital marketing{' '}
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="service.html">
+                    <Link to="/service">
                       <FaChevronRight className="mb-1" /> Video Editing
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="service.html">
+                    <Link to="/service">
                       <FaChevronRight className="mb-1" /> Pc Repairs
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="service.html">
+                    <Link to="/service">
                       <FaChevronRight className="mb-1" /> Web Development
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -79,34 +78,34 @@ const FooterNine = () => {
                 <h4 className="widget-title">Pay links</h4>
                 <ul>
                   <li>
-                    <a href="service.html">
+                    <Link to="/service">
                       <FaChevronRight className="mb-1" /> Credit industrys
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="service.html">
+                    <Link to="/service">
                       <FaChevronRight className="mb-1" /> Reasearch sector
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="service.html">
+                    <Link to="/service">
                       <FaChevronRight className="mb-1" /> Finance Sector{' '}
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="service.html">
+                    <Link to="/service">
                       <FaChevronRight className="mb-1" /> Credit industrys
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="service.html">
+                    <Link to="/service">
                       <FaChevronRight className="mb-1" /> Reasearch sector
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="service.html">
+                    <Link to="/service">
                       <FaChevronRight className="mb-1" /> Finance Sector
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -129,24 +128,24 @@ const FooterNine = () => {
                   </ul>
                   <ul className="social-media mt-4">
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <FaFacebookF />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <FaTwitter />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <FaInstagram />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <FaYoutube />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -161,9 +160,9 @@ const FooterNine = () => {
                 <p>© agiletech 2024 | All Rights Reserved</p>
               </div>
               <div className="col-md-6 text-lg-end">
-                <a href="#">Trams &amp; Condition</a>
-                <a href="#">Privacy Policy</a>
-                <a href="#">Contact Us</a>
+                <Link to="#">Trams &amp; Condition</Link>
+                <Link to="#">Privacy Policy</Link>
+                <Link to="#">Contact Us</Link>
               </div>
             </div>
           </div>

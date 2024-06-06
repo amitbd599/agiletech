@@ -15,14 +15,14 @@ const ProjectAreaGroup = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <a href="project-details.html">Tecnology Farms</a>
+                    <Link to="/project-details">Tecnology Farms</Link>
                   </h5>
-                  <a className="cat" href="#">
+                  <Link className="cat" to="#">
                     Las vegas
-                  </a>
-                  <a className="right-arrow" href="#">
+                  </Link>
+                  <Link className="right-arrow" to="#">
                     <FaAngleDoubleRight className="mb-1" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -33,14 +33,14 @@ const ProjectAreaGroup = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <a href="project-details.html">Tecnology Farms</a>
+                    <Link to="/project-details">Tecnology Farms</Link>
                   </h5>
-                  <a className="cat" href="#">
+                  <Link className="cat" to="#">
                     Las vegas
-                  </a>
-                  <a className="right-arrow" href="#">
+                  </Link>
+                  <Link className="right-arrow" to="#">
                     <FaAngleDoubleRight className="mb-1" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -51,14 +51,14 @@ const ProjectAreaGroup = () => {
                 </div>
                 <div className="details">
                   <h5>
-                    <a href="project-details.html">Tecnology Farms</a>
+                    <Link to="/project-details">Tecnology Farms</Link>
                   </h5>
-                  <a className="cat" href="#">
+                  <Link className="cat" to="#">
                     Las vegas
-                  </a>
-                  <a className="right-arrow" href="#">
+                  </Link>
+                  <Link className="right-arrow" to="#">
                     <FaAngleDoubleRight className="mb-1" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

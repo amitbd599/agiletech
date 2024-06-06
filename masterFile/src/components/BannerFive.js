@@ -57,7 +57,7 @@ const BannerFive = () => {
                   data-aos-duration="1500"
                 >
                   <Link
-                    href="javascript:void(0)"
+                    to="#"
                     onClick={() => setOpen(true)}
                     className="video-play-btn-hover"
                   >

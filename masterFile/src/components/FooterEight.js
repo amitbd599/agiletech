@@ -9,6 +9,7 @@ import {
   FaTwitter,
   FaYoutube,
 } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const FooterEight = () => {
   return (
@@ -27,9 +28,9 @@ const FooterEight = () => {
                 </div>
                 <div className="col-lg-6 align-self-center text-lg-end">
                   <input type="text" placeholder="Your e-mail address" />
-                  <a className="btn btn-base bg-base-9" href="#">
+                  <Link className="btn btn-base bg-base-9" to="#">
                     Submit now
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -54,24 +55,24 @@ const FooterEight = () => {
                   </p>
                   <ul className="social-media">
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <FaFacebookF />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <FaTwitter />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <FaInstagram />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <FaYoutube />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -82,34 +83,34 @@ const FooterEight = () => {
                 <h4 className="widget-title">Usefull links</h4>
                 <ul>
                   <li>
-                    <a href="service.html">
+                    <Link to="/service">
                       <FaArrowRight /> Credit industrys
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="service.html">
+                    <Link to="/service">
                       <FaArrowRight /> Reasearch sector
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="service.html">
+                    <Link to="/service">
                       <FaArrowRight /> Finance Sector{' '}
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="service.html">
+                    <Link to="/service">
                       <FaArrowRight /> Credit industrys
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="service.html">
+                    <Link to="/service">
                       <FaArrowRight /> Reasearch sector
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="service.html">
+                    <Link to="/service">
                       <FaArrowRight /> Finance Sector
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -142,9 +143,9 @@ const FooterEight = () => {
                 <p>© agiletech 2024 | All Rights Reserved</p>
               </div>
               <div className="col-md-6 text-lg-end">
-                <a href="#">Trams &amp; Condition</a>
-                <a href="#">Privacy Policy</a>
-                <a href="#">Contact Us</a>
+                <Link to="#">Trams &amp; Condition</Link>
+                <Link to="#">Privacy Policy</Link>
+                <Link to="#">Contact Us</Link>
               </div>
             </div>
           </div>

@@ -39,14 +39,14 @@ const BannerEight = () => {
                   Marketing Plays An Important Role. Similarly, In Making
                   Cultivation Business A Brand, Good Slogans Are Necessary.
                 </p>
-                <a
+                <Link
                   className="btn btn-base  border-radius-0 wow animated fadeInLeft"
                   data-wow-duration="1.5s"
                   data-wow-delay="0.6s"
-                  href="about.html"
+                  to="/about"
                 >
                   Free Consulting <FaArrowAltCircleRight className="mt-4" />
-                </a>
+                </Link>
                 <div
                   className="d-inline-block align-self-center wow animated fadeInLeft"
                   data-wow-duration="1.5s"

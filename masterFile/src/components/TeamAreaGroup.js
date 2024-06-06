@@ -15,19 +15,19 @@ const TeamAreaGroup = () => {
                   <img src='assets/img/team/1.png' alt='img' />
                   <ul className='team-social-inner'>
                     <li>
-                      <a href='#'>
+                      <Link to="#">
                         <FaFacebookF />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href='#'>
+                      <Link to="#">
                         <FaTwitter />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href='#'>
+                      <Link to="#">
                         <FaInstagram />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -45,19 +45,19 @@ const TeamAreaGroup = () => {
                   <img src='assets/img/team/2.png' alt='img' />
                   <ul className='team-social-inner'>
                     <li>
-                      <a href='#'>
+                      <Link to="#">
                         <FaFacebookF />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href='#'>
+                      <Link to="#">
                         <FaTwitter />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href='#'>
+                      <Link to="#">
                         <FaInstagram />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -75,19 +75,19 @@ const TeamAreaGroup = () => {
                   <img src='assets/img/team/3.png' alt='img' />
                   <ul className='team-social-inner'>
                     <li>
-                      <a href='#'>
+                      <Link to="#">
                         <FaFacebookF />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href='#'>
+                      <Link to="#">
                         <FaTwitter />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href='#'>
+                      <Link to="#">
                         <FaInstagram />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -105,19 +105,19 @@ const TeamAreaGroup = () => {
                   <img src='assets/img/team/1.png' alt='img' />
                   <ul className='team-social-inner'>
                     <li>
-                      <a href='#'>
+                      <Link to="#">
                         <FaFacebookF />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href='#'>
+                      <Link to="#">
                         <FaTwitter />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href='#'>
+                      <Link to="#">
                         <FaInstagram />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -135,19 +135,19 @@ const TeamAreaGroup = () => {
                   <img src='assets/img/team/2.png' alt='img' />
                   <ul className='team-social-inner'>
                     <li>
-                      <a href='#'>
+                      <Link to="#">
                         <FaFacebookF />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href='#'>
+                      <Link to="#">
                         <FaTwitter />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href='#'>
+                      <Link to="#">
                         <FaInstagram />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -165,19 +165,19 @@ const TeamAreaGroup = () => {
                   <img src='assets/img/team/3.png' alt='img' />
                   <ul className='team-social-inner'>
                     <li>
-                      <a href='#'>
+                      <Link to="#">
                         <FaFacebookF />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href='#'>
+                      <Link to="#">
                         <FaTwitter />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href='#'>
+                      <Link to="#">
                         <FaInstagram />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>

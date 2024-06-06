@@ -3,12 +3,6 @@ import {
   FaAngleLeft,
   FaAngleRight,
   FaCalendarAlt,
-  FaChevronRight,
-  FaFacebookF,
-  FaRegFolderOpen,
-  FaInstagram,
-  FaPlus,
-  FaTwitter,
   FaRegUser,
   FaRegComments,
 } from 'react-icons/fa';
@@ -32,9 +26,9 @@ const BlogGroupTwo = () => {
                     October 19, 2023
                   </p>
                   <h5>
-                    <a href="blog-details.html">
+                    <Link to="/blog-details">
                       Transforming businesses, one pixel at a time
-                    </a>
+                    </Link>
                   </h5>
                   <div className="meta">
                     <div className="row">
@@ -66,9 +60,9 @@ const BlogGroupTwo = () => {
                     June 19, 2023
                   </p>
                   <h5>
-                    <a href="blog-details.html">
+                    <Link to="/blog-details">
                       The Importance of a Strong Digital for Strategy
-                    </a>
+                    </Link>
                   </h5>
                   <div className="meta">
                     <div className="row">
@@ -100,9 +94,9 @@ const BlogGroupTwo = () => {
                     October 19, 2023
                   </p>
                   <h5>
-                    <a href="blog-details.html">
+                    <Link to="/blog-details">
                       Creating Engaging Content: A Guide for Digital
-                    </a>
+                    </Link>
                   </h5>
                   <div className="meta">
                     <div className="row">
@@ -134,9 +128,9 @@ const BlogGroupTwo = () => {
                     October 19, 2023
                   </p>
                   <h5>
-                    <a href="blog-details.html">
+                    <Link to="/blog-details">
                       Transforming businesses, one pixel at a time
-                    </a>
+                    </Link>
                   </h5>
                   <div className="meta">
                     <div className="row">
@@ -168,9 +162,9 @@ const BlogGroupTwo = () => {
                     June 19, 2023
                   </p>
                   <h5>
-                    <a href="blog-details.html">
+                    <Link to="/blog-details">
                       The Importance of a Strong Digital for Strategy
-                    </a>
+                    </Link>
                   </h5>
                   <div className="meta">
                     <div className="row">
@@ -202,9 +196,9 @@ const BlogGroupTwo = () => {
                     October 19, 2023
                   </p>
                   <h5>
-                    <a href="blog-details.html">
+                    <Link to="/blog-details">
                       Creating Engaging Content: A Guide for Digital
-                    </a>
+                    </Link>
                   </h5>
                   <div className="meta">
                     <div className="row">
@@ -227,22 +221,22 @@ const BlogGroupTwo = () => {
             </div>
           </div>
           <div className="pagination">
-            <a className="prev page-numbers" href="#">
+            <Link className="prev page-numbers" to="#">
               <FaAngleLeft />
-            </a>
-            <a className="page-numbers" href="#">
+            </Link>
+            <Link className="page-numbers" to="#">
               1
-            </a>
+            </Link>
             <span className="page-numbers current">2</span>
-            <a className="page-numbers" href="#">
+            <Link className="page-numbers" to="#">
               3
-            </a>
-            <a className="page-numbers" href="#">
+            </Link>
+            <Link className="page-numbers" to="#">
               4
-            </a>
-            <a className="next page-numbers" href="#">
+            </Link>
+            <Link className="next page-numbers" to="#">
               <FaAngleRight />
-            </a>
+            </Link>
           </div>
         </div>
       </div>

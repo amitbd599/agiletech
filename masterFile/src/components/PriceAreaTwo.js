@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const PriceAreaTwo = () => {
   return (
@@ -45,12 +46,12 @@ const PriceAreaTwo = () => {
                     Video &amp; Animation Production{' '}
                   </li>
                 </ul>
-                <a
+                <Link
                   className="btn btn-black border-radius border-radius-0 w-100"
-                  href="#"
+                  to="#"
                 >
                   Started
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
@@ -85,12 +86,12 @@ const PriceAreaTwo = () => {
                     Video &amp; Animation Production{' '}
                   </li>
                 </ul>
-                <a
+                <Link
                   className="btn btn-black border-radius border-radius-0 w-100"
-                  href="#"
+                  to="#"
                 >
                   Started
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
@@ -125,12 +126,12 @@ const PriceAreaTwo = () => {
                     Video &amp; Animation Production{' '}
                   </li>
                 </ul>
-                <a
+                <Link
                   className="btn btn-black border-radius border-radius-0 w-100"
-                  href="#"
+                  to="#"
                 >
                   Started
-                </a>
+                </Link>
               </div>
             </div>
           </div>

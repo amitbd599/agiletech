@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaAngleRight, FaPlus } from 'react-icons/fa';
+import { FaAngleRight } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const ServiceAreaSeven = () => {
@@ -25,9 +25,9 @@ const ServiceAreaSeven = () => {
                   <img src="assets/img/home-7/2.png" alt="img" />
                 </div>
                 <div className="details">
-                  <a className="btn btn-black" href="service-details.html">
+                  <Link className="btn btn-black" to="/service-details">
                     <FaAngleRight className="mt-0" />
-                  </a>
+                  </Link>
                   <h5 className="mb-3">Website Development</h5>
                   <p className="content mb-0">
                     It is a long established fact that a reader will be
@@ -43,9 +43,9 @@ const ServiceAreaSeven = () => {
                   <img src="assets/img/home-7/3.png" alt="img" />
                 </div>
                 <div className="details">
-                  <a className="btn btn-black" href="service-details.html">
+                  <Link className="btn btn-black" to="/service-details">
                     <FaAngleRight className="mt-0" />
-                  </a>
+                  </Link>
                   <h5 className="mb-3">Website Development</h5>
                   <p className="content mb-0">
                     It is a long established fact that a reader will be
@@ -61,9 +61,9 @@ const ServiceAreaSeven = () => {
                   <img src="assets/img/home-7/4.png" alt="img" />
                 </div>
                 <div className="details">
-                  <a className="btn btn-black" href="service-details.html">
+                  <Link className="btn btn-black" to="/service-details">
                     <FaAngleRight className="mt-0" />
-                  </a>
+                  </Link>
                   <h5 className="mb-3">Website Development</h5>
                   <p className="content mb-0">
                     It is a long established fact that a reader will be
