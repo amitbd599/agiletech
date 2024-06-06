@@ -60,6 +60,12 @@
     height: 100%;
     width: 135%;
   }
+
+  .nav-right-part-mobile ul li a {
+    text-decoration: none;
+    padding: 0 10px;
+    color: #fff;
+  }
   .btn-base {
     color: #fff;
     border: 0;
@@ -100,7 +106,7 @@
     transition: all 0.3s ease 0s;
   }
   .btn-white:hover {
-    color: var(--main-color);
+    color: var(--main-color) !important;
   }
   .btn-white:hover:after {
     background: #fff;
@@ -719,7 +725,7 @@
       font-size: 70px;
     }
     .banner-inner {
-      margin-top: 0;
+      margin-top: 100px;
     }
   }
   @media all and (max-width: 575px) {
@@ -825,6 +831,7 @@
     font-weight: 600;
   }
   .footer-area {
+    background: #333;
     position: relative;
   }
   .footer-widget {
