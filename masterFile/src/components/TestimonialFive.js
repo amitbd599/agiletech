@@ -4,7 +4,7 @@ const TestimonialFive = () => {
     <>
       {/* =================== Testimonial Five Start ===================*/}
       <div
-        className="testimonial-area bg-left-50 pd-top-120 pd-bottom-90"
+        className="testimonial-area testimonial-area_5 bg-left-50 pd-top-120 pd-bottom-90"
         style={{ backgroundImage: 'url("assets/img/about/28.png")' }}
       >
         <div className="row">

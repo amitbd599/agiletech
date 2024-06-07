@@ -427,6 +427,11 @@
       }
     }
   }
+  .case-study-area_2 {
+    .details {
+      width: unset !important;
+    }
+  }
 }
 @media all and (max-width: 575px) {
   .td-search-popup.active .search-form {
@@ -610,6 +615,11 @@
   }
   .banner-area-left-style h3 {
     font-size: 15px;
+  }
+  .case-study-area_2 {
+    .details {
+      width: unset !important;
+    }
   }
 }
 @media all and (max-width: 360px) {

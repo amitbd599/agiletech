@@ -957,6 +957,20 @@
   margin-top: -100px;
 }
 
+.case-study-area_2 {
+  .details {
+    a:hover {
+      color: #4eab98;
+    }
+  }
+}
+
+.testimonial-area_5 {
+  &.bg-left-50 {
+    background-size: auto;
+  }
+}
+
 @media (min-width: 1600px) {
   .banner-area-8 {
     margin-top: -96px;

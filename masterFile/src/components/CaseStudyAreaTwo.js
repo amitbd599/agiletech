@@ -5,7 +5,7 @@ const CaseStudyAreaTwo = () => {
   return (
     <>
       {/*================== case-study area start ==================*/}
-      <div className="case-study-area pd-top-120">
+      <div className="case-study-area case-study-area_2 pd-top-120">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-5">
