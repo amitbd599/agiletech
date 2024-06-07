@@ -1,5 +1,10 @@
 import React from 'react';
-import { FaCalendarAlt, FaPlus } from 'react-icons/fa';
+import {
+  FaAngleLeft,
+  FaAngleRight,
+  FaCalendarAlt,
+  FaPlus,
+} from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const BlogGroupFour = () => {
@@ -216,7 +221,7 @@ const BlogGroupFour = () => {
           </div>
           <div className="pagination">
             <Link className="prev page-numbers" to="#">
-              <i className="fa fa-angle-left" />
+              <FaAngleLeft className="mb-1" />
             </Link>
             <Link className="page-numbers" to="#">
               1
@@ -229,7 +234,7 @@ const BlogGroupFour = () => {
               4
             </Link>
             <Link className="next page-numbers" to="#">
-              <i className="fa fa-angle-right" />
+              <FaAngleRight className="mb-1" />
             </Link>
           </div>
         </div>

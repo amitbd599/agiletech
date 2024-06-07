@@ -51,7 +51,7 @@ const NavbarTwo = () => {
         id="body-overlay"
       ></div>
       {/* ==================== Navbar Two Start ====================*/}
-      <nav className="navbar navbar-area navbar-area-2 navbar-expand-lg">
+      <nav className="navbar navbar-area navbar-area_2 navbar-area-2 navbar-expand-lg">
         <div className="container nav-container">
           <div className="responsive-mobile-menu">
             <button

@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaCheckCircle } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const AboutAreaSeven = () => {
@@ -44,20 +45,16 @@ const AboutAreaSeven = () => {
                   <div className="col-md-9 align-self-center">
                     <ul className="single-list-inner style-check style-heading style-check mb-3">
                       <li>
-                        <i className="fas fa-check-circle" /> Mistakes To Avoid
-                        to the
+                        <FaCheckCircle /> Mistakes To Avoid to the
                       </li>
                       <li>
-                        <i className="fas fa-check-circle" /> Your Startup
-                        industry stan
+                        <FaCheckCircle /> Your Startup industry stan
                       </li>
                       <li>
-                        <i className="fas fa-check-circle" /> Mistakes To Avoid
-                        to the
+                        <FaCheckCircle /> Mistakes To Avoid to the
                       </li>
                       <li>
-                        <i className="fas fa-check-circle" /> Your Startup
-                        industry stan
+                        <FaCheckCircle /> Your Startup industry stan
                       </li>
                     </ul>
                   </div>

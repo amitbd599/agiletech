@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaStar } from 'react-icons/fa';
 import Slider from 'react-slick';
 const TestimonialSeven = () => {
   const settings = {
@@ -87,11 +88,11 @@ const TestimonialSeven = () => {
                         </p>
                         <h6 className="mb-0 mt-3">Devon Lane</h6>
                         <div className="ratting-inner mt-3">
-                          <i className="fa fa-star" />
-                          <i className="fa fa-star" />
-                          <i className="fa fa-star" />
-                          <i className="fa fa-star" />
-                          <i className="fa fa-star" />
+                          <FaStar />
+                          <FaStar />
+                          <FaStar />
+                          <FaStar />
+                          <FaStar />
                         </div>
                       </div>
                     </div>
@@ -127,11 +128,11 @@ const TestimonialSeven = () => {
                         </p>
                         <h6 className="mb-0 mt-3">Devon Lane</h6>
                         <div className="ratting-inner mt-3">
-                          <i className="fa fa-star" />
-                          <i className="fa fa-star" />
-                          <i className="fa fa-star" />
-                          <i className="fa fa-star" />
-                          <i className="fa fa-star" />
+                          <FaStar />
+                          <FaStar />
+                          <FaStar />
+                          <FaStar />
+                          <FaStar />
                         </div>
                       </div>
                     </div>
@@ -167,11 +168,11 @@ const TestimonialSeven = () => {
                         </p>
                         <h6 className="mb-0 mt-3">Devon Lane</h6>
                         <div className="ratting-inner mt-3">
-                          <i className="fa fa-star" />
-                          <i className="fa fa-star" />
-                          <i className="fa fa-star" />
-                          <i className="fa fa-star" />
-                          <i className="fa fa-star" />
+                          <FaStar />
+                          <FaStar />
+                          <FaStar />
+                          <FaStar />
+                          <FaStar />
                         </div>
                       </div>
                     </div>
@@ -207,11 +208,11 @@ const TestimonialSeven = () => {
                         </p>
                         <h6 className="mb-0 mt-3">Devon Lane</h6>
                         <div className="ratting-inner mt-3">
-                          <i className="fa fa-star" />
-                          <i className="fa fa-star" />
-                          <i className="fa fa-star" />
-                          <i className="fa fa-star" />
-                          <i className="fa fa-star" />
+                          <FaStar />
+                          <FaStar />
+                          <FaStar />
+                          <FaStar />
+                          <FaStar />
                         </div>
                       </div>
                     </div>

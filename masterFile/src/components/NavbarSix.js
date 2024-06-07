@@ -4,6 +4,7 @@ import {
   FaPhoneAlt,
   FaEnvelope,
   FaSearch,
+  FaArrowRight,
 } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
@@ -106,7 +107,7 @@ const NavbarSix = () => {
             </div>
             <div className="nav-right-part nav-right-part-mobile">
               <Link className="search-bar-btn" to="#">
-                <i className="fa fa-search" />
+                <FaSearch />
               </Link>
             </div>
             <div
@@ -336,7 +337,7 @@ const NavbarSix = () => {
             </div>
             <div className="nav-right-part nav-right-part-desktop align-self-center">
               <Link className="btn btn-base-pink text-white" to="/about">
-                Discover More <i className="fa fa-arrow-right" />
+                Discover More <FaArrowRight className="mt-4" />
               </Link>
             </div>
           </div>

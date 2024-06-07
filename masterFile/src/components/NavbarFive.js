@@ -136,7 +136,7 @@ const NavbarFive = () => {
                 </div>
                 <div className="nav-right-part nav-right-part-mobile">
                   <Link className="search-bar-btn" to="#">
-                    <i className="fa fa-search" />
+                    <FaSearch />
                   </Link>
                 </div>
                 <div

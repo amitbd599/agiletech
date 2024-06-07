@@ -7,6 +7,7 @@ import {
   FaStar,
   FaRegUser,
   FaArrowRight,
+  FaSearch,
 } from 'react-icons/fa';
 import Marquee from 'react-fast-marquee';
 import ModalVideo from 'react-modal-video';
@@ -18,7 +19,7 @@ const HomeTen = () => {
       <div style={{ background: '#021638' }}>
         {/* search popup start*/}
         <div className="td-search-popup" id="td-search-popup">
-          <form action="index.html" className="search-form">
+          <form action="/" className="search-form">
             <div className="form-group">
               <input
                 type="text"
@@ -27,7 +28,7 @@ const HomeTen = () => {
               />
             </div>
             <button type="submit" className="submit-btn">
-              <i className="fa fa-search" />
+              <FaSearch />
             </button>
           </form>
         </div>
@@ -41,9 +42,9 @@ const HomeTen = () => {
         >
           <div className="banner-left">
             <div className="logo">
-              <a href="index.html">
+              <Link to="index-1">
                 <img src="assets/img/home-10/logo.png" alt="img" />
-              </a>
+              </Link>
             </div>
             <ul>
               <li>
@@ -133,14 +134,14 @@ const HomeTen = () => {
                     beautiful and intuitive digital experiences that delight
                     users.
                   </p>
-                  <a
+                  <Link
                     className="me-lg-2 me-1 btn btn-base_6 wow animated fadeInLeft"
                     data-wow-duration="1.5s"
                     data-wow-delay="0.6s"
-                    href="about.html"
+                    to="/about"
                   >
                     My Resume <FaArrowAltCircleRight className="mt-4" />
-                  </a>
+                  </Link>
                   <Link
                     to="#"
                     className="btn btn-gray wow animated fadeInLeft"
@@ -503,9 +504,9 @@ const HomeTen = () => {
                     Service
                   </h6>
                   <h2 className="title">Service Offer From Me</h2>
-                  <a className="me-2 btn btn-base_6" href="service.html">
+                  <Link className="me-2 btn btn-base_6" to="/service">
                     All Service <FaArrowAltCircleRight className="mt-4" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-lg-8">
@@ -517,7 +518,7 @@ const HomeTen = () => {
                       </div>
                       <div className="details">
                         <h5 className="text-white">
-                          <a href="service-details.html">Website Design</a>
+                          <Link to="/service-details">Website Design</Link>
                         </h5>
                         <p className="text-white mb-0">
                           Lorem is Ipsum is simply is design iomyi is text Lorem
@@ -533,7 +534,7 @@ const HomeTen = () => {
                       </div>
                       <div className="details">
                         <h5 className="text-white">
-                          <a href="service-details.html">Logo Design</a>
+                          <Link to="/service-details">Logo Design</Link>
                         </h5>
                         <p className="text-white mb-0">
                           Lorem is Ipsum is simply is design iomyi is text Lorem
@@ -549,7 +550,7 @@ const HomeTen = () => {
                       </div>
                       <div className="details">
                         <h5 className="text-white">
-                          <a href="service-details.html">Apps Development</a>
+                          <Link to="/service-details">Apps Development</Link>
                         </h5>
                         <p className="text-white mb-0">
                           Lorem is Ipsum is simply is design iomyi is text Lorem
@@ -565,7 +566,7 @@ const HomeTen = () => {
                       </div>
                       <div className="details">
                         <h5 className="text-white">
-                          <a href="service-details.html">Website Development</a>
+                          <Link to="/service-details">Website Development</Link>
                         </h5>
                         <p className="text-white mb-0">
                           Lorem is Ipsum is simply is design iomyi is text Lorem
@@ -721,14 +722,14 @@ const HomeTen = () => {
                   </div>
                   <div className="details">
                     <h5>
-                      <a href="project-details.html">Tecnology Farms</a>
+                      <Link to="/project-details">Tecnology Farms</Link>
                     </h5>
-                    <a className="cat" href="#">
+                    <Link className="cat" to="#">
                       Las vegas
-                    </a>
-                    <a className="right-arrow" href="#">
+                    </Link>
+                    <Link className="right-arrow" to="#">
                       <FaAngleDoubleRight />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -739,14 +740,14 @@ const HomeTen = () => {
                   </div>
                   <div className="details">
                     <h5>
-                      <a href="project-details.html">Tecnology Farms</a>
+                      <Link to="/project-details">Tecnology Farms</Link>
                     </h5>
-                    <a className="cat" href="#">
+                    <Link className="cat" to="#">
                       Las vegas
-                    </a>
-                    <a className="right-arrow" href="#">
+                    </Link>
+                    <Link className="right-arrow" to="#">
                       <FaAngleDoubleRight />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -757,14 +758,14 @@ const HomeTen = () => {
                   </div>
                   <div className="details">
                     <h5>
-                      <a href="project-details.html">Tecnology Farms</a>
+                      <Link to="/project-details">Tecnology Farms</Link>
                     </h5>
-                    <a className="cat" href="#">
+                    <Link className="cat" to="#">
                       Las vegas
-                    </a>
-                    <a className="right-arrow" href="#">
+                    </Link>
+                    <Link className="right-arrow" to="#">
                       <FaAngleDoubleRight />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -775,14 +776,14 @@ const HomeTen = () => {
                   </div>
                   <div className="details">
                     <h5>
-                      <a href="project-details.html">Tecnology Farms</a>
+                      <Link to="/project-details">Tecnology Farms</Link>
                     </h5>
-                    <a className="cat" href="#">
+                    <Link className="cat" to="#">
                       Las vegas
-                    </a>
-                    <a className="right-arrow" href="#">
+                    </Link>
+                    <Link className="right-arrow" to="#">
                       <FaAngleDoubleRight />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -793,14 +794,14 @@ const HomeTen = () => {
                   </div>
                   <div className="details">
                     <h5>
-                      <a href="project-details.html">Tecnology Farms</a>
+                      <Link to="/project-details">Tecnology Farms</Link>
                     </h5>
-                    <a className="cat" href="#">
+                    <Link className="cat" to="#">
                       Las vegas
-                    </a>
-                    <a className="right-arrow" href="#">
+                    </Link>
+                    <Link className="right-arrow" to="#">
                       <FaAngleDoubleRight />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -811,14 +812,14 @@ const HomeTen = () => {
                   </div>
                   <div className="details">
                     <h5>
-                      <a href="project-details.html">Tecnology Farms</a>
+                      <Link to="/project-details">Tecnology Farms</Link>
                     </h5>
-                    <a className="cat" href="#">
+                    <Link className="cat" to="#">
                       Las vegas
-                    </a>
-                    <a className="right-arrow" href="#">
+                    </Link>
+                    <Link className="right-arrow" to="#">
                       <FaAngleDoubleRight />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -857,9 +858,9 @@ const HomeTen = () => {
                       <FaRegCheckCircle /> Printable file
                     </li>
                   </ul>
-                  <a className="btn btn-base_6 border-radius w-100" href="#">
+                  <Link className="btn btn-base_6 border-radius w-100" to="#">
                     Choose Plan
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
@@ -880,9 +881,9 @@ const HomeTen = () => {
                       <FaRegCheckCircle /> Easily customizable
                     </li>
                   </ul>
-                  <a className="btn btn-base border-radius w-100" href="#">
+                  <Link className="btn btn-base border-radius w-100" to="#">
                     Choose Plan
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
@@ -903,9 +904,9 @@ const HomeTen = () => {
                       <FaRegCheckCircle /> Responsive design
                     </li>
                   </ul>
-                  <a className="btn btn-base_6 border-radius w-100" href="#">
+                  <Link className="btn btn-base_6 border-radius w-100" to="#">
                     Choose Plan
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -1036,16 +1037,16 @@ const HomeTen = () => {
                       </li>
                     </ul>
                     <h5 className="mb-3 text-white">
-                      <a href="blog-details.html">
+                      <Link to="/blog-details">
                         Desining Better Links for your upcomming Business
-                      </a>
+                      </Link>
                     </h5>
-                    <a
+                    <Link
                       className="readmore-text text-white"
-                      href="blog-details.html"
+                      to="/blog-details"
                     >
                       Read More <FaArrowRight className="ms-2" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -1065,16 +1066,16 @@ const HomeTen = () => {
                       </li>
                     </ul>
                     <h5 className="mb-3 text-white">
-                      <a href="blog-details.html">
+                      <Link to="/blog-details">
                         Desining Better Links for your upcomming Business
-                      </a>
+                      </Link>
                     </h5>
-                    <a
+                    <Link
                       className="readmore-text text-white"
-                      href="blog-details.html"
+                      to="/blog-details"
                     >
                       Read More <FaArrowRight className="ms-2" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -1094,16 +1095,16 @@ const HomeTen = () => {
                       </li>
                     </ul>
                     <h5 className="mb-3 text-white">
-                      <a href="blog-details.html">
+                      <Link to="/blog-details">
                         Desining Better Links for your upcomming Business
-                      </a>
+                      </Link>
                     </h5>
-                    <a
+                    <Link
                       className="readmore-text text-white"
-                      href="blog-details.html"
+                      to="/blog-details"
                     >
                       Read More <FaArrowRight className="ms-2" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -1227,9 +1228,9 @@ const HomeTen = () => {
                   <p>© agiletech 2024 | All Rights Reserved</p>
                 </div>
                 <div className="col-md-6 text-lg-end">
-                  <a href="#">Trams &amp; Condition</a>
-                  <a href="#">Privacy Policy</a>
-                  <a href="#">Contact Us</a>
+                  <Link to="#">Trams &amp; Condition</Link>
+                  <Link to="#">Privacy Policy</Link>
+                  <Link to="#">Contact Us</Link>
                 </div>
               </div>
             </div>

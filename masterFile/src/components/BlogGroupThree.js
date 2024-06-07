@@ -1,5 +1,11 @@
 import React from 'react';
-import { FaArrowRight, FaRegFolderOpen, FaRegUser } from 'react-icons/fa';
+import {
+  FaAngleLeft,
+  FaAngleRight,
+  FaArrowRight,
+  FaRegFolderOpen,
+  FaRegUser,
+} from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const BlogGroupThree = () => {
@@ -191,21 +197,21 @@ const BlogGroupThree = () => {
             </div>
           </div>
           <div className="pagination">
-            <Link className="prev page-numbers" to='#'>
-              <i className="fa fa-angle-left" />
+            <Link className="prev page-numbers" to="#">
+              <FaAngleLeft className="mb-1" />
             </Link>
-            <Link className="page-numbers" to='#'>
+            <Link className="page-numbers" to="#">
               1
             </Link>
             <span className="page-numbers current">2</span>
-            <Link className="page-numbers" to='#'>
+            <Link className="page-numbers" to="#">
               3
             </Link>
-            <Link className="page-numbers" to='#'>
+            <Link className="page-numbers" to="#">
               4
             </Link>
-            <Link className="next page-numbers" to='#'>
-              <i className="fa fa-angle-right" />
+            <Link className="next page-numbers" to="#">
+              <FaAngleRight className="mb-1" />
             </Link>
           </div>
         </div>

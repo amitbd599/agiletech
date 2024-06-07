@@ -922,6 +922,11 @@
     box-shadow: none;
   }
 }
+.navbar-area_2 {
+  .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu li:hover {
+    background: var(--main-color) !important;
+  }
+}
 
 @media (min-width: 1600px) {
   .banner-area-8 {

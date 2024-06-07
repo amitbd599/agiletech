@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaArrowRight } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 const ServiceAreaGroupThree = () => {
   return (
@@ -19,7 +20,7 @@ const ServiceAreaGroupThree = () => {
                     aliquam tempor
                   </p>
                   <Link className="read-more-text" to="/service-details">
-                    Read More <i className="fa fa-arrow-right" />
+                    Read More <FaArrowRight />
                   </Link>
                 </div>
               </div>
@@ -36,7 +37,7 @@ const ServiceAreaGroupThree = () => {
                     tempor
                   </p>
                   <Link className="read-more-text" to="/service-details">
-                    Read More <i className="fa fa-arrow-right" />
+                    Read More <FaArrowRight />
                   </Link>
                 </div>
               </div>
@@ -53,7 +54,7 @@ const ServiceAreaGroupThree = () => {
                     aliquam tempor
                   </p>
                   <Link className="read-more-text" to="/service-details">
-                    Read More <i className="fa fa-arrow-right" />
+                    Read More <FaArrowRight />
                   </Link>
                 </div>
               </div>
@@ -70,7 +71,7 @@ const ServiceAreaGroupThree = () => {
                     tempor
                   </p>
                   <Link className="read-more-text" to="/service-details">
-                    Read More <i className="fa fa-arrow-right" />
+                    Read More <FaArrowRight />
                   </Link>
                 </div>
               </div>
@@ -87,7 +88,7 @@ const ServiceAreaGroupThree = () => {
                     aliquam
                   </p>
                   <Link className="read-more-text" to="/service-details">
-                    Read More <i className="fa fa-arrow-right" />
+                    Read More <FaArrowRight />
                   </Link>
                 </div>
               </div>
@@ -103,7 +104,7 @@ const ServiceAreaGroupThree = () => {
                     Create ipsum dolor sit consec tetur sed diam in the aliquam
                   </p>
                   <Link className="read-more-text" to="/service-details">
-                    Read More <i className="fa fa-arrow-right" />
+                    Read More <FaArrowRight />
                   </Link>
                 </div>
               </div>

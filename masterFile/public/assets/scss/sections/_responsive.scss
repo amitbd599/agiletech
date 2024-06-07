@@ -332,9 +332,26 @@
   .mega-menu {
     display: none !important;
   }
-  .banner-thumb-2 .banner-animate-img {
-    position: static;
+
+  .banner-thumb-2 {
+    padding-top: 60px;
   }
+  .about-thumb-inner {
+    text-align: center;
+  }
+  .about-area {
+    padding-top: 40px;
+    .section-title {
+      padding-top: 40px;
+    }
+  }
+
+  .contact-area {
+    .section-title {
+      margin-top: 100px;
+    }
+  }
+
   .banner-area-left-style {
     padding-top: 30px;
   }
@@ -358,8 +375,14 @@
   .banner-area-3 .img-right {
     display: none;
   }
+  .td-search-popup.active .search-form {
+    width: 90%;
+  }
 }
 @media all and (max-width: 575px) {
+  .td-search-popup.active .search-form {
+    width: 90%;
+  }
   .back-to-top {
     right: 15px;
     bottom: 20px;

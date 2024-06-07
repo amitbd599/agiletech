@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaPlus } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 const ServiceAreaGroupFive = () => {
   return (
@@ -21,7 +22,7 @@ const ServiceAreaGroupFive = () => {
                     mobile app, as long as you have an internet connection
                   </p>
                   <Link className="read-more-text" to="/service-details">
-                    Touch More <i className="fa fa-plus" />
+                    Touch More <FaPlus />
                   </Link>
                 </div>
               </div>
@@ -40,7 +41,7 @@ const ServiceAreaGroupFive = () => {
                     mobile app, as long as you have an internet connection
                   </p>
                   <Link className="read-more-text" to="/service-details">
-                    Touch More <i className="fa fa-plus" />
+                    Touch More <FaPlus />
                   </Link>
                 </div>
               </div>
@@ -59,7 +60,7 @@ const ServiceAreaGroupFive = () => {
                     mobile app, as long as you have an internet connection
                   </p>
                   <Link className="read-more-text" to="/service-details">
-                    Touch More <i className="fa fa-plus" />
+                    Touch More <FaPlus />
                   </Link>
                 </div>
               </div>

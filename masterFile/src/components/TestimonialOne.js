@@ -40,7 +40,7 @@ const TestimonialOne = () => {
         },
       },
       {
-        breakpoint: 575,
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -58,7 +58,7 @@ const TestimonialOne = () => {
       >
         <div className="container">
           <div className="section-title">
-            <h6 className="sub-title">TESTIMONIAL 00</h6>
+            <h6 className="sub-title">TESTIMONIAL</h6>
             <h2 className="title">Advanced Engine Services</h2>
           </div>
           <div className="testimonial-slider-1  slider-control-round slider-control-dots slider-control-right-top">
