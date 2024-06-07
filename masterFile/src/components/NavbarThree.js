@@ -52,7 +52,7 @@ const NavbarThree = () => {
         id="body-overlay"
       ></div>
       {/* ==================== Navbar Two Start ====================*/}
-      <nav className="navbar navbar-area navbar-area-2 navbar-expand-lg bg-white">
+      <nav className="navbar navbar-area navbar-area_3 navbar-area-2 navbar-expand-lg bg-white">
         <div className="container nav-container custom-container">
           <div className="responsive-mobile-menu">
             <button
@@ -304,7 +304,7 @@ const NavbarThree = () => {
             </ul>
           </div>
           <div className="nav-right-part nav-right-part-desktop d-lg-inline-flex align-item-center">
-            <a className="navbar-phone d-xl-inline-block d-none" href="tel:">
+            <a className="navbar-phone d-xxl-inline-block d-none" href="tel:">
               <span className="icon">
                 <img src="assets/img/icon/1.png" alt="img" />
               </span>

@@ -522,6 +522,11 @@
   position: relative;
   z-index: 1;
 }
+.banner-area_4 {
+  .banner-inner {
+    z-index: 3;
+  }
+}
 
 .banner-area-left-style .title {
   font-size: 90px;
@@ -926,6 +931,30 @@
   .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu li:hover {
     background: var(--main-color) !important;
   }
+}
+.navbar-area_3 {
+  .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu li:hover {
+    background: var(--main-color) !important;
+  }
+}
+
+.testimonial-area_3 {
+  .designation {
+    padding-left: 30px;
+  }
+  h6 {
+    padding-left: 30px;
+  }
+  .ratting-inner {
+    padding-left: 30px;
+    svg {
+      font-size: 16px;
+    }
+  }
+}
+
+.mg-top--100 {
+  margin-top: -100px;
 }
 
 @media (min-width: 1600px) {

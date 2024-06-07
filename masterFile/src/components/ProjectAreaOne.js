@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const ProjectAreaOne = () => {
   return (
-    <div className="project-section pd-top-120">
+    <div className="project-section project-section_1 pd-top-120">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-6">

@@ -352,6 +352,12 @@
     }
   }
 
+  .about-area_4 {
+    .section-title {
+      padding-top: 100px;
+    }
+  }
+
   .banner-area-left-style {
     padding-top: 30px;
   }
@@ -367,16 +373,59 @@
   .pricing-area {
     padding-bottom: 0;
   }
+  .banner-area-3 {
+    &::after {
+      right: 0;
+      top: 0;
+      width: 100%;
+    }
+    .img-right {
+      width: 100%;
+    }
+  }
 }
 @media all and (max-width: 767px) {
   .breadcrumb-area .page-title {
     font-size: 50px;
   }
-  .banner-area-3 .img-right {
-    display: none;
+
+  .single-team-inner.style-2 .details {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 80%;
+    padding: 0 20px 0;
+    transform: translateX(-50%);
   }
   .td-search-popup.active .search-form {
     width: 90%;
+  }
+  .career-section_1 {
+    .career-wrap h3 {
+      padding-top: 26px;
+    }
+  }
+
+  .project-section_1 {
+    .tab-content {
+      text-align: center;
+    }
+  }
+
+  .single-project-inner::after {
+    top: 15px;
+    bottom: 15px;
+    left: 70px;
+    right: 15px;
+  }
+
+  .testimonial-area_3 {
+    .details {
+      padding-top: 30px !important;
+      .quote {
+        top: 30px !important;
+      }
+    }
   }
 }
 @media all and (max-width: 575px) {

@@ -21,7 +21,11 @@ const TeamAreaTwo = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-team-inner style-2 text-center">
                 <div className="thumb">
-                  <img src="assets/img/team/4.png" alt="img" />
+                  <img
+                    className="img-fluid"
+                    src="assets/img/team/4.png"
+                    alt="img"
+                  />
                 </div>
                 <div className="details">
                   <div className="details-inner">
