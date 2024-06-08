@@ -40,10 +40,10 @@ const BlogAreaNine = () => {
                     <div className="details">
                       <ul className="blog-meta ps-0 text-white">
                         <li>
-                          <FaRegUser /> By Admin
+                          <FaRegUser className="mb-1" /> By Admin
                         </li>
                         <li>
-                          <FaRegFolderOpen /> Category
+                          <FaRegFolderOpen className="mb-1" /> Category
                         </li>
                       </ul>
                       <h5 className="mb-3 text-white">
@@ -83,10 +83,10 @@ const BlogAreaNine = () => {
                     <div className="details">
                       <ul className="blog-meta ps-0 text-white">
                         <li>
-                          <FaRegUser /> By Admin
+                          <FaRegUser className="mb-1" /> By Admin
                         </li>
                         <li>
-                          <FaRegFolderOpen /> Category
+                          <FaRegFolderOpen className="mb-1" /> Category
                         </li>
                       </ul>
                       <h5 className="mb-3 text-white">
@@ -126,10 +126,10 @@ const BlogAreaNine = () => {
                     <div className="details">
                       <ul className="blog-meta ps-0 text-white">
                         <li>
-                          <FaRegUser /> By Admin
+                          <FaRegUser className="mb-1" /> By Admin
                         </li>
                         <li>
-                          <FaRegFolderOpen /> Category
+                          <FaRegFolderOpen className="mb-1" /> Category
                         </li>
                       </ul>
                       <h5 className="mb-3 text-white">
@@ -169,10 +169,10 @@ const BlogAreaNine = () => {
                     <div className="details">
                       <ul className="blog-meta ps-0 text-white">
                         <li>
-                          <FaRegUser /> By Admin
+                          <FaRegUser className="mb-1" /> By Admin
                         </li>
                         <li>
-                          <FaRegFolderOpen /> Category
+                          <FaRegFolderOpen className="mb-1" /> Category
                         </li>
                       </ul>
                       <h5 className="mb-3 text-white">

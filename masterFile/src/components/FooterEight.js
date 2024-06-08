@@ -119,7 +119,7 @@ const FooterEight = () => {
               <div className="widget widget-recent-post">
                 <h4 className="widget-title">Contact us</h4>
                 <div className="widget widget_contact">
-                  <ul className="details">
+                  <ul className="details text-white">
                     <li>
                       <FaMapMarkerAlt />
                       4517 Washington Ave. Manchester, Kentucky 39495

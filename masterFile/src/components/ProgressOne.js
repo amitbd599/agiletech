@@ -43,7 +43,7 @@ const ProgressOne = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-6 align-self-center">
+            <div className="col-xl-6 align-self-center">
               <div className="single-progress-inner mb-4 pb-2">
                 <h6 className="p-title text-white mb-3">Nifty Gateway: 30%</h6>
                 <div className="progress">
@@ -123,7 +123,7 @@ const ProgressOne = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 text-center">
+            <div className="col-xl-6 text-center">
               <div className="ps-4">
                 <div id="chart">
                   <ReactApexChart

@@ -51,7 +51,7 @@ const NavbarEight = () => {
         id="body-overlay"
       ></div>
       {/* navbar start */}
-      <nav className="navbar navbar-area navbar-area-3 mt-0 navbar-expand-lg">
+      <nav className="navbar navbar-area navbar-area_8 navbar-area-3 mt-0 navbar-expand-lg">
         <div className="container nav-container">
           <div className="responsive-mobile-menu">
             <button

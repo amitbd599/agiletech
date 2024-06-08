@@ -25,7 +25,7 @@ const GalleryOne = () => {
           <div className="row">
             <div className="col-lg-4 col-md-6">
               <div className="single-case-study-inner style-3">
-                <div className="thumb">
+                <div className="thumb  img-fit-container">
                   <img src="assets/img/home-9/15.png" alt="img" />
                 </div>
                 <div className="details">
@@ -41,7 +41,7 @@ const GalleryOne = () => {
                 </div>
               </div>
               <div className="single-case-study-inner style-3">
-                <div className="thumb">
+                <div className="thumb  img-fit-container">
                   <img src="assets/img/home-9/16.png" alt="img" />
                 </div>
                 <div className="details">
@@ -59,7 +59,7 @@ const GalleryOne = () => {
             </div>
             <div className="col-lg-4 col-md-6">
               <div className="single-case-study-inner style-3">
-                <div className="thumb">
+                <div className="thumb  img-fit-container">
                   <img src="assets/img/home-9/17.png" alt="img" />
                 </div>
                 <div className="details">
@@ -75,7 +75,7 @@ const GalleryOne = () => {
                 </div>
               </div>
               <div className="single-case-study-inner style-3">
-                <div className="thumb">
+                <div className="thumb  img-fit-container">
                   <img src="assets/img/home-9/18.png" alt="img" />
                 </div>
                 <div className="details">
@@ -93,7 +93,7 @@ const GalleryOne = () => {
             </div>
             <div className="col-lg-4 col-md-6">
               <div className="single-case-study-inner style-3">
-                <div className="thumb">
+                <div className="thumb  img-fit-container">
                   <img src="assets/img/home-9/19.png" alt="img" />
                 </div>
                 <div className="details">
@@ -109,7 +109,7 @@ const GalleryOne = () => {
                 </div>
               </div>
               <div className="single-case-study-inner style-3">
-                <div className="thumb">
+                <div className="thumb  img-fit-container">
                   <img src="assets/img/home-9/20.png" alt="img" />
                 </div>
                 <div className="details">
