@@ -121,7 +121,7 @@ const NavbarSeven = () => {
             </button>
           </div>
           <div className="logo">
-            <Link to="index-1">
+            <Link to="/index-1">
               <img src="assets/img/logo.png" alt="img" />
             </Link>
           </div>

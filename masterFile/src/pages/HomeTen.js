@@ -42,7 +42,7 @@ const HomeTen = () => {
         >
           <div className="banner-left">
             <div className="logo">
-              <Link to="index-1">
+              <Link to="/index-1">
                 <img src="assets/img/home-10/logo.png" alt="img" />
               </Link>
             </div>
