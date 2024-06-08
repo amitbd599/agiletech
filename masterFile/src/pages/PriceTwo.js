@@ -2,7 +2,7 @@ import React from 'react';
 import NavBar from '../components/NavBar';
 import Breadcrumb from '../components/Breadcrumb';
 import FooterOne from '../components/FooterOne';
-import PriceAreaTwo from '../components/PriceAreaTwo';
+import PriceAreaThree from '../components/PriceAreaThree';
 
 const PriceTwo = () => {
   return (
@@ -13,8 +13,8 @@ const PriceTwo = () => {
       {/* Breadcrumb */}
       <Breadcrumb title={'Price 02'} />
 
-      {/* PriceAreaTwo */}
-      <PriceAreaTwo />
+      {/* PriceAreaThree */}
+      <PriceAreaThree />
 
       {/* Footer One */}
       <FooterOne />

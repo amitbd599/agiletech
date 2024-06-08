@@ -422,6 +422,9 @@
       }
     }
   }
+  .about-area_marquee {
+    margin-top: 310px !important;
+  }
 }
 @media all and (max-width: 767px) {
   .breadcrumb-area .page-title {
@@ -501,6 +504,14 @@
     }
     .container {
       padding-left: 40px;
+    }
+  }
+  .about-area_marquee {
+    margin-top: 300px !important;
+  }
+  .why-choose-us-area_2 {
+    h2 {
+      margin-top: 40px;
     }
   }
 }
@@ -691,6 +702,9 @@
     .details {
       width: unset !important;
     }
+  }
+  .about-area_marquee {
+    margin-top: 160px !important;
   }
 }
 @media all and (max-width: 360px) {

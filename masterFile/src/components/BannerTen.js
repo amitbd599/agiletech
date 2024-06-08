@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Marquee from 'react-fast-marquee';
-import { FaPlus } from 'react-icons/fa';
 import ModalVideo from 'react-modal-video';
 import { Link } from 'react-router-dom';
 const BannerTen = () => {
@@ -101,7 +100,7 @@ const BannerTen = () => {
 
       <>
         {/* start brand logo */}
-        <div className="about-area about-area_ten bg-gray pt-5 pb-5">
+        <div className="about-area about-area_marquee about-area_ten bg-gray pt-5 pb-5">
           <div className="container">
             <div className="client-slider owl-carousel">
               <Marquee gradient={false}>

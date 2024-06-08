@@ -172,6 +172,9 @@ const NavbarSeven = () => {
                   <li>
                     <Link to="/index-10">Personal Portfolio</Link>
                   </li>
+                  <li>
+                    <Link to="/index-11">SEO Service</Link>
+                  </li>
                 </ul>
               </li>
               <li className="menu-item-has-children">
@@ -258,6 +261,9 @@ const NavbarSeven = () => {
                         </li>
                         <li>
                           <Link to="/index-10">Personal Portfolio</Link>
+                        </li>
+                        <li>
+                          <Link to="/index-11">SEO Service</Link>
                         </li>
                       </ul>
                     </div>
