@@ -6,7 +6,7 @@ const WorkProcessSix = () => {
   return (
     <>
       {/*==================== Work Process start ====================*/}
-      <div className="work-process-area pd-top-120 pd-bottom-90">
+      <div className="work-process-area work-process-area_6 pd-top-120 pd-bottom-90">
         <div className="container">
           <div className="section-title text-center">
             <div className="row justify-content-center">

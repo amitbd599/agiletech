@@ -144,7 +144,7 @@ const HomeTen = () => {
                   </Link>
                   <Link
                     to="#"
-                    className="btn btn-gray wow animated fadeInLeft"
+                    className="btn btn-gray wow animated fadeInLeft  mt-4 mt-md-0"
                     data-wow-duration="1.5s"
                     data-wow-delay="0.6s"
                     onClick={() => setOpen(true)}

@@ -782,7 +782,8 @@
 }
 
 .bg-gray {
-  background: #f8f9fc;
+  // background: #f8f9fc;
+  background: #f3f6fc;
 }
 
 .hero-conversion-wrap {
@@ -1150,6 +1151,10 @@
     background: #fff;
     color: #fff !important;
   }
+}
+
+.work-process-area_6 {
+  margin-bottom: 120px;
 }
 
 @media (min-width: 1600px) {

@@ -5,7 +5,7 @@ const ServiceAreaFive = () => {
   return (
     <>
       {/*=================== service area five start ===================*/}
-      <div className="service-area bg-gray bg-relative pd-top-120 pd-bottom-120">
+      <div className="service-area service-area_5 bg-gray bg-relative pd-top-120 pd-bottom-120">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-6">

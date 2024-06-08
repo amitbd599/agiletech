@@ -17,7 +17,7 @@ const FooterFour = () => {
     <>
       {/* ================== Footer Four Start ==================*/}
       <footer
-        className="footer-area bg-cover mt-0 pd-top-120"
+        className="footer-area  footer-area_4 bg-cover mt-0 pd-top-120"
         style={{ backgroundImage: 'url("assets/img/bg/14.png")' }}
       >
         <div className="footer-subscribe">

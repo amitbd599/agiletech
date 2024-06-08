@@ -48,7 +48,7 @@ const BannerEight = () => {
                   Free Consulting <FaArrowAltCircleRight className="mt-4" />
                 </Link>
                 <div
-                  className="d-inline-block align-self-center wow animated fadeInLeft"
+                  className="d-inline-block align-self-center wow animated fadeInLeft mt-4 mt-md-0"
                   data-wow-duration="1.5s"
                   data-wow-delay="0.7s"
                 >

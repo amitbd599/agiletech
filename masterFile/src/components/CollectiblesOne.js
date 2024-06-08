@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const CollectiblesOne = () => {
   return (
-    <div className="collectibs-area bg-relative  bg-gray pd-top-100 pd-bottom-90">
+    <div className="collectibs-area collectibles_one_1 bg-relative  bg-gray pd-top-100 pd-bottom-90">
       <div className="container">
         <div className="section-title">
           <div className="row">

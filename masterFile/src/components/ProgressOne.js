@@ -127,7 +127,6 @@ const ProgressOne = () => {
               <div className="ps-4">
                 <div id="chart">
                   <ReactApexChart
-                    width={600}
                     options={options}
                     series={series}
                     type="donut"

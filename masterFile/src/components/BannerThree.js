@@ -53,7 +53,7 @@ const BannerThree = () => {
                   Discover More <FaPlus />
                 </Link>
                 <div
-                  className="d-inline-block align-self-center wow animated fadeInLeft"
+                  className="d-inline-block align-self-center wow animated fadeInLeft mt-4 mt-md-0"
                   data-aos="fade-right"
                   data-aos-delay="300"
                   data-aos-duration="1500"

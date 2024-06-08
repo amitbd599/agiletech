@@ -51,7 +51,7 @@ const BannerFive = () => {
                   Discover More <FaPlus />
                 </Link>
                 <div
-                  className="d-inline-block align-self-center "
+                  className="d-inline-block align-self-center mt-4 mt-md-0"
                   data-aos="fade-right"
                   data-aos-delay="350"
                   data-aos-duration="1500"

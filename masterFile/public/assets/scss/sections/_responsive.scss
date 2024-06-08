@@ -457,7 +457,7 @@
   .single-project-inner::after {
     top: 15px;
     bottom: 15px;
-    left: 70px;
+    left: 14px;
     right: 15px;
   }
 
@@ -705,6 +705,39 @@
   }
   .about-area_marquee {
     margin-top: 160px !important;
+  }
+  .footer-area-2,
+  .footer-area_6 {
+    padding-top: 0;
+  }
+
+  .about-area_5 {
+    padding-bottom: 0;
+  }
+  .service-area_5 {
+    padding-bottom: 80px;
+  }
+  .case-study-area_2 {
+    padding-top: 80px;
+  }
+  .footer-area_4 .footer-subscribe-inner {
+    display: grid !important;
+  }
+  .collectibles_one_1 {
+    padding-top: 0;
+  }
+  .navbar-area-4 .left-bg {
+    width: 80%;
+  }
+  .team-area_5 {
+    padding-top: 0;
+  }
+  .testimonial-area_8 .media {
+    display: grid;
+  }
+  .footer-area_8 .footer-subscribe .footer-subscribe-inner.style-3 .btn {
+    right: 0;
+    margin-top: 20px;
   }
 }
 @media all and (max-width: 360px) {

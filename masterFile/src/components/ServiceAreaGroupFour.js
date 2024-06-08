@@ -57,7 +57,7 @@ const ServiceAreaGroupFour = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 ps-5">
+            <div className="col-lg-6 ps-md-5 pe-5 pe-md-0 mt-4 mt-md-0">
               <div className="single-service-inner-3 single-service-inner-3-right">
                 <div className="thumb">
                   <div className="thumb-inner">
