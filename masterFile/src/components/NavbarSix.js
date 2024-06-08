@@ -37,7 +37,7 @@ const NavbarSix = () => {
         className={searchShow ? 'td-search-popup active' : 'td-search-popup '}
         id="td-search-popup"
       >
-        <form action="/" className="search-form">
+        <form className="search-form">
           <div className="form-group">
             <input
               type="text"
@@ -82,7 +82,7 @@ const NavbarSix = () => {
           </div>
         </div>
         {/* navbar start */}
-        <nav className="navbar navbar-area navbar-area-2 navbar-area-6 navbar-expand-lg ">
+        <nav className="navbar navbar-area navbar-area_6 navbar-area-2 navbar-area-6 navbar-expand-lg ">
           <div className="container nav-container">
             <div className="responsive-mobile-menu">
               <button
@@ -106,7 +106,7 @@ const NavbarSix = () => {
               </Link>
             </div>
             <div className="nav-right-part nav-right-part-mobile">
-              <Link className="search-bar-btn" to="#">
+              <Link className="search-bar-btn" to="#" onClick={searchActive}>
                 <FaSearch />
               </Link>
             </div>

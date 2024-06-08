@@ -12,7 +12,7 @@ const FooterSix = () => {
   return (
     <>
       {/* ================== Footer  Start ==================*/}
-      <footer className="footer-area footer-area-2 bg-gray mt-0 pd-top-120">
+      <footer className="footer-area footer-area_6 footer-area-2 bg-gray mt-0 pd-top-120">
         <div className="container">
           <div className="row">
             <div className="col-lg-3 col-md-6 ps-xl-5">

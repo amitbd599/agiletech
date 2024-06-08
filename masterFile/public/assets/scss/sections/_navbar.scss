@@ -219,7 +219,7 @@
                   background: #061539;
                   a {
                     color: #fff;
-                    padding: 10px 20px 10px 30px;
+                    padding: 10px 20px;
                     &:before {
                       visibility: visible;
                       opacity: 1;
@@ -780,6 +780,7 @@
                 opacity: 1;
                 transition: all 0.5s linear;
                 &.active {
+                  padding-top: 10px;
                   visibility: visible;
                   opacity: 1;
                   max-height: 500px;
@@ -1025,7 +1026,7 @@
     .sub-menu
     li
     a {
-    padding: 12px 0;
+    padding: 10px 20px;
   }
   .navbar-area
     .nav-container
@@ -1035,7 +1036,7 @@
     .sub-menu
     li:last-child
     a {
-    padding-bottom: 3px;
+    // padding-bottom: 3px;
   }
   .navbar-area
     .nav-container

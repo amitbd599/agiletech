@@ -971,6 +971,53 @@
   }
 }
 
+.creator-area_1 {
+  .thumb {
+    width: 100%;
+    height: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+.creator-area_1 {
+  .slick-dots li.slick-active button::before {
+    color: var(--main-color5) !important;
+  }
+  .slick-dots li button::before {
+    font-size: 14px;
+    color: var(--main-color5);
+  }
+}
+
+.footer-area_6 {
+  &.footer-area-2 a:hover {
+    color: var(--main-color5) !important;
+  }
+  .pink-bg-color {
+    background: var(--main-color5) !important;
+  }
+  .social-media a:hover {
+    background: var(--main-color5) !important;
+    svg {
+      color: #fff !important;
+    }
+  }
+}
+
+.img-fit-container {
+  width: 100%;
+  height: 100%;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
 @media (min-width: 1600px) {
   .banner-area-8 {
     margin-top: -96px;

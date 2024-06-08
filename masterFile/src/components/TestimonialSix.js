@@ -7,7 +7,7 @@ const TestimonialSix = () => {
     <>
       {/* =================== Testimonial  Start ===================*/}
       <div
-        className="testimonial-area pd-top-120 pd-bottom-100"
+        className="testimonial-area testimonial-area_6 pd-top-120 pd-bottom-100"
         style={{ backgroundImage: 'url("./assets/img/home-8/51.png")' }}
       >
         <div className="container">

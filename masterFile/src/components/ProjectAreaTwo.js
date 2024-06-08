@@ -13,7 +13,7 @@ const ProjectAreaTwo = () => {
         <div className="row">
           <div className="col-lg-4 col-md-6">
             <div className="box-shadow bg-relative border-radius-5 mb-4 p-4 pb-0">
-              <div className="thumb">
+              <div className="thumb img-fit-container">
                 <img
                   className="border-radius-5"
                   src="assets/img/home-8/27.png"
@@ -28,7 +28,7 @@ const ProjectAreaTwo = () => {
           </div>
           <div className="col-lg-4 col-md-6">
             <div className="box-shadow bg-relative border-radius-5 mb-4 p-4 pb-0">
-              <div className="thumb">
+              <div className="thumb img-fit-container">
                 <img
                   className="border-radius-5"
                   src="assets/img/home-8/28.png"
@@ -43,7 +43,7 @@ const ProjectAreaTwo = () => {
           </div>
           <div className="col-lg-4 col-md-6">
             <div className="box-shadow bg-relative border-radius-5 mb-4 p-4 pb-0">
-              <div className="thumb">
+              <div className="thumb img-fit-container">
                 <img
                   className="border-radius-5"
                   src="assets/img/home-8/29.png"
@@ -58,7 +58,7 @@ const ProjectAreaTwo = () => {
           </div>
           <div className="col-lg-4 col-md-6">
             <div className="box-shadow bg-relative border-radius-5 mb-4 p-4 pb-0">
-              <div className="thumb">
+              <div className="thumb img-fit-container">
                 <img
                   className="border-radius-5"
                   src="assets/img/home-8/30.png"
@@ -73,7 +73,7 @@ const ProjectAreaTwo = () => {
           </div>
           <div className="col-lg-4 col-md-6">
             <div className="box-shadow bg-relative border-radius-5 mb-4 p-4 pb-0">
-              <div className="thumb">
+              <div className="thumb img-fit-container">
                 <img
                   className="border-radius-5"
                   src="assets/img/home-8/31.png"
@@ -88,7 +88,7 @@ const ProjectAreaTwo = () => {
           </div>
           <div className="col-lg-4 col-md-6">
             <div className="box-shadow bg-relative border-radius-5 mb-4 p-4 pb-0">
-              <div className="thumb">
+              <div className="thumb img-fit-container">
                 <img
                   className="border-radius-5"
                   src="assets/img/home-8/32.png"

@@ -30,25 +30,36 @@ const CreatorOne = () => {
     prevArrow: <SamplePrevArrow />,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1400,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 1,
+          slidesToScroll: 2,
           infinite: true,
           dots: true,
         },
       },
       {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 2,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        dots: false,
         breakpoint: 992,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1,
+          slidesToScroll: 2,
           initialSlide: 2,
           arrows: false,
         },
       },
       {
-        breakpoint: 575,
+        dots: false,
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -60,7 +71,7 @@ const CreatorOne = () => {
   return (
     <>
       {/*====================== creator start ======================*/}
-      <div className="creator-area pd-top-115">
+      <div className="creator-area creator-area_1 pd-top-115">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-6">
