@@ -491,6 +491,18 @@
       margin-top: 40px;
     }
   }
+
+  .banner-area_single {
+    .banner-left {
+      width: 80px;
+      ul {
+        padding: 20px 0;
+      }
+    }
+    .container {
+      padding-left: 40px;
+    }
+  }
 }
 @media all and (max-width: 575px) {
   .td-search-popup.active .search-form {

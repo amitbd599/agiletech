@@ -37,7 +37,7 @@ const HomeTen = () => {
         {/* page title start */}
         <div
           id="banner"
-          className="banner-area banner-area-left-style mt-0 bg-relative banner-area-1 banner-area-8 pd-bottom-100 bg-cover"
+          className="banner-area banner-area_single banner-area-left-style mt-0 bg-relative banner-area-1 banner-area-8 pd-bottom-100 bg-cover"
           style={{ backgroundImage: 'url("./assets/img/home-10/12.png")' }}
         >
           <div className="banner-left">
@@ -512,7 +512,7 @@ const HomeTen = () => {
               <div className="col-lg-8">
                 <div className="row">
                   <div className="col-lg-6 col-md-6">
-                    <div className="single-service-inner bg-gray border-radius-0">
+                    <div className="single-service-inner bg-gray_2 border-radius-0">
                       <div className="thumb">
                         <img src="assets/img/home-10/16.png" alt="img" />
                       </div>
@@ -528,7 +528,7 @@ const HomeTen = () => {
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-6">
-                    <div className="single-service-inner bg-gray border-radius-0">
+                    <div className="single-service-inner bg-gray_2 border-radius-0">
                       <div className="thumb">
                         <img src="assets/img/home-10/17.png" alt="img" />
                       </div>
@@ -544,7 +544,7 @@ const HomeTen = () => {
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-6">
-                    <div className="single-service-inner bg-gray border-radius-0">
+                    <div className="single-service-inner bg-gray_2 border-radius-0">
                       <div className="thumb">
                         <img src="assets/img/home-10/18.png" alt="img" />
                       </div>
@@ -560,7 +560,7 @@ const HomeTen = () => {
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-6">
-                    <div className="single-service-inner bg-gray border-radius-0">
+                    <div className="single-service-inner bg-gray_2 border-radius-0">
                       <div className="thumb">
                         <img src="assets/img/home-10/19.png" alt="img" />
                       </div>
@@ -717,7 +717,7 @@ const HomeTen = () => {
             <div className="row">
               <div className="col-lg-4 col-md-6">
                 <div className="single-case-study-inner style-4">
-                  <div className="thumb">
+                  <div className="thumb  img-fit-container ">
                     <img src="assets/img/home-10/21.png" alt="img" />
                   </div>
                   <div className="details">
@@ -735,7 +735,7 @@ const HomeTen = () => {
               </div>
               <div className="col-lg-4 col-md-6">
                 <div className="single-case-study-inner style-4">
-                  <div className="thumb">
+                  <div className="thumb  img-fit-container ">
                     <img src="assets/img/home-10/22.png" alt="img" />
                   </div>
                   <div className="details">
@@ -753,7 +753,7 @@ const HomeTen = () => {
               </div>
               <div className="col-lg-4 col-md-6">
                 <div className="single-case-study-inner style-4">
-                  <div className="thumb">
+                  <div className="thumb  img-fit-container ">
                     <img src="assets/img/home-10/23.png" alt="img" />
                   </div>
                   <div className="details">
@@ -771,7 +771,7 @@ const HomeTen = () => {
               </div>
               <div className="col-lg-4 col-md-6">
                 <div className="single-case-study-inner style-4">
-                  <div className="thumb">
+                  <div className="thumb  img-fit-container ">
                     <img src="assets/img/home-10/24.png" alt="img" />
                   </div>
                   <div className="details">
@@ -789,7 +789,7 @@ const HomeTen = () => {
               </div>
               <div className="col-lg-4 col-md-6">
                 <div className="single-case-study-inner style-4">
-                  <div className="thumb">
+                  <div className="thumb  img-fit-container ">
                     <img src="assets/img/home-10/25.png" alt="img" />
                   </div>
                   <div className="details">
@@ -807,7 +807,7 @@ const HomeTen = () => {
               </div>
               <div className="col-lg-4 col-md-6">
                 <div className="single-case-study-inner style-4">
-                  <div className="thumb">
+                  <div className="thumb  img-fit-container ">
                     <img src="assets/img/home-10/26.png" alt="img" />
                   </div>
                   <div className="details">
@@ -841,7 +841,7 @@ const HomeTen = () => {
             </div>
             <div className="row">
               <div className="col-lg-4 col-md-6">
-                <div className="single-pricing-inner style-2 bg-gray border-radius-30">
+                <div className="single-pricing-inner style-2 bg-gray_2 border-radius-30">
                   <h5 className="mb-2 text-white">Logo Design</h5>
                   <h2 className="mb-4 text-white">$19</h2>
                   <ul>
@@ -864,7 +864,7 @@ const HomeTen = () => {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
-                <div className="single-pricing-inner style-2 bg-gray border-radius-30 price-active">
+                <div className="single-pricing-inner style-2 bg-gray_2 border-radius-30 price-active">
                   <h5 className="mb-2 text-white">Web Design</h5>
                   <h2 className="mb-4 text-white">$29</h2>
                   <ul>
@@ -887,7 +887,7 @@ const HomeTen = () => {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
-                <div className="single-pricing-inner style-2 bg-gray border-radius-30">
+                <div className="single-pricing-inner style-2 bg-gray_2 border-radius-30">
                   <h5 className="mb-2 text-white">Web Development</h5>
                   <h2 className="mb-4 text-white">$39</h2>
                   <ul>
@@ -916,7 +916,7 @@ const HomeTen = () => {
         {/* testimonial-area start */}
         <div
           id="testimonial"
-          className="testimonial-area testimonial-area_single_page bg-gray position-relative pd-top-100 pd-bottom-100 me-xl-5 ms-xl-5"
+          className="testimonial-area testimonial-area_single_page bg-gray_2 position-relative pd-top-100 pd-bottom-100 me-xl-5 ms-xl-5"
         >
           <div className="container">
             <div className="row">
@@ -1022,7 +1022,7 @@ const HomeTen = () => {
             </div>
             <div className="row">
               <div className="col-lg-4 col-md-6">
-                <div className="single-blog-list bg-gray">
+                <div className="single-blog-list bg-gray_2">
                   <div className="thumb m-3 mb-0">
                     <img
                       className="border-radius-5"
@@ -1051,7 +1051,7 @@ const HomeTen = () => {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
-                <div className="single-blog-list bg-gray">
+                <div className="single-blog-list bg-gray_2">
                   <div className="thumb m-3 mb-0">
                     <img
                       className="border-radius-5"
@@ -1080,7 +1080,7 @@ const HomeTen = () => {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
-                <div className="single-blog-list bg-gray">
+                <div className="single-blog-list bg-gray_2">
                   <div className="thumb m-3 mb-0">
                     <img
                       className="border-radius-5"
@@ -1118,7 +1118,7 @@ const HomeTen = () => {
           className="contact-area contact-area_single_page pd-bottom-90"
         >
           <div className="container">
-            <div className="bg-gray pd-top-90 pd-bottom-100 pe-xl-5 pe-4 ps-xl-5 ps-4">
+            <div className="bg-gray_2 pd-top-90 pd-bottom-100 pe-xl-5 pe-4 ps-xl-5 ps-4">
               <div className="row justify-content-center">
                 <div className="col-lg-6 col-md-10">
                   <div className="section-title text-center style-white">

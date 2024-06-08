@@ -713,7 +713,7 @@
   }
   .ratting-inner {
     svg {
-      margin-left: 5px;
+      margin-right: 5px;
     }
   }
 }
@@ -1074,6 +1074,42 @@
 .navbar-area_7 {
   li:hover > a {
     color: var(--main-color) !important;
+  }
+}
+
+.bg-gray_2 {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.07);
+}
+
+.single-service-inner {
+  &:hover {
+    background: #fff;
+    .details {
+      h5 {
+        color: var(--heading-color) !important;
+      }
+      p {
+        color: var(--heading-color) !important;
+      }
+    }
+  }
+}
+
+.single-pricing-inner {
+  &:hover {
+    background-color: #e94057;
+    .btn {
+      background-color: #fff !important;
+      color: #e94057 !important;
+    }
+  }
+  &.price-active {
+    background-color: #e94057;
+    .btn {
+      background-color: #fff !important;
+      color: #e94057 !important;
+    }
   }
 }
 
