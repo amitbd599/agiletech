@@ -65,10 +65,11 @@ const NavbarSeven = () => {
             <div className="col-lg-8">
               <ul>
                 <li>
-                  <FaRegEnvelope /> info@example.com
+                  <FaRegEnvelope className="mb-1" /> info@example.com
                 </li>
                 <li>
-                  <FaMapMarkerAlt /> 6391 Elgin St. Celina, 10299
+                  <FaMapMarkerAlt className="mb-1" /> 6391 Elgin St. Celina,
+                  10299
                 </li>
               </ul>
             </div>
@@ -77,22 +78,22 @@ const NavbarSeven = () => {
                 <li>Follow On: </li>
                 <li>
                   <Link to="#">
-                    <FaFacebookF />
+                    <FaFacebookF className="mb-1" />
                   </Link>
                 </li>
                 <li>
                   <Link to="#">
-                    <FaTwitter />
+                    <FaTwitter className="mb-1" />
                   </Link>
                 </li>
                 <li>
                   <Link to="#">
-                    <FaLinkedinIn />
+                    <FaLinkedinIn className="mb-1" />
                   </Link>
                 </li>
                 <li>
                   <Link to="#">
-                    <FaPinterestP />
+                    <FaPinterestP className="mb-1" />
                   </Link>
                 </li>
               </ul>
@@ -101,7 +102,7 @@ const NavbarSeven = () => {
         </div>
       </div>
       {/* navbar start */}
-      <nav className="navbar navbar-area navbar-area-2 navbar-area-7 navbar-expand-lg bg-white">
+      <nav className="navbar navbar-area navbar-area_7 navbar-area-2 navbar-area-7 navbar-expand-lg bg-white">
         <div className="container nav-container custom-container">
           <div className="responsive-mobile-menu">
             <button

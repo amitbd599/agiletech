@@ -30,7 +30,7 @@ const TestimonialSeven = () => {
         },
       },
       {
-        breakpoint: 575,
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,

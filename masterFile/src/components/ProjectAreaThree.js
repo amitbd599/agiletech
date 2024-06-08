@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const ProjectAreaThree = () => {
   return (
-    <div className="project-section">
+    <div className="project-section project-section_3">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-7">
@@ -81,7 +81,7 @@ const ProjectAreaThree = () => {
           aria-labelledby="nav-tabs1-tab"
         >
           <div className="row gx-md-0">
-            <div className="col-lg-4 col-md-6">
+            <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="single-project-inner style-3 text-start">
                 <img src="assets/img/home-7/10.png" alt="img" />
                 <div className="details text-start">
@@ -99,7 +99,7 @@ const ProjectAreaThree = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="single-project-inner style-3 text-start">
                 <img src="assets/img/home-7/11.png" alt="img" />
                 <div className="details text-start">
@@ -117,7 +117,7 @@ const ProjectAreaThree = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="single-project-inner style-3 text-start">
                 <img src="assets/img/home-7/12.png" alt="img" />
                 <div className="details text-start">
@@ -135,7 +135,7 @@ const ProjectAreaThree = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="single-project-inner style-3 text-start">
                 <img src="assets/img/home-7/13.png" alt="img" />
                 <div className="details text-start">
@@ -153,7 +153,7 @@ const ProjectAreaThree = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="single-project-inner style-3 text-start">
                 <img src="assets/img/home-7/10.png" alt="img" />
                 <div className="details text-start">
@@ -171,7 +171,7 @@ const ProjectAreaThree = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="single-project-inner style-3 text-start">
                 <img src="assets/img/home-7/11.png" alt="img" />
                 <div className="details text-start">
@@ -198,7 +198,7 @@ const ProjectAreaThree = () => {
           aria-labelledby="nav-tabs2-tab"
         >
           <div className="row gx-md-0">
-            <div className="col-lg-4 col-md-6">
+            <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="single-project-inner style-3 text-start">
                 <img src="assets/img/home-7/10.png" alt="img" />
                 <div className="details text-start">
@@ -216,7 +216,7 @@ const ProjectAreaThree = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="single-project-inner style-3 text-start">
                 <img src="assets/img/home-7/11.png" alt="img" />
                 <div className="details text-start">
@@ -234,7 +234,7 @@ const ProjectAreaThree = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="single-project-inner style-3 text-start">
                 <img src="assets/img/home-7/12.png" alt="img" />
                 <div className="details text-start">
@@ -252,7 +252,7 @@ const ProjectAreaThree = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="single-project-inner style-3 text-start">
                 <img src="assets/img/home-7/13.png" alt="img" />
                 <div className="details text-start">
@@ -270,7 +270,7 @@ const ProjectAreaThree = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="single-project-inner style-3 text-start">
                 <img src="assets/img/home-7/10.png" alt="img" />
                 <div className="details text-start">
@@ -288,7 +288,7 @@ const ProjectAreaThree = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="single-project-inner style-3 text-start">
                 <img src="assets/img/home-7/11.png" alt="img" />
                 <div className="details text-start">
@@ -315,7 +315,7 @@ const ProjectAreaThree = () => {
           aria-labelledby="nav-tabs3-tab"
         >
           <div className="row gx-md-0">
-            <div className="col-lg-4 col-md-6">
+            <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="single-project-inner style-3 text-start">
                 <img src="assets/img/home-7/10.png" alt="img" />
                 <div className="details text-start">
@@ -333,7 +333,7 @@ const ProjectAreaThree = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="single-project-inner style-3 text-start">
                 <img src="assets/img/home-7/11.png" alt="img" />
                 <div className="details text-start">
@@ -351,7 +351,7 @@ const ProjectAreaThree = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="single-project-inner style-3 text-start">
                 <img src="assets/img/home-7/12.png" alt="img" />
                 <div className="details text-start">
@@ -369,7 +369,7 @@ const ProjectAreaThree = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="single-project-inner style-3 text-start">
                 <img src="assets/img/home-7/13.png" alt="img" />
                 <div className="details text-start">
@@ -387,7 +387,7 @@ const ProjectAreaThree = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="single-project-inner style-3 text-start">
                 <img src="assets/img/home-7/10.png" alt="img" />
                 <div className="details text-start">
@@ -405,7 +405,7 @@ const ProjectAreaThree = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="single-project-inner style-3 text-start">
                 <img src="assets/img/home-7/11.png" alt="img" />
                 <div className="details text-start">
@@ -432,7 +432,7 @@ const ProjectAreaThree = () => {
           aria-labelledby="nav-tabs4-tab"
         >
           <div className="row gx-md-0">
-            <div className="col-lg-4 col-md-6">
+            <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="single-project-inner style-3 text-start">
                 <img src="assets/img/home-7/10.png" alt="img" />
                 <div className="details text-start">
@@ -450,7 +450,7 @@ const ProjectAreaThree = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="single-project-inner style-3 text-start">
                 <img src="assets/img/home-7/11.png" alt="img" />
                 <div className="details text-start">
@@ -468,7 +468,7 @@ const ProjectAreaThree = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="single-project-inner style-3 text-start">
                 <img src="assets/img/home-7/12.png" alt="img" />
                 <div className="details text-start">
@@ -486,7 +486,7 @@ const ProjectAreaThree = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="single-project-inner style-3 text-start">
                 <img src="assets/img/home-7/13.png" alt="img" />
                 <div className="details text-start">
@@ -504,7 +504,7 @@ const ProjectAreaThree = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="single-project-inner style-3 text-start">
                 <img src="assets/img/home-7/10.png" alt="img" />
                 <div className="details text-start">
@@ -522,7 +522,7 @@ const ProjectAreaThree = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="single-project-inner style-3 text-start">
                 <img src="assets/img/home-7/11.png" alt="img" />
                 <div className="details text-start">

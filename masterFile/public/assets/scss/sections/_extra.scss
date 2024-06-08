@@ -51,6 +51,14 @@
     color: #ffffff !important;
     font-size: 22px;
   }
+  .details {
+    padding-left: 40px !important;
+    .ratting-inner {
+      svg {
+        font-size: 16px;
+      }
+    }
+  }
 }
 .footer-area_7 {
   .widget ul {
@@ -942,6 +950,11 @@
     background: var(--main-color) !important;
   }
 }
+.navbar-area_7 {
+  .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu li:hover {
+    background: var(--main-color) !important;
+  }
+}
 
 .testimonial-area_3 {
   .designation {
@@ -1036,6 +1049,12 @@
 .footer-area_5 {
   .media {
     padding-bottom: 20px;
+  }
+}
+
+.navbar-area_7 {
+  li:hover > a {
+    color: var(--main-color) !important;
   }
 }
 
