@@ -117,7 +117,7 @@
     font-size: 13px;
   }
   .navbar-area-4 .left-bg {
-    width: 43%;
+    width: 30%;
   }
   .navbar-area .nav-container .navbar-collapse .navbar-nav li a {
     font-size: 14px;
@@ -127,6 +127,13 @@
   }
   .navbar-area_2 {
     margin-top: 20px !important;
+  }
+  .navbar-area_5.navbar-area-4 {
+    padding-left: 100px;
+
+    .mega-menu {
+      display: none !important;
+    }
   }
 }
 @media all and (max-width: 1199px) {
@@ -214,6 +221,9 @@
   .navbar-area_2 {
     margin-top: 20px !important;
   }
+  .navbar-area_5.navbar-area-4 {
+    padding-left: 60px;
+  }
 }
 @media all and (max-width: 991px) {
   .navbar {
@@ -223,7 +233,7 @@
     opacity: 0;
   }
   .navbar-area-4 .left-bg {
-    width: 100%;
+    width: 40%;
   }
   .td-sidebar {
     margin-top: 100px;
@@ -386,6 +396,13 @@
       width: 100%;
     }
     .img-right {
+      width: 100%;
+    }
+  }
+  .navbar-area_5.navbar-area-4 {
+    padding-left: 0px;
+    .navbar-area {
+      position: absolute;
       width: 100%;
     }
   }

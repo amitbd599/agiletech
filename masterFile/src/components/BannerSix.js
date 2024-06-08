@@ -40,7 +40,7 @@ const BannerSix = () => {
                   Ipsum this the is simply is our com best ourbe designer Lorem
                 </p>
                 <Link
-                  className="btn btn-base   "
+                  className="btn btn-base text_inner_white "
                   data-aos="fade-right"
                   data-aos-delay="400"
                   data-aos-duration="1500"

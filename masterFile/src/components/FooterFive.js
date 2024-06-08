@@ -13,7 +13,7 @@ const FooterFive = () => {
   return (
     <>
       {/* ================== Footer Four Start ==================*/}
-      <footer className="footer-area bg-black mt-0">
+      <footer className="footer-area footer-area_5 bg-black mt-0">
         <div className="container">
           <div className="footer-top-2 bg-base p-5 border-radius-bottom-20">
             <div className="row">

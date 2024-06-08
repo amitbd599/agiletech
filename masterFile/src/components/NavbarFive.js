@@ -62,17 +62,17 @@ const NavbarFive = () => {
         id="body-overlay"
       ></div>
       {/* ==================== Navbar Two Start ====================*/}
-      <div className="navbar-area-wrap navbar-area-4">
+      <div className="navbar-area-wrap navbar-area-4 navbar-area_5">
         <img className="left-bg" src="assets/img/bg/17.png" alt="img" />
         <div className="row">
-          <div className="col-lg-3 align-self-center">
+          <div className=" col-lg-2 col-xl-3 align-self-center">
             <div className="logo">
               <Link to="/index-1">
                 <img src="assets/img/logo2.png" alt="img" />
               </Link>
             </div>
           </div>
-          <div className="col-lg-9">
+          <div className="col-lg-10 col-xl-9">
             <div className="navbar-top pe-3">
               <div className="row">
                 <div className="col-lg-8">
@@ -116,7 +116,7 @@ const NavbarFive = () => {
               </div>
             </div>
             {/* navbar start */}
-            <nav className="navbar navbar-area navbar-area-2 navbar-expand-lg bg-white">
+            <nav className="navbar navbar-area navbar-area_5 navbar-area-2 navbar-expand-lg bg-white">
               <div className="container nav-container custom-container ps-lg-0">
                 <div className="responsive-mobile-menu">
                   <button

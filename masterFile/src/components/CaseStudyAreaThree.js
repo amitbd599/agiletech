@@ -42,7 +42,7 @@ const CaseStudyAreaThree = () => {
         },
       },
       {
-        breakpoint: 575,
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -58,7 +58,7 @@ const CaseStudyAreaThree = () => {
         className="gallery-area bg-relative pd-top-120 pd-bottom-90"
         style={{ backgroundImage: 'url("./assets/img/bg/15.png")' }}
       >
-        <div className="container pd-top-120">
+        <div className="container ">
           <div className="row">
             <div className="col-lg-5">
               <div className="section-title style-white">
@@ -70,7 +70,7 @@ const CaseStudyAreaThree = () => {
           <div className="team-slider owl-carousel slider-control-round white slider-control-right-top">
             <Slider {...settings}>
               <div className="item">
-                <div className="single-project-inner style-2">
+                <div className="single-project-inner img-fit-container style-2">
                   <img src="assets/img/gallery/1.png" alt="img" />
                   <div className="details">
                     <span>
@@ -87,7 +87,7 @@ const CaseStudyAreaThree = () => {
                 </div>
               </div>
               <div className="item">
-                <div className="single-project-inner style-2">
+                <div className="single-project-inner img-fit-container style-2">
                   <img src="assets/img/gallery/1.png" alt="img" />
                   <div className="details">
                     <span>
@@ -104,7 +104,7 @@ const CaseStudyAreaThree = () => {
                 </div>
               </div>
               <div className="item">
-                <div className="single-project-inner style-2">
+                <div className="single-project-inner img-fit-container style-2">
                   <img src="assets/img/gallery/1.png" alt="img" />
                   <div className="details">
                     <span>
@@ -121,7 +121,7 @@ const CaseStudyAreaThree = () => {
                 </div>
               </div>
               <div className="item">
-                <div className="single-project-inner style-2">
+                <div className="single-project-inner img-fit-container style-2">
                   <img src="assets/img/gallery/1.png" alt="img" />
                   <div className="details">
                     <span>
