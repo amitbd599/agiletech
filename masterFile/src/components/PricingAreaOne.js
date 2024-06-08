@@ -6,7 +6,7 @@ const PricingAreaOne = () => {
   return (
     <>
       {/* Pricing Area One start */}
-      <div className="pricing-area   pd-bottom-90">
+      <div className="pricing-area  pricing-area_1  pd-bottom-90">
         <div className="container">
           <div className="section-title text-center">
             <h6 className="sub-title">Pricing plan</h6>

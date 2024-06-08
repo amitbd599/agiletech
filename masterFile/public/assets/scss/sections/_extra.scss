@@ -1096,7 +1096,7 @@
   }
 }
 
-.single-pricing-inner {
+.pricing-area_single_page .single-pricing-inner {
   &:hover {
     background-color: #e94057;
     .btn {
@@ -1142,6 +1142,13 @@
         line-height: 50px;
       }
     }
+  }
+}
+
+.pricing-area_1 {
+  .single-pricing-inner.style-3 .btn:hover {
+    background: #fff;
+    color: #fff !important;
   }
 }
 
